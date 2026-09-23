@@ -2374,5 +2374,26 @@
       "Underbarrel: +10% Weapon Handling"
     ],
     "source": "Y8S3 Season Pass"
+  },
+    {
+    "id": "vertigo",
+    "name": "Vertigo",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "GR9",
+    "talent": {
+      "name": "Startling",
+      "description": {
+        "pve": "Whenever this weapon makes an enemy Suppressed, the enemy is applied Disorient, and you and allies receive +30% Damage to Targets Out of Cover for 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +50 Rounds",
+      "Underbarrel: +15% Reload Speed",
+      "Muzzle: +10% Rate of Fire"
+    ],
+    "source": "Y8S3.1 Red Moon Rising, PVE Dark Zone Invasion Event"
   }
 ]
