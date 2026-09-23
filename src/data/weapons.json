@@ -27,7 +27,7 @@
         "pvp": null
       }
     },
-    "source": "Library of Congress classified mission completion reward"
+    "source": "Library of Congress; Classified Mission Completion Reward"
   },
   {
     "id": "first-sight",
@@ -59,7 +59,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "the-drill",
@@ -316,7 +316,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "dare",
@@ -361,7 +361,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "good-times",
@@ -376,7 +376,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "the-headline-grabber",
@@ -647,7 +647,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "emeline-s-guard",
@@ -754,7 +754,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "rock-n-roll",
@@ -769,7 +769,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "lefty",
@@ -965,7 +965,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "trader",
@@ -1055,7 +1055,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "harmony",
@@ -1070,7 +1070,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "artist-s-tool",
@@ -1209,7 +1209,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "commando",
@@ -1316,7 +1316,7 @@
         "pvp": null
       }
     },
-    "source": "DZ"
+    "source": "Dark Zone"
   },
   {
     "id": "prophet",
@@ -1452,7 +1452,7 @@
       }
     ],
     "canUseNormalTalent": true,
-    "source": "DZ, Caches"
+    "source": "Dark Zone, Caches"
   },
   {
     "id": "the-harvest",
@@ -1546,7 +1546,7 @@
       "Muzzle: +20% Critical Hit Damage",
       "Underbarrel: +10% Weapon Handling"
     ],
-    "source": "- Operation Dark Hours\n(Normal ONLY)\n- Low Chance per DH Boss\n- End cache 10%\n- Extremely Low chance from DZ"
+    "source": "- Operation Dark Hours\n(Normal ONLY)\n- Low Chance per DH Boss\n- End cache 10%\n- Extremely Low chance from Dark Zone"
   },
   {
     "id": "st-elmo-s-engine",
@@ -1588,7 +1588,7 @@
       "Muzzle: +20% Accuracy",
       "Underbarrel: +20% Stability"
     ],
-    "source": "- Legendary bosses (5%)\n- Extremely Low chance from DZ"
+    "source": "- Legendary bosses (5%)\n- Extremely Low chance from Dark Zone"
   },
   {
     "id": "strega",
@@ -1767,7 +1767,7 @@
       "Muzzle: +10% Accuracy",
       "Underbarrel: +10% Stability"
     ],
-    "source": "- DZ Landmark boss\n- DZ Roaming boss 1%\n\n-- Target loot\n-- Exotic Caches"
+    "source": "- Dark Zone Landmark boss\n- Dark Zone Roaming boss 1%\n\n-- Target loot\n-- Exotic Caches"
   },
   {
     "id": "backfire",
@@ -2105,7 +2105,7 @@
       "Muzzle: +10% Stability",
       "Underbarrel: +5% Critical Hit Damage"
     ],
-    "source": "- Operation Iron Horse\n(Normal ONLY)\n- Low Chance per boss\n- End cache 10%\n- Extremely Low chance from DZ"
+    "source": "- Operation Iron Horse\n(Normal ONLY)\n- Low Chance per boss\n- End cache 10%\n- Extremely Low chance from Dark Zone"
   },
   {
     "id": "vindicator",
@@ -2307,10 +2307,7 @@
         "pvp": null
       }
     },
-    "exoticMods": [
-      "Magazine: +10% Reload speed",
-      "Muzzle: +20% Accuracy"
-    ],
+    "exoticMods": ["Magazine: +10% Reload speed", "Muzzle: +20% Accuracy"],
     "source": "- Iron Horse Raid Project"
   },
   {
@@ -2349,6 +2346,6 @@
       "Magazine: +15% Reload Speed",
       "Muzzle: +15% Weapon Accuracy"
     ],
-    "source": "-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   }
 ]

@@ -3,10 +3,7 @@ import { ModeToggle } from "./components/ModeToggle";
 import type { GameMode } from "./types/gameMode";
 import "./styles/app.css";
 
-// Weapon data
-import weaponsData from "./data/weapons.json";
-import WeaponCard from "./components/WeaponCard";
-import type { Weapon } from "./types/weapon";
+import { WeaponSection } from "./components/WeaponSection";
 
 const categories = [
   ["Named & Exotic Weapons", "weapons"],
@@ -16,8 +13,6 @@ const categories = [
   ["Named & Exotic Gear", "gear"],
   ["Gear Talents", "gear talents"],
 ] as const;
-
-const weapons = weaponsData as Weapon[];
 
 function App() {
   const [mode, setMode] = useState<GameMode>("pve");
@@ -58,19 +53,8 @@ function App() {
           ))}
         </section>
 
-        <section className="weapons-section">
-          <h2>Named & Exotic Weapons</h2>
+        <WeaponSection mode={mode} />
 
-          <div className="weapon-grid">
-            {weapons.map((weapon) => (
-              <WeaponCard
-                key={weapon.id}
-                weapon={weapon}
-                mode={mode}
-              />
-            ))}
-          </div>
-        </section>
       </main>
 
       <footer>

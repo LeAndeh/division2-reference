@@ -187,3 +187,63 @@
 .weapon-card__talent p {
   white-space: pre-line;
 }
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-heading h2 {
+  margin: 0;
+}
+
+.result-count {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.weapon-filters {
+  display: grid;
+  grid-template-columns: minmax(240px, 2fr) 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.weapon-filters input,
+.weapon-filters select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+
+  background: var(--surface);
+  color: var(--text-primary);
+
+  border: 1px solid var(--border);
+  border-radius: 6px;
+
+  font: inherit;
+}
+
+.weapon-filters input:focus,
+.weapon-filters select:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 1px;
+}
+
+.empty-state {
+  color: var(--text-secondary);
+  padding: 2rem 0;
+}
+
+@media (max-width: 750px) {
+  .weapon-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    align-items: start;
+    flex-direction: column;
+  }
+}
