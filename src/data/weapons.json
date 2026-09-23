@@ -1925,7 +1925,7 @@
       "Muzzle: +15% Reload Speed",
       "Underbarrel: +25% Optimal Range"
     ],
-    "source": "- Outcast bosses\n\n-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "overlord",
@@ -1945,7 +1945,7 @@
       "Magazine Slot: +15% Reload Speed",
       "Underbarrel Slot: +20% Weapon Stability"
     ],
-    "source": "-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "the-sheriff",
@@ -1959,7 +1959,13 @@
         "pve": "+35 Weapon Damage. +100% accuracy. No Damage Drop Off. These bonus are built into the weapons base stats",
         "pvp": null
       }
-    }
+    },
+    "exoticMods": [
+      "Optics Slot: 15% Critical Hit Damage",
+      "Magazine Slot: +15% Reload Speed",
+      "Underbarrel Slot: +20% Weapon Stability"
+    ],
+    "source": "Completion of the Climax Mission (Power Plant)"
   },
   {
     "id": "scorpio",
