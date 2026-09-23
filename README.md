@@ -185,12 +185,9 @@ These are intentionally outside the initial scope.
 This project follows a few simple rules:
 
 - Keep data separate from presentation
-- Prefer explicit TypeScript models
 - Normalize spreadsheet data instead of reproducing spreadsheet layout
 - Preserve PvE / PvP differences only where they exist
 - Keep the default interface focused on useful information
-- Avoid unnecessary dependencies
-- Add complexity only when the project actually requires it
 
 ## Source Data
 
@@ -204,8 +201,6 @@ Excluded fields include items such as:
 - Images
 - Spreadsheet-only multiplier metadata
 - Flavor text where it is not useful to the reference tool
-
-The JSON files are intended to remain human-editable so individual records can be corrected or updated directly when necessary.
 
 ## Disclaimer
 
