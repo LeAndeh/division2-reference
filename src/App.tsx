@@ -21,7 +21,7 @@ function App() {
     <div className="app-shell">
       <header className="site-header">
         <div>
-          <p className="eyebrow">DIVISION 2 REFERENCE</p>
+          <p className="eyebrow">DIVISION 2 REFERENCE v0.1.0</p>
           <h1>Reference Sheet</h1>
 
           <p className="subtitle">
