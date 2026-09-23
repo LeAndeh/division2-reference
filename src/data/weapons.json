@@ -1,1 +1,2354 @@
-[]
+[
+  {
+    "id": "caretaker",
+    "name": "Caretaker",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "G36 Enhanced",
+    "talent": {
+      "name": "Perfect Killer",
+      "description": {
+        "pve": "Killing an enemy with a critical hit grants 90% critical hit damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "the-archivist",
+    "name": "The Archivist",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "ACR-E",
+    "talent": {
+      "name": "Perfect Ranger",
+      "description": {
+        "pve": "Amplifies weapon damage by 2% for every 3 meters you are away from the target.",
+        "pvp": null
+      }
+    },
+    "source": "Library of Congress classified mission completion reward"
+  },
+  {
+    "id": "first-sight",
+    "name": "First Sight",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "AK-M",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+30% HSD, +50% reload speed debuff",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "manic",
+    "name": "Manic",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Black Market AK-M",
+    "talent": {
+      "name": "Perfectly Overflowing",
+      "description": {
+        "pve": "Every 2 reloads from empty increases your base magazine capacity by 100%.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "the-drill",
+    "name": "The Drill",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Carbine 7",
+    "talent": {
+      "name": "Perfect Precision Strike",
+      "description": {
+        "pve": "Killing enemies farther than 20m builds up stacks. Max stack is 2.\nHitting an enemy within 20m will use all stacks to provide +35% Amplified Damage to enemies within 20m for 5s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "invisible-hand",
+    "name": "Invisible Hand",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "AUG",
+    "talent": {
+      "name": "Perfect Allegro",
+      "description": {
+        "pve": "+15% Rate of fire.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "shield-splinterer",
+    "name": "Shield Splinterer",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "F2000",
+    "talent": {
+      "name": "Perfect Optimist",
+      "description": {
+        "pve": "Weapon damage is increased by 4.5% for every 10% ammo missing from the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "Ivory Cache\nthen Cassie Mendoza"
+  },
+  {
+    "id": "goalie",
+    "name": "Goalie",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "FAL",
+    "talent": {
+      "name": "Perfect Pressure Point",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to enemies under status effects.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "huntsman",
+    "name": "Huntsman",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "FAMAS",
+    "talent": {
+      "name": "Perfect Frenzy",
+      "description": {
+        "pve": "For every 8 bullets in the magazine capacity, gain 3% rate of fire and 3% weapon damage for 9 seconds when reloading from empty.",
+        "pvp": null
+      }
+    },
+    "source": "Ash Cache\nthen Cassie Mendoza"
+  },
+  {
+    "id": "born-great",
+    "name": "Born Great",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Military G36",
+    "talent": {
+      "name": "Perfect Stabilize",
+      "description": {
+        "pve": "1% Weapon Accuracy and +1% Weapon Stability per bullet shot, up to 75%.\nStopping shooting will start a timer of 6 seconds, after which the bonuses reset",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "burn-out",
+    "name": "Burn Out",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "FAMAS",
+    "talent": {
+      "name": "Perfect On Empty",
+      "description": {
+        "pve": "Reloading from empty grants 80% weapon handling for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "savage-wolverine",
+    "name": "Savage Wolverine",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Honey Badger",
+    "talent": {
+      "name": "Perfectly Close & Personal",
+      "description": {
+        "pve": "Killing a target within 7 meters grants 38% weapon damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Firewall Field Research\n(crafting blueprint)"
+  },
+  {
+    "id": "pyromaniac",
+    "name": "Pyromaniac",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "M4",
+    "talent": {
+      "name": "Perfectly Ignited",
+      "description": {
+        "pve": "Deal 30% weapon damage to burning enemies. After 3 kills, applies burning to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "glory-daze",
+    "name": "Glory Daze",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "P416",
+    "talent": {
+      "name": "Perfectly Near Sighted",
+      "description": {
+        "pve": "Receive 100% stability at the cost of 35% optimal range.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "mechanical-animal",
+    "name": "Mechanical Animal",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "SIG 556",
+    "talent": {
+      "name": "Future Perfection",
+      "description": {
+        "pve": "Weapon kills grant +1 skill tier for 19s. Stacks up to 4 times.\nWeapon kills at skill tier 6 grant overcharge for 15s.\nOvercharge Cooldown: 90s",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "test-subject",
+    "name": "Test Subject",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "PDR",
+    "talent": {
+      "name": "Perfectly In Sync",
+      "description": {
+        "pve": "Hitting an enemy grants +20% skill damage for 5s.\nUsing a skill or damaging an enemy with a skill grants +20% weapon damage for 5s.\nDamage increases are doubled while both buffs are active at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "first-bloom",
+    "name": "First Bloom",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "PDR",
+    "talent": {
+      "name": "Blossom Harvest",
+      "description": {
+        "pve": "Amplifies weapon damage by 3.3% for each 10% combined Armor and Health the enemy has remaining.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "lud",
+    "name": "Lud",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "SOCOM MK16",
+    "talent": {
+      "name": "Perfect Streamline",
+      "description": {
+        "pve": "Increase Weapon Damage by 47% when no Skills are on cooldown.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "kingbreaker",
+    "name": "Kingbreaker",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "TKB-408",
+    "talent": {
+      "name": "Perfect Flatline",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to pulsed enemies. After 3 kills, applies pulse to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "lexington",
+    "name": "Lexington",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Police M4",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+1,782 Base Damage",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "the-railsplitter",
+    "name": "The Railsplitter",
+    "type": "named",
+    "weaponType": "assault-rifle",
+    "baseVariant": "CTAR-21",
+    "talent": {
+      "name": "Perfectly Accurate",
+      "description": {
+        "pve": "Increases accuracy by 80%.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "dare",
+    "name": "Dare",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "HK GR9",
+    "talent": {
+      "name": "Perfect Flatline",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to pulsed enemies. After 3 kills, applies pulse to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "tabula-rasa",
+    "name": "Tabula Rasa",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "L86",
+    "talent": {
+      "name": "Perfectly Steady Handed",
+      "description": {
+        "pve": "Hits grant a stack of 1% accuracy and stability. At 75 stacks, consumes them to refill the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "black-friday",
+    "name": "Black Friday",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Perfectly Unhinged",
+      "description": {
+        "pve": "Receive 22% weapon damage at the cost of 25% stability and 25% accuracy.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "good-times",
+    "name": "Good Times",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M60",
+    "talent": {
+      "name": "Perfect Fast Hands",
+      "description": {
+        "pve": "Critical hits add a stack of 5% reload speed bonus. Max stack is 40.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "the-headline-grabber",
+    "name": "The Headline-grabber",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Military M60",
+    "talent": {
+      "name": "Perfectly Strained",
+      "description": {
+        "pve": "Gain 10% critical hit damage for every 0.5 seconds you are firing. Stacks up to 8 times.",
+        "pvp": null
+      }
+    },
+    "source": "Capitol Globe classified mission completion reward"
+  },
+  {
+    "id": "the-stinger",
+    "name": "The Stinger",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Swift",
+      "description": {
+        "pve": "Performing a cover to cover grants +20% weapon damage for 20s.",
+        "pvp": null
+      }
+    },
+    "source": "Friend Referral"
+  },
+  {
+    "id": "gear-shift",
+    "name": "Gear Shift",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MK46",
+    "talent": {
+      "name": "Perfectly Measured",
+      "description": {
+        "pve": "The top half of the magazine has +25% rate of fire and -30% weapon damage. The bottom half of the magazine has -18% rate of fire and +38% weapon damage.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "sleipner",
+    "name": "Sleipner",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Perfect Frenzy",
+      "description": {
+        "pve": "For every 8 bullets in the magazine capacity, gain 3% rate of fire and 3% weapon damage for 9 seconds when reloading from empty.",
+        "pvp": null
+      }
+    },
+    "source": "Gunner Field Research\n(crafting blueprint)"
+  },
+  {
+    "id": "big-show",
+    "name": "Big Show",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Perfect Thunder Strike",
+      "description": {
+        "pve": "Deals 35% extra damage to shocked targets.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "bellringer",
+    "name": "Bellringer",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Infantry MG5",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "As you fire, the gun will play Christmas music.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "carnage",
+    "name": "Carnage",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "NEGEV",
+    "talent": {
+      "name": "Perfect Sadist",
+      "description": {
+        "pve": "Deal +35% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "new-reliable",
+    "name": "New Reliable",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "RPK-74",
+    "talent": {
+      "name": "Perfectly Optimized",
+      "description": {
+        "pve": "Increase weapon handling by 40%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cricket",
+    "name": "Cricket",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "GR9",
+    "talent": {
+      "name": "Perfect Precision Strike",
+      "description": {
+        "pve": "Killing enemies farther than 20m builds up stacks. Max stack is 2.\nHitting an enemy within 20m will use all stacks to provide +35% Amplified Damage to enemies within 20m for 5s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "rusty",
+    "name": "Rusty",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Classic RPK",
+    "talent": {
+      "name": "Perfect Pressure Point",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to enemies under status effects.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "quiet-roar",
+    "name": "Quiet Roar",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Stoner LAMG",
+    "talent": {
+      "name": "Perfect Overwhelm",
+      "description": {
+        "pve": "Suppressing an enemy (that is not currently suppressed) grants 12% weapon damage for 12 seconds. Max stack is 4.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-grudge",
+    "name": "The Grudge",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "CMMG Banshee",
+    "talent": {
+      "name": "Perfectly Vindictive",
+      "description": {
+        "pve": "Killing an enemy with a status effect applied grants all group members within 20 meters 21% critical hit chance and 21% critical hit damage for 20 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\n\nWarlords Campaign\nAaron Keener (story)"
+  },
+  {
+    "id": "interchange",
+    "name": "Interchange",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Enhanced AUG A3P",
+    "talent": {
+      "name": "Perfect Back and Forth",
+      "description": {
+        "pve": "Swapping to this weapon grants +13% Rate of Fire and +12% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cabaret",
+    "name": "Cabaret",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP5 ST",
+    "talent": {
+      "name": "Perfect Thunder Strike",
+      "description": {
+        "pve": "Deals 35% extra damage to shocked targets.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "grown-great",
+    "name": "Grown Great",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Perfect Stabilize",
+      "description": {
+        "pve": "1% Weapon Accuracy and +1% Weapon Stability per bullet shot, up to 75%.\nStopping shooting will start a timer of 6 seconds, after which the bonuses reset",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "swap-chain",
+    "name": "Swap Chain",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP7",
+    "talent": {
+      "name": "Perfect Unwavering",
+      "description": {
+        "pve": "Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the buff. Swapping away disables this from all weapons for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "safety-distance",
+    "name": "Safety Distance",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MPX",
+    "talent": {
+      "name": "Perfect Outsider",
+      "description": {
+        "pve": "After killing an enemy, gain 150% optimal range and 125% accuracy for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-apartment",
+    "name": "The Apartment",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "talent": {
+      "name": "Perfectly Measured",
+      "description": {
+        "pve": "The top half of the magazine has +25% rate of fire and -30% weapon damage. The bottom half of the magazine has -18% rate of fire and +38% weapon damage.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "emeline-s-guard",
+    "name": "Emeline's Guard",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "FN P90",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 15% armor over 5 seconds. Headshot kills improves the repair to 30%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "purist",
+    "name": "Purist",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Converted SMG-9 A2",
+    "talent": {
+      "name": "Perfect Streamline",
+      "description": {
+        "pve": "Increase Weapon Damage by 47% when no Skills are on cooldown.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-sleigher",
+    "name": "The Sleigher",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Hidden Rock",
+      "description": {
+        "pve": "Headshots apply confuse. Cooldown 20s",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "cold-relations",
+    "name": "Cold Relations",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Enhanced PP-19",
+    "talent": {
+      "name": "Perfectly Strained",
+      "description": {
+        "pve": "Gain 10% critical hit damage for every 0.5 seconds you are firing. Stacks up to 8 times.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "slingshot",
+    "name": "Slingshot",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tactical UMP-45",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+45 Optimal Range (60 total)",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "froth",
+    "name": "Froth",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tactical Vector SBR 9mm",
+    "talent": {
+      "name": "Perfect Immobilize",
+      "description": {
+        "pve": "Amplifies weapon damage by 25% to ensared enemies. After 3 kills applies Ensnare to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "dark-winter",
+    "name": "Dark Winter",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Vector SBR .45 ACP",
+    "talent": {
+      "name": "Perfect Killer",
+      "description": {
+        "pve": "Killing an enemy with a critical hit grants 90% critical hit damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "rock-n-roll",
+    "name": "Rock n' Roll",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "ACS-12",
+    "talent": {
+      "name": "Perfectly Extra",
+      "description": {
+        "pve": "Increased magazine size by 50%.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "lefty",
+    "name": "Lefty",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Perfect Sledgehammer",
+      "description": {
+        "pve": "Dealing damage with a grenade applies a mark on target. Targets with marks take 40% more damage to armor and -10% movement speed.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "boomstick",
+    "name": "Boomstick",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Double Barrel",
+    "talent": {
+      "name": "Perfect Pumped Up",
+      "description": {
+        "pve": "Reloading grants 6% weapon damage for 10 seconds. Stacks up to 5 times.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-send-off",
+    "name": "The Send-Off",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "KSG",
+    "talent": {
+      "name": "Perfect Distance",
+      "description": {
+        "pve": "Increase optimal range by 100%.",
+        "pvp": null
+      }
+    },
+    "source": "Technician Field Research"
+  },
+  {
+    "id": "cuelebre",
+    "name": "Cuélebre",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Military M870",
+    "talent": {
+      "name": "Perfect Jazz Hands",
+      "description": {
+        "pve": "Increase reload speed by 50%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "lockdown",
+    "name": "Lockdown",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "M870 Express",
+    "talent": {
+      "name": "Perfect Immobilize",
+      "description": {
+        "pve": "Amplifies weapon damage by 25% to ensared enemies. After 3 kills applies Ensnare to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "tsunami",
+    "name": "Tsunami",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "SASG-12",
+    "talent": {
+      "name": "Perfect Pummel",
+      "description": {
+        "pve": "2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "backup-boomstick",
+    "name": "Backup Boomstick",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Sawed Off",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Core Attribute\n17.0% Shotgun Damage",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "firestarter",
+    "name": "Firestarter",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Primer Rounds",
+      "description": {
+        "pve": "Damaged enemies lose 50% burn resistance for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Firewall Specialization"
+  },
+  {
+    "id": "like-glue",
+    "name": "Like Glue",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Super 90",
+    "talent": {
+      "name": "Perfect Brazen",
+      "description": {
+        "pve": "Receive +1% Amplified Damage on the next shot with the weapon for each pellet that this hits the target, if at least 4 pellets hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "enforcer",
+    "name": "Enforcer",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Perfect Pummel",
+      "description": {
+        "pve": "2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Pre-Order Only"
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Spas-12",
+    "talent": {
+      "name": "Perfect Brazen",
+      "description": {
+        "pve": "Receive +1% Amplified Damage on the next shot with the weapon for each pellet that this hits the target, if at least 4 pellets hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-mop",
+    "name": "The Mop",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Six12",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Secondary Attribute\n10% Armor On Kill.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "the-virginian",
+    "name": "The Virginian",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "1886",
+    "talent": {
+      "name": "Perfect Boomerang",
+      "description": {
+        "pve": "Critical hits have a 75% chance to return the bullet to the magazine. If a bullet is returned to the magazine, the next shot has 50% increased damage.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "trader",
+    "name": "Trader",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "ACR SS",
+    "talent": {
+      "name": "Perfect Back and Forth",
+      "description": {
+        "pve": "Swapping to this weapon grants +13% Rate of Fire and +12% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cooler",
+    "name": "Cooler",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M1A CQB",
+    "talent": {
+      "name": "Refreshing",
+      "description": {
+        "pve": "The Weapon fires a stream of water. Hitting an ally agent builds stacks on them. Max stack is 5. Stacks deplete every 2s. While having at least 1 stack, the ally will have +50% Hazard Protection.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "baker-s-dozen",
+    "name": "Baker's Dozen",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M1A",
+    "talent": {
+      "name": "Perfect Lucky Shot",
+      "description": {
+        "pve": "Magazine capacity is increased by 30%. Missed shots from cover have a 100% chance to return to the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "stage-left",
+    "name": "Stage Left",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "SOCOM MIA",
+    "talent": {
+      "name": "Perfect Sledgehammer",
+      "description": {
+        "pve": "Dealing damage with a grenade applies a mark on target. Targets with marks take 40% more damage to armor and -10% movement speed.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M4",
+    "talent": {
+      "name": "Perfect Spike",
+      "description": {
+        "pve": "Headshots grant 25% skill damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "everlasting-gaze",
+    "name": "Everlasting Gaze",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Mk17\n(Police Mk-17)",
+    "talent": {
+      "name": "Perfect Perpetuation",
+      "description": {
+        "pve": "Headshots grant 75% status effect damage and duration to the next status effect you apply. Cooldown is 16 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Resolute MK47",
+    "talent": {
+      "name": "Perfectly In Sync",
+      "description": {
+        "pve": "Hitting an enemy grants +20% skill damage for 5s.\nUsing a skill or damaging an enemy with a skill grants +20% weapon damage for 5s.\nDamage increases are doubled while both buffs are active at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "artist-s-tool",
+    "name": "Artist's Tool",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "SIG 716",
+    "talent": {
+      "name": "Perfect Rifleman",
+      "description": {
+        "pve": "Landing headshots adds a stack of bonus 11% weapon damage for 5 seconds. Max stack is 6. Additional headshots refresh the duration.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "achilles",
+    "name": "Achilles",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "USC .45 ACP",
+    "talent": {
+      "name": "Perfect Soft Spot",
+      "description": {
+        "pve": "Destroying a Weakpoint grants 24% Weapon Damage for 15s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M16A2",
+    "talent": {
+      "name": "Perfectly Behind You",
+      "description": {
+        "pve": "Amplifies weapon damage by +20% to enemies that are not targeting you.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-white-death",
+    "name": "The White Death",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M44",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "137.0% Headshot Damage",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "oh-carol",
+    "name": "Oh Carol",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M44",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "137.0% Headshot Damage & Twinkling Lights\nOnly at night with twinkling lights can you fill their heads with festive might.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "ekim-s-long-stick",
+    "name": "Ekim's Long Stick",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Model 700",
+    "talent": {
+      "name": "Perfect Ranger",
+      "description": {
+        "pve": "Amplifies weapon damage by 2% for every 3 meters you are away from the target.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-darkness",
+    "name": "The Darkness",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "MK20 SSR\n(FN SCAR-SSR)",
+    "talent": {
+      "name": "Perfect Eyeless",
+      "description": {
+        "pve": "Deal 35% weapon damage to blinded enemies. After 3 kills, applies blind to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\nWarlords Campaign\nTheo Parnell (story)"
+  },
+  {
+    "id": "designated-hitter",
+    "name": "Designated Hitter",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SR-1",
+    "talent": {
+      "name": "Perfect Reformation",
+      "description": {
+        "pve": "Headshots grant 80% skill repair for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "pinprick",
+    "name": "Pinprick",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SRS",
+    "talent": {
+      "name": "Perfect First Blood",
+      "description": {
+        "pve": "If scoped, your first 2 shots fired from out of combat or after fully reloading from empty deal headshot damage to any part of the body hit. Requires a Scope with 8x magnification or higher.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "commando",
+    "name": "Commando",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Paratrooper SVD",
+    "talent": {
+      "name": "Perfectly Naked",
+      "description": {
+        "pve": "Hitting an enemy with no armor grants 50% headshot damage for 8 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "handbasket",
+    "name": "Handbasket",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Surplus SVD",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+230,326 Base damage, -200 RPM",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "relic",
+    "name": "Relic",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "G28 Marksmen Rifle",
+    "talent": {
+      "name": "Perfectly Determined",
+      "description": {
+        "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed (critical) headshot. While the talent is active, killing an enemy will not retrigger the talent.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "scalpel",
+    "name": "Scalpel",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Tactical .308",
+    "talent": {
+      "name": "Future Perfection",
+      "description": {
+        "pve": "Weapon kills grant +1 skill tier for 19s. Stacks up to 3 times.\nWeapon kills at skill tier 6 grant overcharge for 15s.\nOvercharge Cooldown: 90s",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "instigator",
+    "name": "Instigator",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Custom M44",
+    "talent": {
+      "name": "Perfect Soft Spot",
+      "description": {
+        "pve": "Destroying a Weakpoint grants 24% Weapon Damage for 15s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "brutus",
+    "name": "Brutus",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M700 Carbon",
+    "talent": {
+      "name": "Perfectly Behind You",
+      "description": {
+        "pve": "Amplifies weapon damage by +25% to enemies that are not targeting you.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "orbit",
+    "name": "Orbit",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "586 Magnum",
+    "talent": {
+      "name": "Perfect Finisher",
+      "description": {
+        "pve": "Swapping from this weapon within 10 seconds of killing an enemy grants 35% critical hit chance and 40% critical hit damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "DZ"
+  },
+  {
+    "id": "prophet",
+    "name": "Prophet",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Police 686 Magnum",
+    "talent": {
+      "name": "Perfectly Determined",
+      "description": {
+        "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed (critical) headshot. While the talent is active, killing an enemy will not retrigger the talent.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "sharpshooter-s-93r",
+    "name": "Sharpshooter's 93R",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "93R",
+    "talent": {
+      "name": "Perfect Unwavering",
+      "description": {
+        "pve": "Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the buff. Swapping away disables this from all weapons for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Sharpshooter Specialization"
+  },
+  {
+    "id": "survivalist-d50",
+    "name": "Survivalist D50",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Desert Eagle",
+    "talent": {
+      "name": "Perfect Sadist",
+      "description": {
+        "pve": "Deal +25% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "Survivalist Specialization"
+  },
+  {
+    "id": "mozambique-special",
+    "name": "Mozambique Special",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "M45A1\n(M45A1 CQBP)",
+    "talent": {
+      "name": "Perfect Breadbasket",
+      "description": {
+        "pve": "Landing body shots adds a stack of bonus 70% headshot damage to the next headshot for 10 seconds. Max stack is 2.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\nWarlords Campaign\nJavier Kajika (story)"
+  },
+  {
+    "id": "quickstep",
+    "name": "Quickstep",
+    "type": "named",
+    "weaponType": "pistol",
+    "talent": {
+      "name": "Sport Mode",
+      "description": {
+        "pve": "+20% Movement Speed. This bonus does not stack with other Movement Speed bonuses.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "maxim-9",
+    "name": "Maxim 9",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Maxim 9",
+    "talent": {
+      "name": "Perfect Spike",
+      "description": {
+        "pve": "Headshots grant 25% skill damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Technician Specialization"
+  },
+  {
+    "id": "p320-xcompact",
+    "name": "P320 XCompact",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "P320",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 12% armor over 5 seconds. Headshot kills improves the repair to 24%.",
+        "pvp": null
+      }
+    },
+    "source": "Gunner Specialization"
+  },
+  {
+    "id": "lightning-rod",
+    "name": "Lightning Rod",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "PF45",
+    "talent": {
+      "name": "Perfect Salvage",
+      "description": {
+        "pve": "Killing a target has a 85% chance to refill the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "tdi-kard-custom",
+    "name": "TDI \"Kard\" Custom",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "KARD-45",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Secondary Attribute\n+1 Skill Tier when used",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "DZ, Caches"
+  },
+  {
+    "id": "the-harvest",
+    "name": "The Harvest",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Police 686 Magnum",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+10% base damage, -7% RoF",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "diceros-special",
+    "name": "Diceros Special",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Rhino",
+    "talent": {
+      "name": "Perfect Optimist",
+      "description": {
+        "pve": "Weapon damage is increased by 4% for every 10% ammo missing from the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "Demolitionist Specialization"
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Kriss Vector",
+    "talent": {
+      "name": "Adaptive Instincts",
+      "description": {
+        "pve": "Hitting 30 headshots grants 20% critical hit chance and 50% critical hit damage for 45 seconds.\n\nHitting 65 body shots grants 90% weapon damage for 45 seconds.\n\nHitting 20 leg shots grants 150% reload speed for 45 seconds.\n\nBuffs refresh when out of combat.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +20 Rounds",
+      "Muzzle: +20% Accuracy",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Bounties\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "caduceus-pts",
+    "name": "Caduceus (PTS)",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "MK16",
+    "talent": {
+      "name": "Caduceus",
+      "description": {
+        "pve": "Critical Hits repair you and your allies for 1.5% of the hit's dealt damage.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Chance",
+      "Magazine: +20 Rounds",
+      "Muzzle: +5% Critical Hit Chance",
+      "Underbarrel: +5% Critical Hit Damage"
+    ]
+  },
+  {
+    "id": "eagle-bearer",
+    "name": "Eagle Bearer",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "P416 G3",
+    "talent": {
+      "name": "Eagle Strike",
+      "description": {
+        "pve": "Accuracy increases as you continuously fire, up to 30%.\n\nHeadshot kills grant the Tenacity buff for 15 seconds.\n\nThe strength of Tenacity is increased by 1% for body shots and 5% for headshots.\n\nTenacity\n40-80% of damage taken is delayed until the buff expires.\n\nAll of the total delayed damage is reduced for each enemy killed while the buff is active, up to 100% with 3 kills.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +30 Rounds",
+      "Muzzle: +20% Critical Hit Damage",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Operation Dark Hours\n(Normal ONLY)\n- Low Chance per DH Boss\n- End cache 10%\n- Extremely Low chance from DZ"
+  },
+  {
+    "id": "st-elmo-s-engine",
+    "name": "St. Elmo's Engine",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "LVOA-C",
+    "talent": {
+      "name": "Actum Est",
+      "description": {
+        "pve": "Shooting an enemy with this weapon will give 1 stack.\n\nAt 100 stacks the next magazine will be 100% filled with shock ammo.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Damage",
+      "Magazine: +30 Rounds",
+      "Muzzle: +15% Critical Hit chance",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Year 5 Season 1 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "the-bighorn",
+    "name": "The Bighorn",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Aug A3-CQC",
+    "talent": {
+      "name": "Big Game Hunter",
+      "description": {
+        "pve": "When scoped, switches to semi-automatic fire mode, dealing 450% weapon damage with each shot.\n\nHeadshots grant +6% headshot damage. Stacks up to 25 times. Once at full stacks, 10 stacks decay every 4 seconds until all stacks have been removed. Headshots delay decaying of stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damage",
+      "Magazine: +20% Reload Speed",
+      "Muzzle: +20% Accuracy",
+      "Underbarrel: +20% Stability"
+    ],
+    "source": "- Legendary bosses (5%)\n- Extremely Low chance from DZ"
+  },
+  {
+    "id": "strega",
+    "name": "Strega",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "FAL",
+    "talent": {
+      "name": "Talent Unnerve",
+      "description": {
+        "pve": "Killing an enemy will apply a mark on every enemy within 20m of it. Multiple marks can be applied to the same enemy. Max number of marks that can be applied to an enemy is 5. all marks on an enemy will disappear 10s after the last one has been applied. Deal +15% Amplified Damage per mark to marked enemies.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +20 Rounds",
+      "Muzzle: +5% Critical Hit Damage",
+      "Optics: +5% Critical Hit Chance",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "PDR",
+    "talent": {
+      "name": "Capacitance",
+      "description": {
+        "pve": "Shooting enemies builds stacks to a cap of 40. Each stack grants 1.5% Skill Damage. After 5 seconds, stacks decay 1 per second.\n\nFor each skill tier gain 7.5% Weapon Damage.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Main attributes:  12% Damage to Armour",
+      "Optics: +10% Critical Hit Chance",
+      "Magazine: +11 Rounds",
+      "Muzzle: +30% Critical Hit Damage",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- The Summit challenges\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "agitator",
+    "name": "Agitator",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "F2000",
+    "talent": {
+      "name": "Perturb",
+      "description": {
+        "pve": "While this weapon is holstered, generate 50% less Threat when shooting. Keeping this weapon holstered for 10s will Prime it.\n\nWhile primed, swapping to this weapon grants +25% Rate of Fire, +30% Weapon Damage and you generate 100% more Threat when Shooting for 20s.\n\nSwapping from this weapon before the timer ends removes the bonuses.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Chance",
+      "Magazine: +20 Rounds",
+      "Muzzle: +50% Swap Speed"
+    ],
+    "source": "Y8S1 Season pass"
+  },
+  {
+    "id": "bullet-king",
+    "name": "Bullet King",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "IWI-NEGEV",
+    "talent": {
+      "name": "Bullet Hell",
+      "description": {
+        "pve": "This weapon never needs to be reloaded.\n\nFor every 100 bullets that hit an enemy, replenish some ammo to you and all your allies' reserves.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: Mag of Holding",
+      "Muzzle: +15% Critical Hit chance",
+      "Underbarrel: +20% Stability"
+    ],
+    "source": "- Rikers bosses\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "big-alejandro",
+    "name": "Big Alejandro",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249/MK46\n\nCETME Ameli\nMG42 Barrel",
+    "talent": {
+      "name": "Cover Shooter",
+      "description": {
+        "pve": "Every bullet fired while in cover increases weapon damage by 1% up to 100%. The bonus lasts for 15 seconds.\n\nGetting a kill with this weapon while in cover resets the duration.\n\nThe bonus damage is canceled by reloading, swapping weapons, or exiting combat.",
+        "pvp": null
+      }
+    }
+  },
+  {
+    "id": "bluescreen",
+    "name": "Bluescreen",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Stoner LAMG",
+    "talent": {
+      "name": "Disruptor Rounds",
+      "description": {
+        "pve": "Shooting an enemy marks that enemy and adds a stack to the agent up to a count of 50. Shooting a marked enemy refreshes the mark and adds stacks to the agent. When you deploy a non-shield skill, remove all stacks on agent and all marked targets trigger an effect.\n\n1 - 10 Stacks - Pulse marked targets for 5 seconds\n11 - 25 Stacks - Pulse and Disrupt marked targets for 5 seconds.\n26 - 49 Stacks - Pulse, Disrupt, and Disorient marked targets for 5 seconds.\n50 Stacks - Pulse, Disrupt, and Disorient marked targets and all hostiles within 10 meters of the marked targets for 5 seconds. This effect will trigger immediately if any marked enemy is killed.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +20% Reload speed",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +20% Rate of fire",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 9 Track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "iron-lung",
+    "name": "Iron Lung",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Ardent",
+      "description": {
+        "pve": "Shooting heats up the weapon, filling up heat meter. The meter is equivalent to 50% of the weapon's standard Magazine Size.\n\nWhen the meter is full, rounds shot by the weapon will ignite enemies.\n\nWhen not shooting, the meter depletes over time. Reloading or swapping the weapon fully depletes the meter.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +35 Rrounds",
+      "Underbarrel: +10% Critical Hit Damage"
+    ],
+    "source": "-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "pakhan",
+    "name": "Pakhan",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "RPK",
+    "talent": {
+      "name": "Pakhan",
+      "description": {
+        "pve": "Each kill with this weapon gains a stack of 75% Base Magazine Size increase to the next magazine, up to 4 stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Wapon Damage",
+      "Magazine: +20 Rounds",
+      "Muzzle: +15% Critical Hit chance",
+      "Underbarrel: +10% Reload Speed"
+    ],
+    "source": "- Year 7 Season 1 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "pestilence",
+    "name": "Pestilence",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Plague of the Outcasts",
+      "description": {
+        "pve": "Hits apply a debuff dealing 100% weapon damage over 10s. This stacks up to 50 times.\n\nWhenever an enemy dies with this debuff, the stacks are transferred to a nearby enemy within 25m.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +10% Rate of Fire",
+      "Muzzle: +10% Accuracy",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- DZ Landmark boss\n- DZ Roaming boss 1%\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "backfire",
+    "name": "Backfire",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MPX",
+    "talent": {
+      "name": "Payment in kind",
+      "description": {
+        "pve": "Dealing damage to enemies adds a stack of 2% Critical Hit Damage, up to 100 stacks, lasting 10s.\n\nOn reload apply a 10s bleed to yourself, which deals 0.5% armor damage per stack.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +20 Rounds",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "the-chatterbox",
+    "name": "The Chatterbox",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "FN P90",
+    "talent": {
+      "name": "Incessant Chatter",
+      "description": {
+        "pve": "When you reload, rate of fire is increased by 25% for each enemy within 15m for the duration of that magazine.\n\nMax stacks: 5\n\nKills refill 50% of your magazine.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +10 Rounds",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Hyena Cache questline\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "lady-death",
+    "name": "Lady Death",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "CMMG Banshee",
+    "talent": {
+      "name": "Breathe Free",
+      "description": {
+        "pve": "When moving, gain 4 stacks per second, or 8 stacks if sprinting. Max stack is equal to the weapon's Magazine Size.\n\nEach round fired consumes a stack, amplifying damage by 75%.\n\nKills grant +20% movement speed for 10s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: 10% Critical Hit Damage",
+      "Underbarrel: +500% Melee Damage"
+    ],
+    "source": "- 22 NY open world bosses (3%)\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "ouroboros",
+    "name": "Ouroboros",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Vector",
+    "talent": {
+      "name": "Rule them all",
+      "description": {
+        "pve": "When the agent has a Status Effect applied to them, 50% of the ammo in their next magazine will apply the same Status Effect to their targets.\n\nThis effect will only occur during combat.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +25% Reload Speed",
+      "Muzzle: +10% Rate of Fire",
+      "Underbarrel: +10% Critical Hit Chance"
+    ],
+    "source": "- Incursions Chest 10%.\n- Incursions Boss drop 1%"
+  },
+  {
+    "id": "underboss-pts",
+    "name": "Underboss (PTS)",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Gangland Hit",
+      "description": {
+        "pve": "Shooting an enemy with this weapon applies a mark. You can only apply one mark at a time. Shooting another enemy will transfer the mark.\n\nMore marks can be applied on the same enemy by other agents using this weapon. Maximum amount of marks that can be applied on an enemy is 4.\n\nThis weapon deals +20% Amplified Damage to marked enemies. The bonus is increased by 5% for each extra mark on the enemy other than your own.",
+        "pvp": null
+      }
+    }
+  },
+  {
+    "id": "oxpecker",
+    "name": "Oxpecker",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP7",
+    "talent": {
+      "name": "Symbiosis",
+      "description": {
+        "pve": "While having a Shield deployed, lose Shield Health at a rate of 10% per second.\nYour Shield recieves repairs of 25% of the damage dealt by this weapon.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +50% Optimal Range",
+      "Muzzle: +10 Rounds",
+      "Underbarrel: +15% Critical Hit Chance"
+    ],
+    "source": "- Year 6 Season 3 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "lullaby",
+    "name": "Lullaby",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SPAS-12",
+    "talent": {
+      "name": "Sandman",
+      "description": {
+        "pve": "Melee attacks instantly kill non-elite enemies.\n\nCooldown: 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +15% Reload Speed",
+      "Underbarrel: 25% Optimal Range"
+    ],
+    "source": "Pre-Order\nOR buy Deluxe Pack with\nPremium Credits"
+  },
+  {
+    "id": "sweet-dreams",
+    "name": "Sweet Dreams",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SPAS-12",
+    "talent": {
+      "name": "Sandman",
+      "description": {
+        "pve": "Melee attacks instantly kill non-elite enemies.\n\nCooldown: 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Muzzle: +15% Reload Speed",
+      "Underbarrel: +25% Optimal Range"
+    ],
+    "source": "- Outcast bosses\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "overlord",
+    "name": "Overlord",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "KSG",
+    "talent": {
+      "name": "Capitulate",
+      "description": {
+        "pve": "Hitting an enemy applies -4% Movement Speed for each pellet hit for 5 seconds. Shooting the enemy again will reapply the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics Slot: 15% Critical Hit Damage",
+      "Magazine Slot: +15% Reload Speed",
+      "Underbarrel Slot: +20% Weapon Stability"
+    ],
+    "source": "-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "the-sheriff",
+    "name": "The Sheriff",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "Super 90",
+    "talent": {
+      "name": "Autentico",
+      "description": {
+        "pve": "+35 Weapon Damage. +100% accuracy. No Damage Drop Off. These bonus are built into the weapons base stats",
+        "pvp": null
+      }
+    }
+  },
+  {
+    "id": "scorpio",
+    "name": "Scorpio",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SIX12",
+    "talent": {
+      "name": "Septic Shock",
+      "description": {
+        "pve": "Shooting a target applies stacks of venom, which last for 10s. Increasing stacks adds more severe debuffs to the target.\n\n2 - Poison\n4 - Disorient\n6 - Shock\n9 - Target takes additional 20% damage (from all sources). Stacks no longer increase.\n\nDuration of Status Effects is based on percentage of pellets hit on applying shot.\n\nEditor's note: The 20% damage taken debuff actually starts applying on stack 8. Stack 9 refreshes the duration.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% critical hit chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Season 4 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "ruthless",
+    "name": "Ruthless",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "AKM",
+    "talent": {
+      "name": "Binary Trigger",
+      "description": {
+        "pve": "This weapon fires on trigger pull and release.\n\nIf both bullets hit the same enemy, gain a stack.\n\nAt 7 stacks, shooting an enemy deals 500% amplified damage and creates a 7m explosion dealing 500% weapon damage, consuming the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Stability",
+      "Underbarrel: +15% Weapon Handling"
+    ],
+    "source": "Pre-Order\nOR buy Deluxe Pack with\nPremium Credits"
+  },
+  {
+    "id": "merciless",
+    "name": "Merciless",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "AKM",
+    "talent": {
+      "name": "Binary Trigger",
+      "description": {
+        "pve": "This weapon fires on trigger pull and release.\n\nIf both bullets hit the same enemy, gain a stack.\n\nAt 7 stacks, shooting an enemy deals 500% amplified damage and creates a 7m explosion dealing 500% weapon damage, consuming the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Stability",
+      "Underbarrel: +15% Weapon Handling"
+    ],
+    "source": "- Hyena bosses\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "diamondback",
+    "name": "Diamondback",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "1886",
+    "talent": {
+      "name": "Agonizing Bite",
+      "description": {
+        "pve": "Diamondback randomly marks an enemy within 20m. If no enemies are within 20m, it marks the enemy closest to you.\n\nHitting that enemy consumes the mark, guaranteeing a critical hit with damage amplified by 20%.\n\nAfter hitting a mark, all shots fired are guaranteed critical hits for 5 seconds.\n\nA new random enemy is marked afterwards and whenever you reload.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% stability"
+    ],
+    "source": "- Kenly College end cache\n- (Can be obtained once per\nexpedition opening)\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "doctor-home",
+    "name": "Doctor Home",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "M1A CQB",
+    "talent": {
+      "name": "Doctor Home",
+      "description": {
+        "pve": "Shooting an enemy with this weapon will apply a mark for 5 seconds.\nIf a marked target is killed it will give a 10% armor repair kit which applies to the whole party.\nThe kit will not give bonus armor.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Season 10 Manhunt Reward\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "bittersweet",
+    "name": "Bittersweet",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "Classic M1A",
+    "talent": {
+      "name": "Transfusion",
+      "description": {
+        "pve": "Hitting headshots builds stacks up to a max of 8. When shooting an Ally or Skill, repair them for 50% of the shot damage for each stack.\n\nHealed Allies receive 200% of your Repair Skills bonus as Bonus Armor for each stack for 10 seconds.\n\nAll hits become guaranteed headshots for 8 seconds after healing an Ally or Skill while at maximum stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Headshot Damage",
+      "Underbarrel: +5% Headshot Damage",
+      "Magazine: +10 Rounds"
+    ],
+    "source": "Y7 S3 pass"
+  },
+  {
+    "id": "the-ravenous",
+    "name": "The Ravenous",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "SIG 716",
+    "talent": {
+      "name": "Geri and Freki",
+      "description": {
+        "pve": "On trigger pull, fire both barrels at once.\n\nWhen fired from the right shoulder, hits add offensive primers, and defensive primers when fired drom the left shoulder.\n\nHits from one shoulder will detonate all of the opposite shoulder's primers when present.\n\nWhen detonated, each offensive primer deals 100% weapon damage, while each defensive primer grants +4% bonus armor and +10% amplified damage to armor plates for 5s.\n\nPrimer effectiveness is doubled at 10 stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Critical Hit Chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +5% Critical Hit Damage"
+    ],
+    "source": "- Operation Iron Horse\n(Normal ONLY)\n- Low Chance per boss\n- End cache 10%\n- Extremely Low chance from DZ"
+  },
+  {
+    "id": "vindicator",
+    "name": "Vindicator",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "Modified Desert Tech MDR",
+    "talent": {
+      "name": "Ortiz Assault Interface",
+      "description": {
+        "pve": "While scoped, the weapon will highlight a random body section of each enemy.\nThe weapon amplifies damage by +60% Weapon Damage to highlighted body sections.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +5 Rounds",
+      "Muzzle: +10% Optimal Range",
+      "Underbarrel: +15% Stability"
+    ],
+    "source": "- NSA store, with currency from the Descent game mode"
+  },
+  {
+    "id": "sacrum-imperium",
+    "name": "Sacrum Imperium",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "G28 Marksmen Rifle",
+    "talent": {
+      "name": "The Trap",
+      "description": {
+        "pve": "Tags enemies when in scope (maximum 10) If Agent kills any marked target with a headshot, all other targets will have 50% movement speed and receive burn for 10 seconds.\n\nCooldown 30 seconds.\n\nKilling another enemy with a headshot will shorten the cooldown for 10 seconds.\n\nTargets are marked after 1 seconds in crosshair.",
+        "pvp": "Tags enemies when in scope (maximum 10) If Agent kills any marked target with a headshot, all other targets will have 20% movement speed and receive burn for 10 seconds.\n\nCooldown 30 seconds.\n\nKilling another enemy with a headshot will shorten the cooldown for 10 seconds.\n\nTargets are marked after 1 seconds in crosshair."
+      }
+    },
+    "exoticMods": [
+      "Optics: +20% Headshot damage",
+      "Magazine: +10% Headshot damage",
+      "Muzzle: +20% Optimal Range",
+      "Underbarrel: +20% Stability"
+    ],
+    "source": "- Season 11 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "dread-edict",
+    "name": "Dread Edict",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SVD",
+    "talent": {
+      "name": "Full Stop",
+      "description": {
+        "pve": "Shooting enemies builds stacks to a cap of 20. Headshots grant 2 stacks. Each stack grants 2% Weapon Damage and 5% Headshot Damage. On reload, clear all stacks and gain 5% of your max armor as temp armor for 10 seconds for each stack removed.\n\nHeadshot kills with Dread Edict restore all bullets in the magazine. This does not count as a reload.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damage",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +10% Critical Hit Chance",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 9 Track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Custom AWM\nAICS 2.0 chasis\nAX50 stock\nMagpul AFG-12",
+    "talent": {
+      "name": "Electromagnetic Accelerator",
+      "description": {
+        "pve": "Shots fired deal 0-100% weapon damage based on how long the trigger is held before releasing.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +45% Headshot Damage",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +5% Critical Hit Damage",
+      "Underbarrel: +5% Weapon Handling"
+    ],
+    "source": "- Invaded strongholds\nquestline (blueprint at Grand\nWashington)\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "shroud",
+    "name": "Shroud",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M700 Carbon",
+    "talent": {
+      "name": "High Priority Target",
+      "description": {
+        "pve": "Amplifies Weapon Damage by 125% to the highest ranking enemies currently in combat, as per the Tier hierarchy.\n\nTier 1: Hunter, Rogue, Leader, Tank, Shield, Heavy Weapons, RPG, Medic, Controller, Warhound, Marauder.\nTier 2: Support, Engineer, Bodyguard, Immobilizer, Bomber, Mini Tank, Drone Operator.\nTier 3: Any other enemy or skill proxy.\n\nEditor's note: 2.25x amplifier includes Headhunter bonus, for more details read Headhunter Synergy Guide.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +25% Headshot Damage",
+      "Magazine: +25% Reload Speed",
+      "Muzzle: +20% Headshot Damage",
+      "Underbarrel: +5% Critical Hit Chance"
+    ],
+    "source": "- Y7S2 Season Track\n\n-- Target loot\n-- Exotic Caches\n\n(Reconfigure blueprint is currently bugged as of Y7S3, will not drop if you did not play during Y7S2)"
+  },
+  {
+    "id": "mantis",
+    "name": "Mantis",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SRS-A1",
+    "talent": {
+      "name": "In Plain Sight",
+      "description": {
+        "pve": "Your scoped view displays additional information about enemies not targetting you.\n\nHeadshot and weakpoint damage against enemies not targetting you is amplified by 50%.\n\nHeadshot kills reset the cooldown of your Decoy Skill. This bonus will wait until the Decoy goes on cooldown if currently active.\n\nEditor's note: 1.5x amplifier excludes Headhunter bonus, for more details read Headhunter Synergy Guide.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damaeg",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +5% Critical Hit Chance",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 2 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "liberty",
+    "name": "Liberty",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "D50\n(Desert Eagle)",
+    "talent": {
+      "name": "Liberty or Death",
+      "description": {
+        "pve": "Hits grant +2% weapon damage. Stacks up to 30 times.\n\nHeadshots consume all stacks, repairing your shield for 3% per stack.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Headshot Damage",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +5% Critical Hit Chance",
+      "Underbarrel: +15% Rate of Fire"
+    ],
+    "source": "- True Sons missions questline\n(Capitol, American History,\nViewpoint, Space Admin)\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "whiplash",
+    "name": "Whiplash",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "Diceros",
+    "talent": {
+      "name": "Faster than Reloading",
+      "description": {
+        "pve": "Having this weapon holstered for 5s reloads and primes it. While primed, swapping to this weapon reloads you Primary and Secondary weapons and grants +20% Rate of Fire and +50% Weapon Damage until its magazine is emptied. Reloading or swapping from this weapon before its magazine is emptied will remove its stat bonuses.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +10% Critical Hit Chance",
+      "Underbarrel: +50% Swap Speed"
+    ]
+  },
+  {
+    "id": "busy-little-bee",
+    "name": "Busy Little Bee",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "PF45",
+    "talent": {
+      "name": "Busy Little Bee",
+      "description": {
+        "pve": "Each shot to a different target will give 1 stack, up to 10, each stack will give 20% weapon damage increase.\n\nStacks will activate once the agent switches weapon and will last for 10 seconds.\n\nEditor's note: each stack adds to an amplifier, (1 + 0.2 * n) where n is number of stacks, n from 1 to 10.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +25% Optimal Range",
+      "Magazine: +10% Reload speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +5% Critical Hit Chance"
+    ],
+    "source": "--Season 10 Track (TU16)\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "regulus",
+    "name": "Regulus",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "Magnum",
+    "talent": {
+      "name": "Regicide",
+      "description": {
+        "pve": "Headshot Kills create a 5m explosion, dealing 400% weapon damage and applying bleed to all enemies hit.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +10% Reload speed",
+      "Muzzle: +20% Accuracy"
+    ],
+    "source": "- Iron Horse Raid Project"
+  },
+  {
+    "id": "tempest",
+    "name": "Tempest",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "M93R",
+    "talent": {
+      "name": "Restrained",
+      "description": {
+        "pve": "The pistol is fully automatic and deals +25% Amplified Damage for 20s after your Shield gets broken.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +50% Stability",
+      "Muzzle: +15% Critical Hit Chance"
+    ],
+    "source": "- Guaranteed reward for first completion of Y7S2 Climax mission on master difficulty\n- Drop chance from boss of Y7S2 Climax mission on any difficulty (Difficulty affects droprate)\n- Drop chance from Summit Floor 100 completion on any difficulty (Difficulty affects droprate)"
+  },
+  {
+    "id": "mosquito",
+    "name": "Mosquito",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "M9",
+    "talent": {
+      "name": "Mosquito Song",
+      "description": {
+        "pve": "Hitting an enemy applies a stack. Stacks are shared between players.\n\nAt 5 stacks, the enemy will forcefully target the last player to apply a stack for 5s and take 25% more damage to armor.\n\nStacks deplete every 5s. Activating the effect on an enemy will remove all stacks from other enemies.\n\nEditor's note: the \"damage to armor\" taken debuff works similarly to Sledgehammer, in that it is an amplifier that applies to both armor and armor plating.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +15% Reload Speed",
+      "Muzzle: +15% Weapon Accuracy"
+    ],
+    "source": "-- Target loot\n-- Exotic Caches"
+  }
+]
