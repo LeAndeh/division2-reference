@@ -1047,7 +1047,7 @@
     "name": "Everlasting Gaze",
     "type": "named",
     "weaponType": "rifle",
-    "baseVariant": "Mk17\n(Police Mk-17)",
+    "baseVariant": "Police Mk-17",
     "talent": {
       "name": "Perfect Perpetuation",
       "description": {
@@ -2105,7 +2105,7 @@
       "Muzzle: +10% Stability",
       "Underbarrel: +5% Critical Hit Damage"
     ],
-    "source": "- Operation Iron Horse\n(Normal ONLY)\n- Low Chance per boss\n- End cache 10%\n- Extremely Low chance from Dark Zone"
+    "source": "Operation Iron Horse on Normal: 1% Chance per boss encounter, or End Cache @ 10%. Low chance from the Dark Zone"
   },
   {
     "id": "vindicator",
@@ -2126,7 +2126,7 @@
       "Muzzle: +10% Optimal Range",
       "Underbarrel: +15% Stability"
     ],
-    "source": "- NSA store, with currency from the Descent game mode"
+    "source": "NSA Store, with currency from the Descent"
   },
   {
     "id": "sacrum-imperium",
@@ -2147,7 +2147,7 @@
       "Muzzle: +20% Optimal Range",
       "Underbarrel: +20% Stability"
     ],
-    "source": "- Season 11 track\n\n-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "dread-edict",
@@ -2168,7 +2168,7 @@
       "Muzzle: +10% Critical Hit Chance",
       "Underbarrel: +10% Stability"
     ],
-    "source": "- Season 9 Track\n\n-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "nemesis",
@@ -2189,7 +2189,7 @@
       "Muzzle: +5% Critical Hit Damage",
       "Underbarrel: +5% Weapon Handling"
     ],
-    "source": "- Invaded strongholds\nquestline (blueprint at Grand\nWashington)\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+    "source": "Black Tusk Invaded Stronghold Questline.\n\n After completion, Targetable"
   },
   {
     "id": "shroud",
@@ -2210,7 +2210,7 @@
       "Muzzle: +20% Headshot Damage",
       "Underbarrel: +5% Critical Hit Chance"
     ],
-    "source": "- Y7S2 Season Track\n\n-- Target loot\n-- Exotic Caches\n\n(Reconfigure blueprint is currently bugged as of Y7S3, will not drop if you did not play during Y7S2)"
+    "source": "Targetable"
   },
   {
     "id": "mantis",
@@ -2231,7 +2231,7 @@
       "Muzzle: +5% Critical Hit Chance",
       "Underbarrel: +10% Stability"
     ],
-    "source": "- Season 2 track\n\n-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "liberty",
@@ -2252,7 +2252,7 @@
       "Muzzle: +5% Critical Hit Chance",
       "Underbarrel: +15% Rate of Fire"
     ],
-    "source": "- True Sons missions questline\n(Capitol, American History,\nViewpoint, Space Admin)\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+    "source": "- True Sons mission questline:\n(Capitol, American History,\nViewpoint, Space Admin)\n\nAfter completion, Targetable"
   },
   {
     "id": "whiplash",
@@ -2271,7 +2271,8 @@
       "Optics: +10% Critical Hit Damage",
       "Magazine: +10% Critical Hit Chance",
       "Underbarrel: +50% Swap Speed"
-    ]
+    ],
+    "source": "Completion of the Y8S1 Climax Mission (The Pentagon: The Director)"
   },
   {
     "id": "busy-little-bee",
@@ -2292,7 +2293,7 @@
       "Muzzle: +10% Stability",
       "Underbarrel: +5% Critical Hit Chance"
     ],
-    "source": "--Season 10 Track (TU16)\n\n-- Target loot\n-- Exotic Caches"
+    "source": "Targetable"
   },
   {
     "id": "regulus",
@@ -2347,5 +2348,25 @@
       "Muzzle: +15% Weapon Accuracy"
     ],
     "source": "Targetable"
+  },
+  {
+    "id": "fafnir",
+    "name": "Fafnir",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "Military M870",
+    "talent": {
+      "name": "Dragon's Breath",
+      "description": {
+        "pve": "This weapon fires Dragon's Breath shells.\n\n Each shot has a 40% chance of applying Burn to the enemy. An enemy cannot be applied Burn if they are burning already.\n\nWeapon Damage is amplified by 50% of your Status Effects bonus.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +5 Rounds",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "Y8S3 Season Pass"
   }
 ]

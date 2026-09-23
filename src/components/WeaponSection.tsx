@@ -17,6 +17,13 @@ function formatWeaponType(value: string) {
     .join(" ");
 }
 
+function normalizeSearchValue(value: string) {
+  return value
+    .toLowerCase()
+    .replace(/-/g, " ")
+    .trim();
+}
+
 export function WeaponSection({ mode }: WeaponsSectionProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [itemType, setItemType] = useState<"all" | "named" | "exotic">("all");
@@ -28,16 +35,23 @@ export function WeaponSection({ mode }: WeaponsSectionProps) {
 
   const filteredWeapons = weapons
     .filter((weapon) => {
-      const query = searchTerm.toLowerCase().trim();
+      const query = normalizeSearchValue(searchTerm);
 
-      const matchesSearch =
-        !query ||
-        weapon.name.toLowerCase().includes(query) ||
-        weapon.baseVariant?.toLowerCase().includes(query) ||
-        weapon.talent?.name.toLowerCase().includes(query) ||
-        weapon.specialEffects?.some((effect) =>
-          effect.description.pve.toLowerCase().includes(query),
-        );
+  const matchesSearch =
+    !query ||
+    weapon.name.toLowerCase().includes(query) ||
+    weapon.baseVariant?.toLowerCase().includes(query) ||
+    weapon.weaponType.toLowerCase().includes(query) ||
+    weapon.type.toLowerCase().includes(query) ||
+    weapon.source?.toLowerCase().includes(query) ||
+    weapon.talent?.name.toLowerCase().includes(query) ||
+    weapon.talent?.description.pve.toLowerCase().includes(query) ||
+    weapon.talent?.description.pvp?.toLowerCase().includes(query) ||
+    weapon.specialEffects?.some(
+      (effect) =>
+        effect.description.pve.toLowerCase().includes(query) ||
+        effect.description.pvp?.toLowerCase().includes(query),
+    );
 
       const matchesItemType = itemType === "all" || weapon.type === itemType;
 
