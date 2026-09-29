@@ -1,1 +1,1148 @@
-[]
+[
+  {
+    "id": "breadbasket",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Breadbasket",
+          "description": {
+            "pve": "Landing body shots adds a stack of bonus +55% headshot damage to the next headshot for 10s.\nMax stack is 3.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Breadbasket",
+          "description": {
+            "pve": "Landing body shots adds a stack of bonus +70% headshot damage to the next headshot for 10s.\nMax stack is 2.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "killer",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Killer",
+          "description": {
+            "pve": "Killing an enemy with a critical hit grants +70% critical hit damage for 10s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Killer",
+          "description": {
+            "pve": "Killing an enemy with a critical hit grants +90% critical hit damage for 10s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "preservation",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Preservation",
+          "description": {
+            "pve": "Killing an enemy repairs 10% armor over 5s. Headshot kills improve the repair by an additional 10%",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Preservation",
+          "description": {
+            "pve": "Killing an enemy repairs 15% armor over 5s. Headshot kills improve the repair by an additional 15%",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "optimist",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Optimist",
+          "description": {
+            "pve": "Weapon damage is increased by +3.5% for every 10% ammo missing from the magazine.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Optimist",
+          "description": {
+            "pve": "Weapon damage is increased by +4.5% for every 10% ammo missing from the magazine.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "strained",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Strained",
+          "description": {
+            "pve": "Gain 10% critical hit damage for every 0.5s you are firing.\nStacks up to 5 times.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Strained",
+          "description": {
+            "pve": "Gain 10% critical hit damage for every 0.5s you are firing.\nStacks up to 8 times.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "close-and-personal",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Close & Personal",
+          "description": {
+            "pve": "Killing a target within 7m grants +30% weapon damage for 10s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Close & Personal",
+          "description": {
+            "pve": "Killing a target within 7m grants +38% weapon damage for 10s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fast-hands",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Fast Hands",
+          "description": {
+            "pve": "Critical hits add a stack of 3% reload speed bonus. Max stack is 40.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Fast Hands",
+          "description": {
+            "pve": "Critical hits add a stack of 5% reload speed bonus. Max stack is 40.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sadist",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Sadist",
+          "description": {
+            "pve": "Amplifies +30% weapon damage to bleeding enemies.\nAfter 4 kills, applies bleed to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Sadist",
+          "description": {
+            "pve": "Amplifies +35% weapon damage to bleeding enemies.\nAfter 3 kills, applies bleed to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "eyeless",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Eyeless",
+          "description": {
+            "pve": "Amplifies +30% weapon damage to blinded enemies.\nAfter 4 kills, applies blind to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Eyeless",
+          "description": {
+            "pve": "Amplifies +35% weapon damage to blinded enemies.\nAfter 3 kills, applies blind to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ignited",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Ignited",
+          "description": {
+            "pve": "Amplifies +25% weapon damage to burning enemies.\nAfter 4 kills, applies burning to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Ignited",
+          "description": {
+            "pve": "Amplifies +30% weapon damage to burning enemies.\nAfter 3 kills, applies burning to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "vindictive",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Vindictive",
+          "description": {
+            "pve": "Killing an enemy with a status effect applied grants you and all allies within 15m 16% Critical hit chance and 16% critical hit damage for 20s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Vindictive",
+          "description": {
+            "pve": "Killing an enemy with a status effect applied grants you and all allies within 20m 21% Critical hit chance and 21% critical hit damage for 20s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ranger",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Ranger",
+          "description": {
+            "pve": "Amplifies weapon damage by 2% for every 4m you are away from your target.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Ranger",
+          "description": {
+            "pve": "Amplifies weapon damage by 2% for every 3m you are away from your target.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "steady-handed",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Steady Handed",
+          "description": {
+            "pve": "Hits grant a stack of +1% Accuracy and Stability.\nAt 100 stacks, consumes stacks to refill the magazine.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Steady Handed",
+          "description": {
+            "pve": "Hits grant a stack of +1% Accuracy and Stability.\nAt 75 stacks, consumes stacks to refill the magazine.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "spike",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Spike",
+          "description": {
+            "pve": "Headshots grant +20% skill damage for 15s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Spike",
+          "description": {
+            "pve": "Headshots grant +25% skill damage for 15s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "perpetuation",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Perpetuation",
+          "description": {
+            "pve": "Headshots grant +75% status effect damage and duration to the next status effect you apply. Cooldown: 20s",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Perpetuation",
+          "description": {
+            "pve": "Headshots grant +75% status effect damage and duration to the next status effect you apply. Cooldown: 16s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "reformation",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Reformation",
+          "description": {
+            "pve": "Headshots grant +60% skill repair for 15s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Reformation",
+          "description": {
+            "pve": "Headshots grant +80% skill repair for 15s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "future-perfect",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Future Perfect",
+          "description": {
+            "pve": "Weapon kills grant +1 skill tier for 15s. Stacks up to 3 times.\nWeapon kills at skill tier 6 grant overcharge for 15s.\nOvercharge Cooldown: 90s",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Future Perfection",
+          "description": {
+            "pve": "Weapon kills grant +1 skill tier for 19s. Stacks up to 4 times.\nWeapon kills at skill tier 6 grant overcharge for 15s.\nOvercharge Cooldown: 90s",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "flatline",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Flatline",
+          "description": {
+            "pve": "Amplifies weapon damage by 15% to pulsed enemies. After 4 kills, applies pulse to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Flatline",
+          "description": {
+            "pve": "Amplifies weapon damage by 20% to pulsed enemies. After 3 kills, applies pulse to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sledgehammer",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Sledgehammer",
+          "description": {
+            "pve": "Dealing damage with a grenade applies a mark on target.\nTargets with mark will take 15% more damage to armor from the agent that applied the mark and have a -20% movement speed.\nMark will disappear after 10 seconds. (As of TU 22.2 the marked targets take the Amp damage from all sources including other agents)",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Sledgehammer",
+          "description": {
+            "pve": "Dealing damage with a grenade applies a mark on target.\nTargets with mark will take 20% more damage to armor from the agent that applied the mark and have a -30% movement speed.\nMark will disappear after 10 seconds. (As of TU 22.2 the marked targets take the Amp damage from all sources including other agents)",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "thunder-strike",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Thunder Strike",
+          "description": {
+            "pve": "Amplifies 30% extra damage to shocked targets. After 4 kills, applies shock to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Thunder Strike",
+          "description": {
+            "pve": "Amplifies 35% extra damage to shocked targets. After 3 kills, applies shock to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "in-sync",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "In Sync",
+          "description": {
+            "pve": "Hitting an enemy grants +15% skill damage for 5s.\nUsing a skill or damaging an enemy with a skill grants +15% weapon damage for 5s.\nDamage increases are doubled while both buffs are active at the same time.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly In Sync",
+          "description": {
+            "pve": "Hitting an enemy grants +20% skill damage for 5s.\nUsing a skill or damaging an enemy with a skill grants +20% weapon damage for 5s.\nDamage increases are doubled while both buffs are active at the same time.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pressure-point",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Pressure Point",
+          "description": {
+            "pve": "Amplifies weapon damage by 15% to enemies under status effects.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Pressure Point",
+          "description": {
+            "pve": "Amplifies weapon damage by 20% to enemies under status effects.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "streamline",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Streamline",
+          "description": {
+            "pve": "Increase Weapon Damage by 42% when no Skills are Deployed or on Cooldown.",
+            "pvp": "Increase Weapon Damage by 32% when no Skills are Deployed or on Cooldown."
+          }
+        },
+        "perfect": {
+          "name": "Perfect Streamline",
+          "description": {
+            "pve": "Increase Weapon Damage by 47% when no Skills are Deployed or on Cooldown.",
+            "pvp": "Increase Weapon Damage by 37% when no Skills are Deployed or on Cooldown."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "immobilize",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Immobilize",
+          "description": {
+            "pve": "Amplifies weapon damage by 20% to ensared enemies. After 4 kills applies Ensnare to the next enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Immobilize",
+          "description": {
+            "pve": "Amplifies weapon damage by 25% to ensared enemies. After 3 kills applies Ensnare to the next enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "soft-spot",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Soft Spot",
+          "description": {
+            "pve": "Destroying a Weakpoint grants 19% Weapon Damage for 15s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Soft Spot",
+          "description": {
+            "pve": "Destroying a Weakpoint grants 24% Weapon Damage for 15s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "head-scratcher",
+    "variants": [
+      {
+        "weaponTypes": ["all"],
+        "normal": {
+          "name": "Head Scratcher",
+          "description": {
+            "pve": "Deal 30% Amplified Damage to confused enemies. After 4 kills, applies Confuse to the enemy you hit.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Head Scratcher",
+          "description": {
+            "pve": "Deal 35% Amplified Damage to confused enemies. After 4 kills, applies Confuse to the enemy you hit.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "rifleman",
+    "variants": [
+      {
+        "weaponTypes": ["rifle"],
+        "normal": {
+          "name": "Rifleman",
+          "description": {
+            "pve": "Landing headshots adds a stack of bonus +10% weapon damage for 5s.\nMax stack is 5.\nAdditional headshots refresh the duration.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Rifleman",
+          "description": {
+            "pve": "Landing headshots adds a stack of bonus +11% weapon damage for 5s.\nMax stack is 6.\nAdditional headshots refresh the duration.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "boomerang",
+    "variants": [
+      {
+        "weaponTypes": ["rifle"],
+        "normal": {
+          "name": "Boomerang",
+          "description": {
+            "pve": "Critical hits have a 50% chance to return the bullet to the magazine.\nIf a bullet is returned to the magazine the next shot gains 40% increased damage.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Boomerang",
+          "description": {
+            "pve": "Critical hits have a 75% chance to return the bullet to the magazine.\nIf a bullet is returned to the magazine the next shot gains 50% increased damage.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "lucky-shot",
+    "variants": [
+      {
+        "weaponTypes": ["rifle", "marksman-rifle", "pistol"],
+        "normal": {
+          "name": "Lucky Shot",
+          "description": {
+            "pve": "Magazine capacity is increased by 20%.\nMissed shots from cover have a 100% chance to return to the magazine.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Lucky Shot",
+          "description": {
+            "pve": "Magazine capacity is increased by 30%.\nMissed shots from cover have a 100% chance to return to the magazine.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "determined",
+    "variants": [
+      {
+        "weaponTypes": ["rifle", "marksman-rifle", "pistol"],
+        "normal": {
+          "name": "Determined",
+          "description": {
+            "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed headshot.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Determined",
+          "description": {
+            "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed critical headshot.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "behind-you",
+    "variants": [
+      {
+        "weaponTypes": ["rifle", "marksman-rifle"],
+        "normal": {
+          "name": "Behind You",
+          "description": {
+            "pve": "Amplifies weapon damage by +20% to enemies that are not targeting you.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Behind You",
+          "description": {
+            "pve": "Amplifies weapon damage by +25% to enemies that are not targeting you.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "precision-strike",
+    "variants": [
+      {
+        "weaponTypes": [
+          "rifle",
+          "assault-rifle",
+          "marksman-rifle",
+          "light-machine-gun"
+        ],
+        "normal": {
+          "name": "Precision Strike",
+          "description": {
+            "pve": "Killing enemies farther than 20m builds up stacks. Max stack is 3. Hittting an enemy within 20m will use all stacks to provide 20% amplified damage to enemies within 20m for 5s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Precision Strike",
+          "description": {
+            "pve": "Killing enemies farther than 20m builds up stacks. Max stack is 3. Hittting an enemy within 20m will use all stacks to provide 20% amplified damage to enemies within 20m for 5s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "back-and-forth",
+    "variants": [
+      {
+        "weaponTypes": [
+          "rifle",
+          "assault-rifle",
+          "marksman-rifle",
+          "submachine-gun",
+          "light-machine-gun",
+          "shotgun"
+        ],
+        "normal": {
+          "name": "Back and Forth",
+          "description": {
+            "pve": "Swapping to this weapon grants +10% Rate of Fire and +9% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Back and Forth",
+          "description": {
+            "pve": "Swapping to this weapon grants +13% Rate of Fire and +12% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "near-sighted",
+    "variants": [
+      {
+        "weaponTypes": ["assault-rifle"],
+        "normal": {
+          "name": "Near Sighted",
+          "description": {
+            "pve": "Receive +80% stability at the cost of -35% optimal range.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Near Sighted",
+          "description": {
+            "pve": "Receive +100% stability at the cost of -35% optimal range.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "on-empty",
+    "variants": [
+      {
+        "weaponTypes": ["assault-rifle"],
+        "normal": {
+          "name": "On Empty",
+          "description": {
+            "pve": "Reloading from empty grants +60% weapon handling for 10s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect On Empty",
+          "description": {
+            "pve": "Reloading from empty grants +80% weapon handling for 10s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "measured",
+    "variants": [
+      {
+        "weaponTypes": ["assault-rifle"],
+        "normal": {
+          "name": "Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -25% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +30% total weapon damage.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
+            "pvp": null
+          }
+        }
+      },
+      {
+        "weaponTypes": ["submachine-gun"],
+        "normal": {
+          "name": "Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -25% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +30% total weapon damage.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
+            "pvp": null
+          }
+        }
+      },
+      {
+        "weaponTypes": ["light-machine-gun"],
+        "normal": {
+          "name": "Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -25% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +30% total weapon damage.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Measured",
+          "description": {
+            "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "overflowing",
+    "variants": [
+      {
+        "weaponTypes": ["assault-rifle"],
+        "normal": {
+          "name": "Overflowing",
+          "description": {
+            "pve": "Every 3 reloads from empty increases your base magazine capacity by 100%.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Overflowing",
+          "description": {
+            "pve": "Every 2 reloads from empty increases your base magazine capacity by 100%.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "stabilize",
+    "variants": [
+      {
+        "weaponTypes": ["assault-rifle", "submachine-gun", "light-machine-gun"],
+        "normal": {
+          "name": "Stabilize",
+          "description": {
+            "pve": "Firing your weapon increases Weapon Accuracy by 1% and Weapon Stability by 1% per shot up to 60%. If you stop firing, the bonuses reset after 4 seconds.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Stabilize",
+          "description": {
+            "pve": "Firing your weapon increases Weapon Accuracy by 1% and Weapon Stability by 1% per shot up to 60%. If you stop firing, the bonuses reset after 4 seconds.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "naked",
+    "variants": [
+      {
+        "weaponTypes": ["marksman-rifle"],
+        "normal": {
+          "name": "Naked",
+          "description": {
+            "pve": "Hitting an enemy with no armor grants +50% headshot damage for 5s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfectly Naked",
+          "description": {
+            "pve": "Hitting an enemy with no armor grants +50% headshot damage for 8s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "first-blood",
+    "variants": [
+      {
+        "weaponTypes": ["marksman-rifle"],
+        "normal": {
+          "name": "First Blood",
+          "description": {
+            "pve": "If scoped, your first shot fired from out of combat or after fully reloading from empty deals headshot damage to any part of the body hit.\nRequires a Scope with 8x magnification or higher.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect First Blood",
+          "description": {
+            "pve": "If scoped, your first 2 shots fired from out of combat or after fully reloading from empty deals headshot damage to any part of the body hit.\nRequires a Scope with 8x magnification or higher.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "outsider",
+    "variants": [
+      {
+        "weaponTypes": ["submachine-gun"],
+        "normal": {
+          "name": "Outsider",
+          "description": {
+            "pve": "After killing an enemy, gain 100% optimal range and +100% accuracy for 10s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Outsider",
+          "description": {
+            "pve": "After killing an enemy, gain 150% optimal range and +125% accuracy for 10s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "unwavering",
+    "variants": [
+      {
+        "weaponTypes": ["submachine-gun"],
+        "normal": {
+          "name": "Unwavering",
+          "description": {
+            "pve": "Swapping to this weapon grants +300% weapon handling for 5s.\nKills refresh the buff.\nSwapping away disables this from all weapons for 5s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Unwavering",
+          "description": {
+            "pve": "Swapping to this weapon grants +400% weapon handling for 5s.\nKills refresh the buff.\nSwapping away disables this from all weapons for 5s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "unhinged",
+    "variants": [
+      {
+        "weaponTypes": ["light-machine-gun"],
+        "normal": {
+          "name": "Unhinged",
+          "description": {
+            "pve": "Grants +18% weapon damage at the cost of -25% Stability and -25% Accuracy.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Unhinged",
+          "description": {
+            "pve": "Grants +22% weapon damage at the cost of -25% Stability and -25% Accuracy.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "frenzy",
+    "variants": [
+      {
+        "weaponTypes": ["light-machine-gun"],
+        "normal": {
+          "name": "Frenzy",
+          "description": {
+            "pve": "For every 10 bullets in the magazine capacity, gain +3% rate of fire and +3% weapon damage for 9s when reloading from empty.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Frenzy",
+          "description": {
+            "pve": "For every 8 bullets in the magazine capacity, gain +3% rate of fire and +3% weapon damage for 9s when reloading from empty.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "overwhelm",
+    "variants": [
+      {
+        "weaponTypes": ["light-machine-gun"],
+        "normal": {
+          "name": "Overwhelm",
+          "description": {
+            "pve": "Suppressing an enemy, that is not currently suppressed, grants +10% weapon damage for 12 seconds.\nMax stack is 4.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Overwhelm",
+          "description": {
+            "pve": "Suppressing an enemy, that is not currently suppressed, grants +12% weapon damage for 12 seconds.\nMax stack is 4.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pummel",
+    "variants": [
+      {
+        "weaponTypes": ["shotgun"],
+        "normal": {
+          "name": "Pummel",
+          "description": {
+            "pve": "3 consecutive kills refills the magazine and grants +40% weapon damage for 10s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Pummel",
+          "description": {
+            "pve": "2 consecutive kills refills the magazine and grants +40% weapon damage for 10s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "pumped-up",
+    "variants": [
+      {
+        "weaponTypes": ["shotgun"],
+        "normal": {
+          "name": "Pumped Up",
+          "description": {
+            "pve": "Reloading grants +1.2% weapon damage for 10s. Stacks up to 25 times.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Pumped Up",
+          "description": {
+            "pve": "Reloading grants +6% weapon damage for 10s. Stacks up to 5 times.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "brazen",
+    "variants": [
+      {
+        "weaponTypes": ["shotgun"],
+        "normal": {
+          "name": "Brazen",
+          "description": {
+            "pve": "Receive +3.5% Amplified Damage on the next shot with the weapon for each pellet that hits the target, if at least 6 pellets hit.",
+            "pvp": "Receive +2% Amplified Damage on the next shot with the weapon for each pellet that hits the target, if at least 6 pellets hit."
+          }
+        },
+        "perfect": {
+          "name": "Perfect Brazen",
+          "description": {
+            "pve": "Receive +3.5% Amplified Damage on the next shot with the weapon for each pellet that hits the target, if at least 4 pellets hit.",
+            "pvp": "Receive +3% Amplified Damage on the next shot with the weapon for each pellet that hits the target, if at least 4 pellets hit."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "salvage",
+    "variants": [
+      {
+        "weaponTypes": ["pistol"],
+        "normal": {
+          "name": "Salvage",
+          "description": {
+            "pve": "Killing a target has a +70% chance to refill the magazine.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Salvage",
+          "description": {
+            "pve": "Killing a target has a +85% chance to refill the magazine.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "finisher",
+    "variants": [
+      {
+        "weaponTypes": ["pistol"],
+        "normal": {
+          "name": "Finisher",
+          "description": {
+            "pve": "Swapping from this weapon within 10s of killing an enemy grants 30% critical hit chance and 30% critical hit damage for 15s.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Finisher",
+          "description": {
+            "pve": "Swapping from this weapon within 10s of killing an enemy grants 35% critical hit chance and 40% critical hit damage for 15s.",
+            "pvp": null
+          }
+        }
+      }
+    ]
+  }
+]
