@@ -1,5 +1,12 @@
-import weaponsData from "../src/data/weapons.json";
-import { weaponsSchema } from "../src/schemas/weaponSchema";
+import * as fs from "node:fs";
+import * as path from "node:path";
+
+import { weaponsSchema } from "../src/schemas/weaponSchema.js";
+
+const weaponsPath = path.resolve("src/data/weapons.json");
+
+const rawJson = fs.readFileSync(weaponsPath, "utf8");
+const weaponsData: unknown = JSON.parse(rawJson);
 
 const result = weaponsSchema.safeParse(weaponsData);
 
