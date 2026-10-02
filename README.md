@@ -1,5 +1,7 @@
 # Division 2 Reference
 
+ACCESS LINK: https://leandeh.github.io/division2-reference/
+
 A lightweight, searchable reference web app for selected **Tom Clancy's The Division 2** game data.
 
 The project started as a personal alternative to repeatedly opening a large Google Sheets compendium. The goal is to extract the information I actually use, normalize it into maintainable JSON data, and present it through a cleaner and more interactive interface.
