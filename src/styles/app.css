@@ -442,3 +442,115 @@ footer {
   color: var(--text-primary);
   border-color: var(--accent-primary);
 }
+
+/* gear sets */
+.gear-sets-section {
+  margin-top: 2rem;
+}
+
+.gear-set-filters {
+  display: grid;
+  grid-template-columns: minmax(240px, 2fr) 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.gear-set-filters input,
+.gear-set-filters select {
+  width: 100%;
+  min-width: 0;
+  padding: 0.75rem 0.9rem;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.gear-set-filters input:focus,
+.gear-set-filters select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.gear-set-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  align-items: start;
+}
+
+.gear-set-card {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  overflow-wrap: anywhere;
+}
+
+.gear-set-card__header h2 {
+  margin: 0 0 0.75rem;
+}
+
+.gear-set-card__cores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.gear-set-card__cores small {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.gear-set-card__bonus,
+.gear-set-card__talent,
+.gear-set-card__detail-block {
+  margin-top: 1rem;
+}
+
+.gear-set-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.gear-set-card__bonus p,
+.gear-set-card__talent p,
+.gear-set-card__detail-block p {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.gear-set-card__details {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.gear-set-card__details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.gear-set-card__details summary:hover {
+  text-decoration: underline;
+}
+
+.gear-set-card__source {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: pre-line;
+}
+
+@media (max-width: 750px) {
+  .gear-set-filters {
+    grid-template-columns: 1fr;
+  }
+}

@@ -3,6 +3,7 @@ import * as path from "node:path";
 
 import { weaponsSchema } from "../src/schemas/weaponSchema.js";
 import { weaponTalentsSchema } from "../src/schemas/weaponTalentSchema.js";
+import { gearSetsSchema } from "../src/schemas/gearSetSchema.js";
 
 const weaponsPath = path.resolve("src/data/weapons.json");
 const weaponTalentsPath = path.resolve("src/data/weapon-talents.json");
@@ -71,4 +72,38 @@ console.log(
   `Weapon talent data valid: ` +
     `${weaponTalentsResult.data.length} records checked, ` +
     `no duplicate IDs.`,
+);
+
+// gear set validation
+
+const gearSetsPath = path.resolve("src/data/gearsets.json");
+const gearSetsRawJson = fs.readFileSync(gearSetsPath, "utf8");
+const gearSetsData: unknown = JSON.parse(gearSetsRawJson);
+const gearSetsResult = gearSetsSchema.safeParse(gearSetsData);
+
+if (!gearSetsResult.success) {
+  console.error("Gear set data validation failed:\n");
+
+  for (const issue of gearSetsResult.error.issues) {
+    console.error(
+      `Path: ${issue.path.join(".") || "(root)"}\n` +
+        `Error: ${issue.message}\n`,
+    );
+  }
+
+  throw new Error("Gear set data validation failed.");
+}
+
+const gearSetIds = new Set<string>();
+
+for (const gearSet of gearSetsResult.data) {
+  if (gearSetIds.has(gearSet.id)) {
+    throw new Error(`Duplicate gear set id: ${gearSet.id}`);
+  }
+
+  gearSetIds.add(gearSet.id);
+}
+
+console.log(
+  `Gear set data valid: ${gearSetsResult.data.length} records checked, no duplicate IDs.`,
 );
