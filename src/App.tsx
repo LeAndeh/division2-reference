@@ -6,23 +6,35 @@ import "./styles/app.css";
 import { WeaponSection } from "./components/WeaponSection";
 import { WeaponTalentSection } from "./components/WeaponTalentSection";
 
+type Category =
+  | "weapons"
+  | "weapon-talents"
+  | "gearsets"
+  | "brandsets"
+  | "gear"
+  | "gear-talents";
+
 const categories = [
-  ["Named & Exotic Weapons", "weapons"],
-  ["Weapon Talents", "weapon talents"],
-  ["Gear Sets", "gear sets"],
-  ["Brand Sets", "brand sets"],
-  ["Named & Exotic Gear", "gear"],
-  ["Gear Talents", "gear talents"],
+  ["Named & Exotic Weapons", "weapons", "Browse weapons"],
+  ["Weapon Talents", "weapon-talents", "Browse weapon talents"],
+  ["Gear Sets", "gearsets", "Browse gear sets"],
+  ["Brand Sets", "brandsets", "Browse brand sets"],
+  ["Named & Exotic Gear", "gear", "Browse gear"],
+  ["Gear Talents", "gear-talents", "Browse gear talents"],
 ] as const;
 
 function App() {
   const [mode, setMode] = useState<GameMode>("pve");
+
+  const [activeCategory, setActiveCategory] =
+    useState<Category>("weapons");
 
   return (
     <div className="app-shell">
       <header className="site-header">
         <div>
           <p className="eyebrow">DIVISION 2 REFERENCE v0.1.0</p>
+
           <h1>Reference Sheet</h1>
 
           <p className="subtitle">
@@ -30,11 +42,11 @@ function App() {
             sets.
           </p>
 
-          <footer>
+          <p className="project-note">
             I just wanted to stop using the Google Sheet compendium. It's an
             excellent resource, but I wanted something a bit more interactive
             and easier to navigate.
-          </footer>
+          </p>
         </div>
 
         <ModeToggle mode={mode} onChange={setMode} />
@@ -46,17 +58,57 @@ function App() {
         </section>
 
         <section className="category-grid" aria-label="Reference categories">
-          {categories.map(([title, description]) => (
-            <button className="category-card" type="button" key={title}>
+          {categories.map(([title, category, description]) => (
+            <button
+              className={
+                activeCategory === category
+                  ? "category-card active"
+                  : "category-card"
+              }
+              type="button"
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              aria-pressed={activeCategory === category}
+            >
               <span>{title}</span>
-              <small>Browse {description}</small>
+              <small>{description}</small>
             </button>
           ))}
         </section>
 
-        <WeaponSection mode={mode} />
-        <WeaponTalentSection mode={mode} />
+        {activeCategory === "weapons" && <WeaponSection mode={mode} />}
 
+        {activeCategory === "weapon-talents" && (
+          <WeaponTalentSection mode={mode} />
+        )}
+
+        {activeCategory === "gearsets" && (
+          <section className="empty-state">
+            <h2>Gear Sets</h2>
+            <p>This section has not been implemented yet.</p>
+          </section>
+        )}
+
+        {activeCategory === "brandsets" && (
+          <section className="empty-state">
+            <h2>Brand Sets</h2>
+            <p>This section has not been implemented yet.</p>
+          </section>
+        )}
+
+        {activeCategory === "gear" && (
+          <section className="empty-state">
+            <h2>Named & Exotic Gear</h2>
+            <p>This section has not been implemented yet.</p>
+          </section>
+        )}
+
+        {activeCategory === "gear-talents" && (
+          <section className="empty-state">
+            <h2>Gear Talents</h2>
+            <p>This section has not been implemented yet.</p>
+          </section>
+        )}
       </main>
 
       <footer>

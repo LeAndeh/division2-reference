@@ -306,3 +306,139 @@ footer {
 .weapon-talent-card__description {
   white-space: pre-line;
 }
+/*category card*/
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+
+  padding: 1rem;
+
+  background: var(--surface);
+  color: var(--text-primary);
+
+  border: 1px solid var(--border);
+  border-radius: 8px;
+
+  cursor: pointer;
+  text-align: left;
+
+  font: inherit;
+}
+
+.category-card span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.category-card small {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.category-card:hover {
+  border-color: var(--accent-primary);
+}
+
+.category-card.active {
+  border-color: var(--accent-primary);
+}
+
+.category-card.active {
+  border-color: var(--accent-primary);
+}
+
+/* weapon talents */
+.weapon-talents-section {
+  margin-top: 2rem;
+}
+
+.weapon-talent-filters {
+  display: grid;
+  grid-template-columns: minmax(240px, 2fr) 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.weapon-talent-filters input,
+.weapon-talent-filters select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+
+  background: var(--surface);
+  color: var(--text-primary);
+
+  border: 1px solid var(--border);
+  border-radius: 6px;
+
+  font: inherit;
+}
+
+.weapon-talent-filters input:focus,
+.weapon-talent-filters select:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 1px;
+}
+
+.weapon-talent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.weapon-talent-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.weapon-talent-card__variant + .weapon-talent-card__variant {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.weapon-talent-card__types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.weapon-talent-card__types span {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.weapon-talent-card__description {
+  white-space: pre-line;
+}
+
+.weapon-talent-card__version-toggle {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.weapon-talent-card__version-toggle button {
+  padding: 0.35rem 0.65rem;
+
+  background: transparent;
+  color: var(--text-secondary);
+
+  border: 1px solid var(--border);
+  border-radius: 5px;
+
+  font: inherit;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+}
+
+.weapon-talent-card__version-toggle button.active {
+  color: var(--text-primary);
+  border-color: var(--accent-primary);
+}
