@@ -1,1 +1,1182 @@
-[]
+[
+  {
+    "id": "aces-and-eights",
+    "name": "Aces & Eights",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nMMR Damage\n\n30%\nRifle damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nHeadshot Damage\n30%\nweapon handling",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Dead Man's Hand",
+      "description": {
+        "pve": "Flip a card when landing shots with a Rifle or Marksman rifle.\n\nAfter 5 cards are flipped, the damage of your next shot is amplified by 75%.\nMore shots are enhanced the better the hand revealed.\n\nFour of a Kind: 4 shots\nFull House: 3 shots\nAces and Eights: 2 shots.\n\nFlip an additional card on headshots.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "No Limit",
+      "description": {
+        "pve": "Increases Dead Man's Hand damage bonus\nfrom 75% to 100%.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Ace in the Sleeve",
+      "description": {
+        "pve": "Amplifies 1 extra shot when revealing your hand",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "aegis",
+    "name": "Aegis",
+    "coreAttributes": [
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "70%\nHealth",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nTotal Armor",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Stoic",
+      "description": {
+        "pve": "Get +4% Damage Resistance for every enemy that is targeting you.\n\nThe bonus is multiplied by 1.X, where X is the number of agents in your group.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Deceit",
+      "description": {
+        "pve": "Enemies targeting your Decoy also count towards the Stoic Damage Reduction bonus.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Polyethylene Plating",
+      "description": {
+        "pve": "Increase Stoic Damage Resistance bonus from 4% to 5%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "breaking-point",
+    "name": "Breaking Point",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nRifle Damage\n\n30%\nMMR Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nHeadshot Damage\n\n 30%\nWeapon Handling",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "On Point",
+      "description": {
+        "pve": "Hitting a shot with a rifle or MMR grants 1 stack, max stack equal to magazine size.\nReloading grants 2% handling and 4% WD per stack for 20s. No stacks gained while bonuses are active.\nOnce timer runs out magazine is refilled. Reloading will stop effect.\nReloading with stacks while inactive will remove all stacks and refill magazine",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Point of no Return",
+      "description": {
+        "pve": "Increase on point bonuses timer from 20s - 40s",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Point of honor",
+      "description": {
+        "pve": "Increases On Point Weapon Damage bonus from 4 to 9.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "cavalier",
+    "name": "Cavalier",
+    "coreAttributes": [
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nHazard Protection",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "40%\nRepair Skills",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Charging",
+      "description": {
+        "pve": "For each second spent out of cover during combat, Agents will get 5% reduced incoming skill damage. Max 50%\n\nCharged\n\nWhile fully charged, gain immunity to any movement speed debuff and share this with all of the agents hazard protection and the incoming skill damage with all allies for 10 seconds.\n\nAfter Charged is consumed, Charging buff will resume if still in combat and out of cover!",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Overcharging",
+      "description": {
+        "pve": "Increases Charger max incoming damage protection to 70%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Safe Charging",
+      "description": {
+        "pve": "Charging gives 10% protection per second.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "concentrated-company",
+    "name": "Concentrated Company",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "10% Weapon Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30% Weapon Handling",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Camaraderie",
+      "description": {
+        "pve": "Shooting an enemy marks them for 10 seconds.\n\nWhen a marked enemy dies, receive one stack of 3% Weapon Damage and 3% Critical Hit Damage for each Ally or Skill that has contributed to killing that enemy.\n\nMax stacks is 35. Stacks decay every 10 seconds.\nMaximum amount of marks that can be placed is 4.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "All for One",
+      "description": {
+        "pve": "Increase the amount of marks that can be placed from 4 to 8.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "One for All",
+      "description": {
+        "pve": "Increase the Weapon Damage bonus per stack from 3% to 6%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "core-strength",
+    "name": "Core Strength",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      },
+      {
+        "attribute": "skill-tier"
+      },
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "10% Weapon Handling",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "5% Weapon Damage\n\n5% Armor\n\n5% Skill Efficiency",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Core Exercise",
+      "description": {
+        "pve": "For each Core attribute, receive 40% of the other two Core Attributes' bonuses.\n\nSkill Tiers count as 15% Skill Efficiency when these attributes are applied.\n\nAll pieces from this Gear Set, apart from the Backpack, will feature random Core Attributes",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Inner Core",
+      "description": {
+        "pve": "Increase the percentage of the bonuses you receive from the other Cores from 40% to 75%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Outer Core",
+      "description": {
+        "pve": "This Talent does not provide a direct change to the Core Exercise Talent.\n\nThis Backpack features three Core Attributes",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "eclipse-protocol",
+    "name": "Eclipse Protocol",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nStatus Effects",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nSkill Haste\n\n30%\nHazard Protection",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Indirect Transmission",
+      "description": {
+        "pve": "On kill:\n> Spread status effects of that enemy to all enemies within 10m\n> Refresh 50% of status effect durations",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Proliferation",
+      "description": {
+        "pve": "Increases Indirect Transmission range\nfrom 10m to 15m\n\nIncreases refresh percentage from\n50% to 75%.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Symptom Aggravator",
+      "description": {
+        "pve": "Amplifies all damage you deal to\nstatus affected targets by 30%",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "ember-engine",
+    "name": "Ember Engine",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "8%\nSkill Efficiency",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nStatus Effects",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Spontaneous Combustion",
+      "description": {
+        "pve": "Every Status Effect you apply has a 40% chance of also applying Burn to the enemy.\n If the Status Effect initially applied was Burn, the enemy will receive +25% Burn Damage for the duration of the Burn.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Flashpoint",
+      "description": {
+        "pve": "Increase the chance of applying Burn of Spontaneous Combustion to 60%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "White Hot",
+      "description": {
+        "pve": "Increase the Duration of the Burn Damage debuff of Spontaneous Combustion by 50%",
+        "pvp": null
+      }
+    },
+    "source": null
+  },
+  {
+    "id": "foundry-bulwark",
+    "name": "Foundry Bulwark",
+    "coreAttributes": [
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "10%\nTotal Armor",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "1%\nArmor Regen\n\n50%\nShield Health",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Makeshift Repairs",
+      "description": {
+        "pve": "Whenever you or your shield take damage,\n25% of that amount is repaired to both over 10s.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Improved Materials",
+      "description": {
+        "pve": "Decreases time taken for Makeshift Repairs\nfrom 10s to 5s.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Process Refinery",
+      "description": {
+        "pve": "Increases Makeshift Repairs from 25% over 10s\nto 35% over 10s",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "future-initiative",
+    "name": "Future Initiative",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nRepair-skills",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nSkill Duration\n\n15%\nSkill Haste",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Ground Control",
+      "description": {
+        "pve": "Increases you and your allies' total weapon and skill damage\nby 15% when at full armor.\n\nWhen you repair an ally, you and all allies within 5m of you\nare also repaired for 60% of that amount.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Tactical Superiority",
+      "description": {
+        "pve": "Increases Ground Control damage bonus\nfrom 15% to 25%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Advanced Combat Tactics",
+      "description": {
+        "pve": "Increases Ground Control proximity repair\nfrom 60% to 120%",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "hard-wired",
+    "name": "Hard Wired",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nSkill Haste",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nSkill Damage\n\n30%\nRepair Skills",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Feedback Loop",
+      "description": {
+        "pve": "Whenever you use or cancel a skill,\n> your other skill's cooldown is reduced by 30s\n> total skill repair is increased by 10% for 20s.\n> total skill damage is increased by 10% for 20s.\n\nCooldown: 10s.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Positive Reinforcement",
+      "description": {
+        "pve": "Increases Feedback Loop skill damage\nand repair bonus from +10% to +25%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Short Circuit",
+      "description": {
+        "pve": "Decreases Feedback Loop cooldown from 10s to 5s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "heartbreaker",
+    "name": "Heartbreaker",
+    "coreAttributes": [
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nAssault Rifle Damage\n\n15%\nLMG Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nWeapon Handling",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Heartstopper",
+      "description": {
+        "pve": "Headshots apply pulse 5s.\nWeapon hits on pulsed enemies add and refreshes a stack of +1% bonus armor and +1.1% weapon damage to pulsed enemies for 5s. Max stack is 50.\n\nTwo stacks are lost per second.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Max BPM",
+      "description": {
+        "pve": "Max stack is now 100.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Cold",
+      "description": {
+        "pve": "Stacks now supply +2% bonus armor",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "hotshot",
+    "name": "Hotshot",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nMarksman Rifle Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nHeadshot Damage\n\n30%\nWeapon Handling",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Headache",
+      "description": {
+        "pve": "First Headshot with a Marksman Rifle will increase next headshot by 80%, second consecutive headshot with a Marksman Rifle will give +10% armor (if at full armor it will give bonus armor max +50% of current armor value), third consecutive headshot will refill magazine.\n\nFrom the fourth headshot forward agents will get all 3 bonuses for each consecutive headshot kill. Missing a headshot will reset the cycle",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Stand Tall",
+      "description": {
+        "pve": "Increases bonus Armor from 50% to 100%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Lucky",
+      "description": {
+        "pve": "Agents can miss a headshot before resetting the cycle",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "hunters-fury",
+    "name": "Hunter's Fury",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nShotgun Damage\n\n15%\nSMG Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "20%\nArmor on kill\n\n50%\nHealth on Kill",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Apex Predator",
+      "description": {
+        "pve": "Enemies within 15m receive a debuff, amplifying your weapon damage against them by +20%.\n\nKilling a debuffed enemy with your weapon disorients other enemies within 5m, and amplifies weapon damage by 5% for 10s,\nstacking up to 5 times.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Endless Hunger",
+      "description": {
+        "pve": "Increases the duration of Apex Predator stacks from 10s to 30s.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Overwhelming Force",
+      "description": {
+        "pve": "Increases the radius of disorient on Apex Predator kills from 5m to 10m.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "measured-assembly",
+    "name": "Measured Assembly",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nSkill Haste",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "60%\nRepair Skills\n\n40%\nExplosive Resistance",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Huddle",
+      "description": {
+        "pve": "Recieve +1 Skill Tier for each ally Agent that is within the range of the hive or Smart Cover. While at Skill Tier 6, having at least one ally Agent in the range of your Hive or Smart Cover for 4s will grant Overcharge for 15s Cooldown: 40s\n\nMortars and enemy Skills that enter the range of your Hive or Smart Cover will be destroyed. cooldown 10s. The cooldown is 20% faster for each ally agent within the range of your hive or smart cover.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Hivemind",
+      "description": {
+        "pve": "Decrease the Overcharge cooldown from 40 to 25.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Smart Cooperation",
+      "description": {
+        "pve": "Decrease the cooldown for destroying Mortars and enemy skills from 10 to 1",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "negotiators-dilemma",
+    "name": "Negotiator's Dilemma",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nCritical Hit Chance",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "20%\nCritical Hit Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Crowd Control",
+      "description": {
+        "pve": "Critical hits mark enemies for 20s, up to 3 marks total.\n\nWhen you critically hit a marked enemy, all other marked enemies\ntake 60% of the damage dealt.\n\nWhenever a marked enemy dies, gain +10% critical hit damage,\nstacking up to 10 times, or until combat ends.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Target Rich Environment",
+      "description": {
+        "pve": "Increases Crowd Control mark count\nfrom 3 to 5.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Critical Measures",
+      "description": {
+        "pve": "Increases Crowd Control damage to\nadditional marked enemies from 60% to 112%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "ongoing-directive",
+    "name": "Ongoing Directive",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nStatus Effects",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nReload Speed",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Rules of Engagement",
+      "description": {
+        "pve": "Shooting a status affected enemy will apply a mark.\n\nKilling a marked enemy grants a full clip of Hollow-Point Ammo for your active weapon, and half a clip of the agent's active weapon to the rest of the party.\n\nMarklast for 10 Seconds.\n\nHollow-Point Ammo amplifies weapon damage by 40% and applies bleed on hit.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Parabellum Rounds",
+      "description": {
+        "pve": "Increases Hollow-Point Ammo weapon damage amplification to 60%\n\nDoes not effect party ammo.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Trauma Specialist",
+      "description": {
+        "pve": "Increases duration of bleed status effects by 50% all bleed damage done by 100%",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "ortiz-exuro",
+    "name": "Ortiz: Exuro",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "20%\nBurn Duration\n\n15%\nSkill Health",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "40%\nBurn Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Ortiz Incinerator Turret Prototype",
+      "description": {
+        "pve": "The Incinerator Turret spins 360°. You are immune to your own Incinerator Turret's fire. The Incinerator Turret explodes when disabled.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Chain Combustion",
+      "description": {
+        "pve": "Enemies set ablaze by the Ortiz Incinerator Turret Prototype ignite other enemies within 10m.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Heatstroke",
+      "description": {
+        "pve": "+40% Weapon Damage to enemies set on fire by the Ortiz Incinerator Turret Prototype.\n\n+25% Ortiz Incinerator Turret Prototype Range.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "ortiz-reficere",
+    "name": "Ortiz: Reficere",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "+8.0% Skill Efficiency",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "+60.0% Repair Skills",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Ortiz Rapid Application Nanite Prototype",
+      "description": {
+        "pve": "Healing Skills' Duration and Range are decreased by 75%, but their Healing Efficiency is increased by 100%.\n\nHealing an Ally with a Skill will provide them 30% Hazard Protection for 10s. Cooldown per ally: 10s.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Overcharged Nanites",
+      "description": {
+        "pve": "Increase the Healing Efficiency bonus from 100% to 150%.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Improved Dampeners",
+      "description": {
+        "pve": "Decrease the Duration and Range reduction from 75% to 25%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "refactor",
+    "name": "Refactor",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier",
+        "slots": [
+          "mask",
+          "chest",
+          "holster"
+        ]
+      },
+      {
+        "attribute": "armor",
+        "slots": [
+          "backpack",
+          "gloves",
+          "kneepads"
+        ]
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nStatus Effects",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "25% Skill Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Return to Sender",
+      "description": {
+        "pve": "Receive repairs of 10% of the damage dealt by your Skills. Your allies will receive repairs of 20% of the damage dealt by your Skills.",
+        "pvp": "Receive repairs of 5% of the damage dealt by your Skills. Your allies will receive repairs of 10% of the damage dealt by your Skills."
+      }
+    },
+    "chestTalent": {
+      "name": "Increased Interest",
+      "description": {
+        "pve": "Increase the repairs received from Return to Sender from 10% to 25%, and from 20% to 35%",
+        "pvp": "Increase the repairs received from Return to Sender from 5% to 15%, and from 10% to 20%"
+      }
+    },
+    "backpackTalent": {
+      "name": "Over-engineered",
+      "description": {
+        "pve": "While at full Armor, repairs received from Return to Sender will provide Bonus Armor, up to 80% of your Total Armor. Does not apply to allies.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "rigger",
+    "name": "Rigger",
+    "coreAttributes": [
+      {
+        "attribute": "skill-tier"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nSkill Haste",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nSkill Duration",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Tend and Befriend",
+      "description": {
+        "pve": "Interacting with your deployed skills grants the skill 25% skill damage for 10s. This buff cannot be refreshed.\n\nInteractions include:\nUsing / Deploying the Skill\nChanging the skills target\nHealing the skill",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Best Buds",
+      "description": {
+        "pve": "Increase the damage buff from 25% to 50%",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Complete Uptime",
+      "description": {
+        "pve": "Cancelling your skills will reset their cooldown.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "strikers-battlegear",
+    "name": "Striker's Battlegear",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nWeapon Handling",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nRate of Fire",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Striker's Gamble",
+      "description": {
+        "pve": "Weapon hits increase total weapon damage by 0.65%,\nstacking up to 100 times.\n\n1 stacks lost per second between 0 to 50 stacks;\n2 stacks lost per second between 51 and 100 stacks.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Press the Advantage",
+      "description": {
+        "pve": "Increases max stacks for Striker’s Gamble from 100 to 200.\n\n3 stacks lost per second between 101 and 200 stacks.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Risk Management",
+      "description": {
+        "pve": "Increases total weapon damage gained per stack of Striker’s Gamble from 0.65% to 0.9%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "system-corruption",
+    "name": "System Corruption",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage",
+        "slots": [
+          "mask",
+          "gloves",
+          "holster"
+        ]
+      },
+      {
+        "attribute": "armor",
+        "slots": [
+          "backpack",
+          "chest",
+          "kneepads"
+        ]
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nArmor on Kill",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "40%\nDisrupt Resistance\n\n40%\nPulse Resistance",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Hackstep Protocol",
+      "description": {
+        "pve": "Replaces armor kits with an instant, infinite-use ability.\n\n> Grants 50% bonus armor for 5s\n> Hides your nameplate for 5s.\n> Repairs 20% of your armor\n> Increases total weapon damage by 2% per 5%\nbonus armor gained, up to 20%\n\nAbility cooldown: 20s",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Compiler Optimization",
+      "description": {
+        "pve": "Decreases Hackstep Protocol cooldown\nfrom 20s to 15s.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Multithreaded Execution",
+      "description": {
+        "pve": "Increases Hackstep Protocol bonus armor\nfrom 50% to 100%.",
+        "pvp": null
+      }
+    },
+    "source": "DZ only, Seasonal Caches"
+  },
+  {
+    "id": "tip-of-the-spear",
+    "name": "Tip of the Spear",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "20%\nSignature Weapon Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "10%\nWeapon Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Aggressive Recon",
+      "description": {
+        "pve": "Getting a Signature Weapon kill gives +15%. Signature Weapon Damage for 10s and +25% Reload Speed for the next reload of the weapon (the bonuses do not stack).\n\nAutomatically regenerate Signature Weapon Ammo every 60s.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Specialized Destruction",
+      "description": {
+        "pve": "Increase Aggressive Recon Signature Weapon Damage bonus from 15% to 30%.\nEvery 3rd Signature Weapon kill generates Signature Weapon ammo.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Signature Moves",
+      "description": {
+        "pve": "+50% Weapon Damage for 15s after fully depleting the Signature Weapon of ammo.\n\nDoubles the amount of ammo generated by Aggressive Recon.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "tipping-scales",
+    "name": "Tipping Scales",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "30%\nMag Size",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nLMG Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Throttle Control",
+      "description": {
+        "pve": "Shooting builds stacks to a max of 50. Each stack provides +0.5% Weapon Handling and +5% Critical Hit Damage.\n\n    Lose 6 stacks per second while not shooting. No stacks are lost if an enemy is Suppressed.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Sustainability",
+      "description": {
+        "pve": "Increase the maximum number of stacks from 50 to 75.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Snowball",
+      "description": {
+        "pve": "Increase the Critical Hit Damage received per stack from 5% to 8%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "true-patriot",
+    "name": "True Patriot",
+    "coreAttributes": [
+      {
+        "attribute": "armor"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nWeapon Handling",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nMagazine Size",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Red, White and Blue",
+      "description": {
+        "pve": "Enemies you shoot receive stacking debuffs of Red/White/Blue.\nChanges every 2 seconds.\n\nRed: Amplifies the enemy's damage taken by 15%.\nWhite: Hitting the enemy restores you and your allies' armor by 2%\nonce every second\nBlue: Decreases enemy damage dealt by 10%.\n\nFull Flag: Enemies that die while under the effect of all three debuffs\ncreate a 5m explosion, dealing damage equal to their total health and armor.\nExplosion strength is reduced on Named enemy deaths.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Waving the Flag",
+      "description": {
+        "pve": "Increases Red, White, and Blue rotation speed\nto 1 second.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Patriotic Boost",
+      "description": {
+        "pve": "Increases Red, White, and Blue debuff strength.\n\nRed: From 15% to 30%\nWhite: From 2% to 5%\nBlue: From 10% to 20%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "umbra-initiative",
+    "name": "Umbra Initiative",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nCritical Chance",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "30%\nReload Speed",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "From the Shadows Into the Light",
+      "description": {
+        "pve": "From the Shadows: While out of cover and in combat, gain 10 Stacks per second up to 50. Each stack will give 0.8% Armor regen when it is consumed. Stacks consume, 10 stacks per second, only in cover.\n\nInto the Light: While in cover, gain 10 Stacks per second up to 50. Each stack will give 1.2% Critical damage increase and 0.4% RPM. Buff does not apply while shooting from cover. While out of cover Agents lose 2 stacks per second at normal speed and 1 stack per second if sprinting.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "From the Shadows",
+      "description": {
+        "pve": "Increases Max stacks For Into the Light from 50 to 100, stack gain from 10 to 20 and stack consumption from 10 to 20.\n(buffs the damage talent)",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Into the Light",
+      "description": {
+        "pve": "Increases Max stacks From the Shadows from 50 to 100, stack gain from 10 to 20.\n(buffs the armor regen talent)",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  },
+  {
+    "id": "virtuoso",
+    "name": "Virtuoso",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage"
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "15%\nWeapon Handling\n\n15%\nMagazine Size",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "15%\nWeapon Damage",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Symphony",
+      "description": {
+        "pve": "Kills Beyond 25 Meters: +40% Weapon Damage to Shotguns, SMGs, and Pistols; +20% Weapon Damage to Assault Rifles and LMGs; and +25% Bonus Armor for 15s.\n\nKills Within 25 Meters: +40% Weapon Damage to Marksman Rifles and Rifles; +20% Weapon Damage to Assault Rifles and LMGs; and +30% Headshot Damage for 15s.\n\nIntermittently killing enemies from both ranges builds up stacks. At 4 stacks, all bonuses are multiplied by 1.5 and triggered simultaneously for 15s. No stacks gained while talent is active.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Fortissimo",
+      "description": {
+        "pve": "Double the weapon dmg bonus from symphony",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Accelerando",
+      "description": {
+        "pve": "decreases the number of stacks needed to proc the symphony double buffs from 4 to 3.",
+        "pvp": null
+      }
+    },
+    "source": "LZ and DZ"
+  }
+]
