@@ -301,3 +301,8 @@ footer {
 .weapon-card__detail-block li {
   margin-bottom: 0.35rem;
 }
+
+/* weapon talents card */
+.weapon-talent-card__description {
+  white-space: pre-line;
+}

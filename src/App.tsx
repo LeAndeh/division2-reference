@@ -4,6 +4,7 @@ import type { GameMode } from "./types/gameMode";
 import "./styles/app.css";
 
 import { WeaponSection } from "./components/WeaponSection";
+import { WeaponTalentSection } from "./components/WeaponTalentSection";
 
 const categories = [
   ["Named & Exotic Weapons", "weapons"],
@@ -54,6 +55,7 @@ function App() {
         </section>
 
         <WeaponSection mode={mode} />
+        <WeaponTalentSection mode={mode} />
 
       </main>
 
