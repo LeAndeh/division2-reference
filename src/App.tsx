@@ -6,6 +6,7 @@ import "./styles/app.css";
 import { WeaponSection } from "./components/WeaponSection";
 import { WeaponTalentSection } from "./components/WeaponTalentSection";
 import { GearSetSection } from "./components/GearSetSection";
+import { BrandSetSection } from "./components/BrandSetSection";
 
 type Category =
   | "weapons"
@@ -88,10 +89,7 @@ function App() {
         )}
 
         {activeCategory === "brandsets" && (
-          <section className="empty-state">
-            <h2>Brand Sets</h2>
-            <p>This section has not been implemented yet.</p>
-          </section>
+          <BrandSetSection mode={mode} />
         )}
 
         {activeCategory === "gear" && (

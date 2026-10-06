@@ -4,6 +4,7 @@ import * as path from "node:path";
 import { weaponsSchema } from "../src/schemas/weaponSchema.js";
 import { weaponTalentsSchema } from "../src/schemas/weaponTalentSchema.js";
 import { gearSetsSchema } from "../src/schemas/gearSetSchema.js";
+import { brandSetsSchema } from "../src/schemas/brandSetSchema.js";
 
 const weaponsPath = path.resolve("src/data/weapons.json");
 const weaponTalentsPath = path.resolve("src/data/weapon-talents.json");
@@ -106,4 +107,38 @@ for (const gearSet of gearSetsResult.data) {
 
 console.log(
   `Gear set data valid: ${gearSetsResult.data.length} records checked, no duplicate IDs.`,
+);
+
+// brand set validation
+
+const brandSetsPath = path.resolve("src/data/brandsets.json");
+const brandSetsRawJson = fs.readFileSync(brandSetsPath, "utf8");
+const brandSetsData: unknown = JSON.parse(brandSetsRawJson);
+const brandSetsResult = brandSetsSchema.safeParse(brandSetsData);
+
+if (!brandSetsResult.success) {
+  console.error("Brand set data validation failed:\n");
+
+  for (const issue of brandSetsResult.error.issues) {
+    console.error(
+      `Path: ${issue.path.join(".") || "(root)"}\n` +
+        `Error: ${issue.message}\n`,
+    );
+  }
+
+  throw new Error("Brand set data validation failed.");
+}
+
+const brandSetIds = new Set<string>();
+
+for (const brandSet of brandSetsResult.data) {
+  if (brandSetIds.has(brandSet.id)) {
+    throw new Error(`Duplicate brand set id: ${brandSet.id}`);
+  }
+
+  brandSetIds.add(brandSet.id);
+}
+
+console.log(
+  `Brand set data valid: ${brandSetsResult.data.length} records checked, no duplicate IDs.`,
 );

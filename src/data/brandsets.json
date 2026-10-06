@@ -1,1 +1,631 @@
-[]
+[
+  {
+    "id": "5-11-tactical",
+    "name": "5.11 Tactical",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% Protection from Elites",
+        "twoPiece": "100% Increased Threat",
+        "threePiece": "30% Hazard Protection"
+      },
+      "pvp": {
+        "onePiece": "10% Protection from Elites",
+        "twoPiece": "100% Increased Threat",
+        "threePiece": "30% Hazard Protection"
+      }
+    }
+  },
+  {
+    "id": "badger-tuff",
+    "name": "Badger Tuff",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% Shotgun Damage",
+        "twoPiece": "10% Armor on Kill",
+        "threePiece": "15% Total Armor"
+      },
+      "pvp": {
+        "onePiece": "12% Shotgun Damage",
+        "twoPiece": "12% Armor on Kill",
+        "threePiece": "12% Total Armor"
+      }
+    }
+  },
+  {
+    "id": "belstone-armory",
+    "name": "Belstone Armory",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "1% Armor Regen",
+        "twoPiece": "100% Increased Threat",
+        "threePiece": "36% Protection from Elites"
+      },
+      "pvp": {
+        "onePiece": "1% Armor Regen",
+        "twoPiece": "100% Increased Threat",
+        "threePiece": "20% Protection from Elites"
+      }
+    }
+  },
+  {
+    "id": "brazos-de-arcabuz",
+    "name": "Brazos de Arcabuz",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "1 Skill Tier",
+        "threePiece": "50% Magazine Size"
+      },
+      "pvp": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "1 Skill Tier",
+        "threePiece": "50% Magazine Size"
+      }
+    }
+  },
+  {
+    "id": "gila-guard",
+    "name": "Gila Guard",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "5% Total Armor",
+        "twoPiece": "20% Hazard Protection",
+        "threePiece": "2% Armor Regen"
+      },
+      "pvp": {
+        "onePiece": "5% Total Armor",
+        "twoPiece": "15% Hazard Protection",
+        "threePiece": "2% Armor Regen"
+      }
+    }
+  },
+  {
+    "id": "golan-gear-ltd",
+    "name": "Golan Gear Ltd",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "20% Explosive Resistance",
+        "twoPiece": "1.5% Armor Regen",
+        "threePiece": "150% Increased Threat"
+      },
+      "pvp": {
+        "onePiece": "20% Explosive Resistance",
+        "twoPiece": "1.5% Armor Regen",
+        "threePiece": "150% Increased Threat"
+      }
+    }
+  },
+  {
+    "id": "habsburg-guard",
+    "name": "Habsburg Guard",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "13% Headshot Damage",
+        "twoPiece": "24% Marksman Rifle Damage",
+        "threePiece": "25% Status Effects"
+      },
+      "pvp": {
+        "onePiece": "13% Headshot Damage",
+        "twoPiece": "24% Marksman Rifle Damage",
+        "threePiece": "25% Status Effects"
+      }
+    }
+  },
+  {
+    "id": "lengmo",
+    "name": "Lengmo",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Reload Speed",
+        "twoPiece": "24% LMG Damage",
+        "threePiece": "30% Weapon Handling"
+      },
+      "pvp": {
+        "onePiece": "15% Reload Speed",
+        "twoPiece": "12% LMG Damage",
+        "threePiece": "30% Weapon Handling"
+      }
+    }
+  },
+  {
+    "id": "palisade-steelworks",
+    "name": "Palisade Steelworks",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Armor on Kill",
+        "twoPiece": "24% Protection from Elites",
+        "threePiece": "1+ Skill Tier"
+      },
+      "pvp": {
+        "onePiece": "10% Armor on Kill",
+        "twoPiece": "12% Protection from Elites",
+        "threePiece": "1+ Skill Tier"
+      }
+    }
+  },
+  {
+    "id": "uzina-getica",
+    "name": "Uzina Getica",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "5% Total Armor",
+        "twoPiece": "10% Armor on Kill",
+        "threePiece": "30% Hazard Protection"
+      },
+      "pvp": {
+        "onePiece": "5% Total Armor",
+        "twoPiece": "10% Armor on Kill",
+        "threePiece": "30% Hazard Protection"
+      }
+    }
+  },
+  {
+    "id": "yaahl-gear",
+    "name": "Yaahl Gear",
+    "coreAttribute": "armor",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Hazard Protection",
+        "twoPiece": "10% Weapon Damage",
+        "threePiece": "40% Pulse Resistance"
+      },
+      "pvp": {
+        "onePiece": "10% Hazard Protection",
+        "twoPiece": "10% Weapon Damage",
+        "threePiece": "40% Pulse Resistance"
+      }
+    }
+  },
+  {
+    "id": "alps-summit-armaments",
+    "name": "Alps Summit Armaments",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "18% Repair Skills",
+        "twoPiece": "30% Skill Duration",
+        "threePiece": "30% Skill Haste"
+      },
+      "pvp": {
+        "onePiece": "18% Repair Skills",
+        "twoPiece": "30% Skill Duration",
+        "threePiece": "30% Skill Haste"
+      }
+    }
+  },
+  {
+    "id": "china-light-industries",
+    "name": "China Light Industries",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Explosive Damage",
+        "twoPiece": "20% Status Effects",
+        "threePiece": "30% Skill Haste"
+      },
+      "pvp": {
+        "onePiece": "15% Explosive Damage",
+        "twoPiece": "8% Status Effects",
+        "threePiece": "20% Skill Haste"
+      }
+    }
+  },
+  {
+    "id": "electrique",
+    "name": "Electrique",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Status Effect",
+        "twoPiece": "20% Hazard Protection",
+        "threePiece": "8% Skill Efficiency"
+      },
+      "pvp": {
+        "onePiece": "10% Status effect",
+        "twoPiece": "20% Electricity Protection",
+        "threePiece": "6% Skill Efficiency"
+      }
+    }
+  },
+  {
+    "id": "empress-international",
+    "name": "Empress International",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Skill Health",
+        "twoPiece": "13% Skill Damage",
+        "threePiece": "8% Skill Efficiency"
+      },
+      "pvp": {
+        "onePiece": "10% Skill Health",
+        "twoPiece": "13% Skill Damage",
+        "threePiece": "8% Skill Efficiency"
+      }
+    }
+  },
+  {
+    "id": "hana-u-corporation",
+    "name": "Hana-U Corporation",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "13% Skill Damage",
+        "threePiece": "18% Weapon Damage"
+      },
+      "pvp": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "13% Skill Damage",
+        "threePiece": "18% Weapon Damage"
+      }
+    }
+  },
+  {
+    "id": "murakami-industries",
+    "name": "Murakami Industries",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Skill Duration",
+        "twoPiece": "35% Repair Skills",
+        "threePiece": "18% Skill Damage"
+      },
+      "pvp": {
+        "onePiece": "15% Skill Duration",
+        "twoPiece": "35% Repair Skills",
+        "threePiece": "18% Skill Damage"
+      }
+    }
+  },
+  {
+    "id": "richter-and-kaiser-gmbh",
+    "name": "Richter & Kaiser GmbH",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "40% Explosive Resistance",
+        "threePiece": "52% Repair Skills"
+      },
+      "pvp": {
+        "onePiece": "10% Skill Haste",
+        "twoPiece": "40% Explosive Resistance",
+        "threePiece": "52% Repair Skills"
+      }
+    }
+  },
+  {
+    "id": "shiny-monkey",
+    "name": "Shiny Monkey",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Skill Duration",
+        "twoPiece": "5% Skill Efficiency",
+        "threePiece": "52% Repair Skills"
+      },
+      "pvp": {
+        "onePiece": "15% Skill Duration",
+        "twoPiece": "5% Skill Efficiency",
+        "threePiece": "52% Repair Skills"
+      }
+    }
+  },
+  {
+    "id": "edelweiss-gpz",
+    "name": "Edelweiss GPz",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "18% Repair Skills",
+        "twoPiece": "20% Skill Haste",
+        "threePiece": "8% Skill Efficiency"
+      },
+      "pvp": {
+        "onePiece": "18% Repair Skills",
+        "twoPiece": "20% Skill Haste",
+        "threePiece": "8% Skill Efficiency"
+      }
+    }
+  },
+  {
+    "id": "wyvern-wear",
+    "name": "Wyvern Wear",
+    "coreAttribute": "skill-tier",
+    "bonuses": {
+      "pve": {
+        "onePiece": "8% Skill Damage",
+        "twoPiece": "20% Status Effects",
+        "threePiece": "45% Skill Duration"
+      },
+      "pvp": {
+        "onePiece": "8% Skill Damage",
+        "twoPiece": "20% Status Effects",
+        "threePiece": "45% Skill Duration"
+      }
+    }
+  },
+  {
+    "id": "airaldi-holdings",
+    "name": "Airaldi Holdings",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% Marksman Rifle Damage",
+        "twoPiece": "26% Headshot Damage",
+        "threePiece": "5% Damage to Armor"
+      },
+      "pvp": {
+        "onePiece": "12% Marksman Rifle Damage",
+        "twoPiece": "26% Headshot Damage",
+        "threePiece": "5% Damage to Armor"
+      }
+    }
+  },
+  {
+    "id": "unit-alloys",
+    "name": "Unit Alloys",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "5% Rate of Fire",
+        "twoPiece": "24% Assault Rifle Damage",
+        "threePiece": "50% Magazine Size"
+      },
+      "pvp": {
+        "onePiece": "5% Rate of Fire",
+        "twoPiece": "24% Assault Rifle Damage",
+        "threePiece": "50% Magazine Size"
+      }
+    }
+  },
+  {
+    "id": "ceska-vyroba-s-r-o",
+    "name": "Česká Výroba s.r.o.",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "8% Critical Hit Chance",
+        "twoPiece": "24% Shotgun Damage",
+        "threePiece": "30% Hazard Protection"
+      },
+      "pvp": {
+        "onePiece": "8% Critical Hit Chance",
+        "twoPiece": "12% Shotgun Damage",
+        "threePiece": "30% Hazard Protection"
+      }
+    }
+  },
+  {
+    "id": "douglas-and-harding",
+    "name": "Douglas & Harding",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "24% Pistol Damage",
+        "twoPiece": "20% Skill Health",
+        "threePiece": "50% Accuracy"
+      },
+      "pvp": {
+        "onePiece": "24% Pistol Damage",
+        "twoPiece": "20% Skill Health",
+        "threePiece": "50% Accuracy"
+      }
+    }
+  },
+  {
+    "id": "fenris-group-ab",
+    "name": "Fenris Group AB",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% Assault Rifle Damage",
+        "twoPiece": "32% Magazine Size",
+        "threePiece": "50% Stability"
+      },
+      "pvp": {
+        "onePiece": "12% Assault Rifle Damage",
+        "twoPiece": "20% Magazine Size",
+        "threePiece": "50% Stability"
+      }
+    }
+  },
+  {
+    "id": "grupo-sombra-s-a",
+    "name": "Grupo Sombra S.A.",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "13% Critical Hit Damage",
+        "twoPiece": "20% Explosive Damage",
+        "threePiece": "39% Headshot Damage"
+      },
+      "pvp": {
+        "onePiece": "13% Critical Hit Damage",
+        "twoPiece": "20% Explosive Damage",
+        "threePiece": "39% Headshot Damage"
+      }
+    }
+  },
+  {
+    "id": "imminence-armaments",
+    "name": "Imminence Armaments",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "6% Weapon Damage",
+        "twoPiece": "48% Pistol Damage",
+        "threePiece": "30% Skill Health"
+      },
+      "pvp": {
+        "onePiece": "6% Weapon Damage",
+        "twoPiece": "22% Pistol Damage",
+        "threePiece": "30% Skill Health"
+      }
+    }
+  },
+  {
+    "id": "legatus-s-p-a",
+    "name": "Legatus S.p.A",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Magazine size",
+        "twoPiece": "24% SMG Damage",
+        "threePiece": "105% Optimal Range"
+      },
+      "pvp": {
+        "onePiece": "10% Magazine size",
+        "twoPiece": "12% SMG Damage",
+        "threePiece": "75% Optimal Range"
+      }
+    }
+  },
+  {
+    "id": "overlord-armaments",
+    "name": "Overlord Armaments",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% Rifle Damage",
+        "twoPiece": "30% Accuracy",
+        "threePiece": "30% Weapon Handling"
+      },
+      "pvp": {
+        "onePiece": "12% Rifle Damage",
+        "twoPiece": "30% Accuracy",
+        "threePiece": "30% Weapon Handling"
+      }
+    }
+  },
+  {
+    "id": "petrov-defense-group",
+    "name": "Petrov Defense Group",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% LMG Damage",
+        "twoPiece": "15% Weapon Handling",
+        "threePiece": "50% Ammo Capacity"
+      },
+      "pvp": {
+        "onePiece": "12% LMG Damage",
+        "twoPiece": "15% Weapon Handling",
+        "threePiece": "50% Ammo Capacity"
+      }
+    }
+  },
+  {
+    "id": "providence-defense",
+    "name": "Providence Defense",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "13% Headshot Damage",
+        "twoPiece": "8% Critical Hit Chance",
+        "threePiece": "13% Critical Hit Damage"
+      },
+      "pvp": {
+        "onePiece": "13% Headshot Damage",
+        "twoPiece": "8% Critical Hit Chance",
+        "threePiece": "13% Critical Hit Damage"
+      }
+    }
+  },
+  {
+    "id": "royal-works",
+    "name": "Royal Works",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "5% Weapon Handling",
+        "twoPiece": "24% LMG damage",
+        "threePiece": "50% Accuracy"
+      },
+      "pvp": {
+        "onePiece": "5% Weapon Handling",
+        "twoPiece": "12% LMG damage",
+        "threePiece": "40% Accuracy"
+      }
+    }
+  },
+  {
+    "id": "sokolov-concern",
+    "name": "Sokolov Concern",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "12% SMG Damage",
+        "twoPiece": "13% Critical Hit Damage",
+        "threePiece": "8% Critical Hit Chance"
+      },
+      "pvp": {
+        "onePiece": "12% SMG Damage",
+        "twoPiece": "13% Critical Hit Damage",
+        "threePiece": "8% Critical Hit Chance"
+      }
+    }
+  },
+  {
+    "id": "urban-lookout",
+    "name": "Urban Lookout",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "5% weapon handling",
+        "twoPiece": "24% Marksman Rifle Damage",
+        "threePiece": "45% Skill Duration"
+      },
+      "pvp": {
+        "onePiece": "10% weapon handling",
+        "twoPiece": "12% Marksman Rifle Damage",
+        "threePiece": "30% Skill Duration"
+      }
+    }
+  },
+  {
+    "id": "walker-harris-and-co",
+    "name": "Walker, Harris & Co.",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "6% Weapon Damage",
+        "twoPiece": "5% Damage to Armor",
+        "threePiece": "10% Damage to Health"
+      },
+      "pvp": {
+        "onePiece": "6% Weapon Damage",
+        "twoPiece": "5% Damage to Armor",
+        "threePiece": "10% Damage to Health"
+      }
+    }
+  },
+  {
+    "id": "zwiadowka-sp-z-o-o",
+    "name": "Zwiadowka Sp. z o.o.",
+    "coreAttribute": "weapon-damage",
+    "bonuses": {
+      "pve": {
+        "onePiece": "15% Magazine size",
+        "twoPiece": "24% Rifle Damage",
+        "threePiece": "30% Weapon Handling"
+      },
+      "pvp": {
+        "onePiece": "15% Magazine size",
+        "twoPiece": "24% Rifle Damage",
+        "threePiece": "30% Weapon Handling"
+      }
+    }
+  }
+]
