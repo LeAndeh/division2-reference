@@ -34,22 +34,23 @@ function GearCard({ item, mode }: GearCardProps) {
       aria-label={`${item.name}, ${item.type} gear`}
     >
       <div className="gear-card__header">
+        <span className="gear-card__classification">{item.type.toUpperCase()}</span>
         <div>
-          <h3>{item.name}</h3>
+          <h2>{item.name}</h2>
           {item.brand && <p className="gear-card__brand">{item.brand}</p>}
         </div>
       </div>
 
       {item.talent && (
         <div className="gear-card__talent">
-          <h4>{item.talent.name}</h4>
+          <h3>{item.talent.name}</h3>
           {talentDescription && <p>{talentDescription}</p>}
         </div>
       )}
 
       {!item.talent && specialEffect && (
         <div className="gear-card__special">
-          <h4>Unique Effect</h4>
+          <h3>Unique Effect</h3>
           <p>{specialEffect}</p>
         </div>
       )}
