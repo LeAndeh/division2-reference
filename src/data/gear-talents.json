@@ -1,1 +1,959 @@
-[]
+[
+  {
+    "id": "explosive-delivery",
+    "slot": "chest",
+    "category": "Skill DPS",
+    "normal": {
+      "name": "Explosive Delivery",
+      "description": {
+        "pve": "Whenever you throw a skill, 1.5 seconds after landing, it creates an explosion damaging enemies within 5m.\nAfterwards explosions will occur evey 5s.\n\nDamage scales with skill tier dealing 25-100% damage of a concussion grenade.\n\nOccurs once per skill.\n\nApplies to Remote Pulse, All Turrets, All Hives, Explosive Seeker, Cluster Seeker, Mender Seeker, Decoy, All Traps.",
+        "pvp": "Whenever you throw a skill, 2.5 seconds after landing, it creates an explosion damaging enemies within 3m.\nAfterwards explosions will occur evey 8s.\n\nDamage scales with skill tier dealing 20-80% damage of a concussion grenade.\n\nOccurs once per skill.\n\nApplies to Remote Pulse, All Turrets, All Hives, Explosive Seeker, Cluster Seeker, Mender Seeker, Decoy, All Traps."
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Explosive Delivery",
+      "description": {
+        "pve": "Whenever you throw a skill, 1.5 seconds after landing, it creates an explosion damaging enemies within 5m.\nAfterwards explosions will occur evey 5s.\n\nDamage scales with skill tier dealing 25-100% damage of a concussion grenade.\n\nOccurs once per skill.\n\nApplies to Remote Pulse, All Turrets, All Hives, Explosive Seeker, Cluster Seeker, Mender Seeker, Decoy, All Traps.",
+        "pvp": "Whenever you throw a skill, 2.5 seconds after landing, it creates an explosion damaging enemies within 3m.\nAfterwards explosions will occur evey 8s.\n\nDamage scales with skill tier dealing 20-80% damage of a concussion grenade.\n\nOccurs once per skill.\n\nApplies to Remote Pulse, All Turrets, All Hives, Explosive Seeker, Cluster Seeker, Mender Seeker, Decoy, All Traps."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "kinetic-momentum",
+    "slot": "chest",
+    "category": "Skill DPS/ Sustain",
+    "normal": {
+      "name": "Kinetic Momentum",
+      "description": {
+        "pve": "When in combat, each skill generates stacks while active or not on cooldown\n\nEach stack increases your total skill damage by 1.5% and total skill repair by 2%.\nUp to 15 stacks per skill.\nStacks are lost when skills go on cooldown.",
+        "pvp": "When in combat, ea skill generates stacks while active or not on CD\nEach stack increases your total skill damage by 0.8% and total skill repair by 2.5%.\nUp to 15 stacks per skill.\nStacks are lost when skills go on cooldown."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Kinetic Momentum",
+      "description": {
+        "pve": "When in combat, each skill generates stacks while active or not on cooldown\n\nEach stack increases your total skill damage by 1.5% and total skill repair by 2%.\nUp to 18 stacks per skill.\nStacks are lost when skills go on cooldown.",
+        "pvp": "When in combat, ea skill generates stacks while active or not on CD\nEach stack increases your total skill damage by 0.8% and total skill repair by 2.5%.\nUp to 18 stacks per skill.\nStacks are lost when skills go on cooldown."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "gunslinger",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Gunslinger",
+      "description": {
+        "pve": "Weapon swapping increases total weapon damage by 23% for 5s.\nThis buff is lost for 5s if you weapon swap while it is active.",
+        "pvp": "Weapon swapping increases TWD by 15% for 4s.\nThis buff is lost for 4s if you weapon swap while it is active."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Gunslinger",
+      "description": {
+        "pve": "Weapon swapping increases total weapon damage by 30% for 5s.\nThis buff is lost for 5s if you weapon swap while it is active.",
+        "pvp": "Weapon swapping increases TWD by 20% for 4s.\nThis buff is lost for 4s if you weapon swap while it is active."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "focus",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Focus",
+      "description": {
+        "pve": "Increases total weapon damage by 5% every second you are aiming while scoped 8x or higher, up to 50%.",
+        "pvp": "Increases TWD by 7% every second you are aiming while scoped 8x or higher, up to 50%."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Focus",
+      "description": {
+        "pve": "Increases total weapon damage by 6% every second you are aiming while scoped 8x or higher, up to 60%.",
+        "pvp": "Increases TWD by 10% every second you are aiming while scoped 8x or higher, up to 60%."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "spark",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Spark",
+      "description": {
+        "pve": "Damaging an enemy with a skill increases total weapon damage by 15% for 15s.",
+        "pvp": "Damaging an enemy with a skill increases total weapon damage by 14% for 8s."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Spark",
+      "description": {
+        "pve": "Damaging an enemy with a skill increases total weapon damage by 18% for 20s.",
+        "pvp": "Damaging an enemy with a skill increases total weapon damage by 18% for 12s."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "obliterate",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Obliterate",
+      "description": {
+        "pve": "Critical hits increase total weapon damage by 1% for 10s. Stacks up to 20 times.",
+        "pvp": "Critical hits increase total weapon damage by 1% for 10s. Stacks up to 16 times."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Obliterate",
+      "description": {
+        "pve": "Critical hits increase total weapon damage by 1% for 10s. Stacks up to 24 times.",
+        "pvp": "Critical hits increase total weapon damage by 1% for 10s. Stacks up to 20 times."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "intimidate",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Intimidate",
+      "description": {
+        "pve": "While you have bonus armour, gain 3 stacks each second up to a max of 9. Each stack increases total weapon damage by 4% to enemies within 10m.\n\nAll stacks are lost when you have no bonus armour.",
+        "pvp": "While you have bonus armour, gain 3 stacks each second up to a max of 9. Each stack increases total weapon damage by 2% to enemies within 10m.\n\nAll stacks are lost when you have no bonus armour."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Intimidate",
+      "description": {
+        "pve": "While you have bonus armour, gain 3 stacks each second up to a max of 10. Each stack increases total weapon damage by 4% to enemies within 10m.\n\nAll stacks are lost when you have no bonus armour.",
+        "pvp": "While you have bonus armour, gain 3 stacks each second up to a max of 12. Each stack increases total weapon damage by 2% to enemies within 10m.\n\nAll stacks are lost when you have no bonus armour."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "headhunter",
+    "slot": "chest",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Headhunter",
+      "description": {
+        "pve": "After killing an enemy with a headshot, your next weapon hit within 30s deals 125% of that killing blow’s damage in addition to it.\nDamage is capped to 800% of your weapon damage. This is raised to 1250% if your headshot damage is greater than 150%.",
+        "pvp": "After killing an enemy with a HS, your next weapon hit within 8s deals 30% of that killing blow’s damage in addition to it.\nDamage is capped to 300% of your WD. This is raised to 450% if your HSD is greater than 150%."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Headhunter",
+      "description": {
+        "pve": "After killing an enemy with a headshot, your next weapon hit within 30s deals 150% of that killing blow’s damage in addition to it.\nDamage is capped to 800% of your weapon damage. This is raised to 1250% if your headshot damage is greater than 150%.",
+        "pvp": "After killing an enemy with a HS, your next weapon hit within 8s deals 50% of that killing blow’s damage in addition to it.\nDamage is capped to 300% of your WD. This is raised to 450% if your HSD is greater than 150%."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "empathic-resolve",
+    "slot": "chest",
+    "category": "Weapon/ Skill DPS",
+    "normal": {
+      "name": "Empathic Resolve",
+      "description": {
+        "pve": "Repairing an ally, increases their total weapon and skill damage by 3-15% for 20s.\n1-7% if self.\n\nEffectiveness increased by your skill tier.",
+        "pvp": "Repairing an ally, increases their total weapon and skill damage by 3-12% for 7s.\n1-7% if self.\n\nEffectiveness increased by your skill tier."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Empathic Resolve",
+      "description": {
+        "pve": "Repairing an ally, increases their total weapon and skill damage by 3%-20% for 20s.\n1%-15% if self.\n\nEffectiveness increased by your skill tier.",
+        "pvp": "Repairing an ally, increases their total weapon and skill damage by 3%-15% for 7s.\n1%-10% if self.\n\nEffectiveness increased by your skill tier."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "overwatch",
+    "slot": "chest",
+    "category": "Weapon/ Skill DPS",
+    "normal": {
+      "name": "Overwatch",
+      "description": {
+        "pve": "After staying in cover for 10s, increase your and all allies’ total weapon and skill damage by 12% as long as you remain in cover or in a cover-to-cover move.",
+        "pvp": "After staying in cover for 8s, increase your and all allies’ TWD and skill damage by 14% as long as you remain in cover or in a cover-to-cover move."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Overwatch",
+      "description": {
+        "pve": "After staying in cover for 8s, increase your and all allies’ total weapon and skill damage by 14% as long as you remain in cover or in a cover-to-cover move.",
+        "pvp": "After staying in cover for 6s, increase your and all allies’ TWD and skill damage by 18% as long as you remain in cover or in a cover-to-cover move."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "glass-cannon",
+    "slot": "chest",
+    "category": "Weapon/ Skill DPS",
+    "normal": {
+      "name": "Glass Cannon",
+      "description": {
+        "pve": "All damage you deal is amplified by 25%.\nAll damage you take is amplified by 50%.",
+        "pvp": "All damage you deal is amplified by 20%.\nAll damage you take is amplified by 40%."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Glass Cannon",
+      "description": {
+        "pve": "All damage you deal is amplified by 30%.\nAll damage you take is amplified by 60%.",
+        "pvp": "All damage you deal is amplified by 25%.\nAll damage you take is amplified by 50%."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "spotter",
+    "slot": "chest",
+    "category": "Weapon/ Skill DPS",
+    "normal": {
+      "name": "Spotter",
+      "description": {
+        "pve": "Amplifies total weapon and skill damage by 15% to pulsed enemies.",
+        "pvp": "Amplifies total weapon and skill damage by 10% to pulsed enemies."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Spotter",
+      "description": {
+        "pve": "Amplifies total weapon and skill damage by 20% to pulsed enemies.",
+        "pvp": "Amplifies total weapon and skill damage by 15% to pulsed enemies."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "unbreakable",
+    "slot": "chest",
+    "category": "Sustain",
+    "normal": {
+      "name": "Unbreakable",
+      "description": {
+        "pve": "When your armor is depleted, repair 95% of your armor. 60s cool down.",
+        "pvp": "When your armor is depleted, repair 30% of your armor. 50s cool down."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Unbreakable",
+      "description": {
+        "pve": "When your armor is depleted, repair 100% of your armor. 55s cool down.",
+        "pvp": "When your armor is depleted, repair 50% of your armor. 50s cool down."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "vanguard",
+    "slot": "chest",
+    "category": "Sustain",
+    "normal": {
+      "name": "Vanguard",
+      "description": {
+        "pve": "Deploying a shield makes it invulnerable for 5s and grants 45% of your armor as bonus armor to all other allies for 20s.\n\nCooldown: 25s",
+        "pvp": "Deploying a shield makes it invulnerable for 3s and grants 30% of your armor as bonus armor to all other allies for 5s.\nCooldown: 30s"
+      }
+    },
+    "perfect": {
+      "name": "Perfect Vanguard",
+      "description": {
+        "pve": "Deploying a shield makes it invulnerable for 5s and grants 50% of your armor as bonus armor to all other allies for 20s.\n\nCooldown: 25s",
+        "pvp": "Deploying a shield makes it invulnerable for 3s and grants 40% of your armor as bonus armor to all other allies for 5s.\nCooldown: 30s"
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "protected-reload",
+    "slot": "chest",
+    "category": "Sustain",
+    "normal": {
+      "name": "Protected Reload",
+      "description": {
+        "pve": "Grants +20% bonus armor while reloading.\nGrants 0%-18% of your armor as bonus armor to all other allies when they are reloading\n\nEach blue core attribute adds 3% to the bonus armour Maximum is 18%",
+        "pvp": "Grants +20% bonus armor while reloading.\nGrants 0%-18% of your armor as bonus armor to all other allies when they are reloading\nEach blue core attribute adds 3% to the bonus armour Maximum is 18%"
+      }
+    },
+    "perfect": {
+      "name": "Perfect Protected Reload",
+      "description": {
+        "pve": "Grants +40% bonus armor while reloading.\nGrants 0-30% of your armor as bonus armor to all other allies when they are reloading\n\nEach blue core attribute adds 3% to the bonus armour Maximum is 18%",
+        "pvp": "Grants +40% bonus armor while reloading.\nGrants 0-30% of your armor as bonus armor to all other allies when they are reloading\nEach blue core attribute adds 3% to the bonus armour Maximum is 18%"
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "entrench",
+    "slot": "chest",
+    "category": "Sustain",
+    "normal": {
+      "name": "Entrench",
+      "description": {
+        "pve": "If you are below 30% armor, headshots from cover repair 20% of your armor.\n\nCooldown: 2 seconds.",
+        "pvp": "If you are below40% armor, headshots from cover repair 20% of your armor.\nCooldown: 3 seconds."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Entrench",
+      "description": {
+        "pve": "If you are below 30% armor, headshots from cover repair 30% of your armor.\n\nCooldown: 1 second.",
+        "pvp": "If you are below40% armor, headshots from cover repair 40% of your armor.\nCooldown: 5 seconds."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "efficient",
+    "slot": "chest",
+    "category": "Sustain",
+    "normal": {
+      "name": "Efficient",
+      "description": {
+        "pve": "Using an armor kit has a 50% chance to not consume the armor kit. Specialization armor kit bonuses are increased by 100%.\n\nRequires 10 seconds to arm talent",
+        "pvp": "Using an armor kit has a 35% chance to not consume the armor kit. Specialization armor kit bonuses are increased by 30%.\nRequires 14 seconds to arm talent"
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Efficient",
+      "description": {
+        "pve": "Using an armor kit has a 75% chance to not consume the armor kit. Specialization armor kit bonuses are increased by 100%.\n\nRequires 10 seconds to arm talent",
+        "pvp": "Using an armor kit has a 50% chance to not consume the armor kit. Specialization armor kit bonuses are increased by 40%.\nRequires 14 seconds to arm talent"
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "mad-bomber",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Mad Bomber",
+      "description": {
+        "pve": "Grenade Radius is increased by 50%\nGrenade that kill an enemy are refunded.\nGrenades can now be ''cooked'' by holding the fire button, making them explode earlier.\nGain 15% bonus armor while aiming grendes",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Mad Bomber",
+      "description": {
+        "pve": "Grenade Radius is increased by 75%\nGrenade that kill an enemy are refunded.\nGrenades can now be ''cooked'' by holding the fire button, making them explode earlier.\nGain 15% bonus armor while aiming grendes",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "braced",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Braced",
+      "description": {
+        "pve": "While in cover weapon handling is increased by 45%.",
+        "pvp": "While in cover weapon handling is increased by 42%."
+      }
+    },
+    "perfect": {
+      "name": "Perfect Braced",
+      "description": {
+        "pve": "While in cover weapon handling is increased by 50%.",
+        "pvp": "While in cover weapon handling is increased by 58%."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "skilled",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Skilled",
+      "description": {
+        "pve": "Skill kills have a 25% chance to reset skill cooldowns.",
+        "pvp": "Skill kills have a 20% chance to reset skill CDs."
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Skilled",
+      "description": {
+        "pve": "Skill kills have a 30% chance to reset skill cooldowns.",
+        "pvp": "Skill kills have a 25% chance to reset skill CDs."
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "tag-team",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Tag Team",
+      "description": {
+        "pve": "The last enemy you have damaged with a skill is marked.\nDealing weapon damage to that enemy consumes the mark to reduce active cooldowns by 6s.\n\nCooldown: 4s",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": null,
+      "description": null
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "trauma",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Trauma",
+      "description": {
+        "pve": "Applies blind to an enemy hit in the head. Cooldown: 30 seconds.\nApplies bleed to an enemy hit in the chest. Cooldown: 30 seconds.",
+        "pvp": "Applies blind to an enemy hit in the head. Cooldown: 35 sec\nApplies bleed to an enemy hit in the chest.Cooldown:35 sec"
+      }
+    },
+    "perfect": {
+      "name": "Perfect Trauma",
+      "description": {
+        "pve": "Applies blind to an enemy hit in the head. Cooldown: 20 seconds.\nApplies bleed to an enemy hit in the chest. Cooldown: 20 seconds.",
+        "pvp": "Applies blind to an enemy hit in the head. Cooldown: 25 sec\nApplies bleed to an enemy hit in the chest.Cooldown:25 sec"
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "tamper-proof",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Tamper Proof",
+      "description": {
+        "pve": "Enemies that walk within 3m of your hive, turret, remote pulse, or decoy are shocked.\n\nArm time: 2 seconds\nCooldown per skill: 10 seconds",
+        "pvp": "Enemies that walk within 3m of your hive, turret, remote pulse, or decoy are shocked.\n\nArm time: 3 seconds\nCooldown per skill: 10 seconds"
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Tamper Proof",
+      "description": {
+        "pve": "Enemies that walk within 3m of your hive, turret, remote pulse, or decoy are shocked.\n\nArm time: 2 seconds\nCooldown per skill: 8 Seconds",
+        "pvp": "Enemies that walk within 3m of your hive, turret, remote pulse, or decoy are shocked.\n\nArm time: 3 seconds\nCooldown per skill: 8 Seconds"
+      }
+    },
+    "pvpModifier": null,
+    "notes": "Perfect version is available only on the backpack ( Palisade Steelworks: Proxy)"
+  },
+  {
+    "id": "reassigned",
+    "slot": "chest",
+    "category": "Utility",
+    "normal": {
+      "name": "Reassigned",
+      "description": {
+        "pve": "Killing an enemy adds 1 round of a random special ammo into your sidearm.\nCooldown: 15 seconds.",
+        "pvp": "Killing an enemy adds 2 round of a random special ammo into your sidearm.             Cooldown: 8 seconds."
+      }
+    },
+    "perfect": {
+      "name": null,
+      "description": null
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "combined-arms",
+    "slot": "backpack",
+    "category": "Skill DPS",
+    "normal": {
+      "name": "Combined Arms",
+      "description": {
+        "pve": "Shooting an enemy increases total skill damage by 25% for 3s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Combined Arms",
+      "description": {
+        "pve": "Shooting an enemy increases total skill damage by 30% for 3s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "tech-support",
+    "slot": "backpack",
+    "category": "Skill DPS",
+    "normal": {
+      "name": "Tech Support",
+      "description": {
+        "pve": "Skill kills increase total skill damage by 25% for 25s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Tech Support",
+      "description": {
+        "pve": "Skill kills increase total skill damage by 25% for 27s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "shock-and-awe",
+    "slot": "backpack",
+    "category": "Skill DPS/ Sustain",
+    "normal": {
+      "name": "Shock and Awe",
+      "description": {
+        "pve": "Applying a status effect to an enemy increases total skill damage and repair by 20% for 20s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Shock and Awe",
+      "description": {
+        "pve": "Applying a status effect to an enemy increases total skill damage and repair by 20% for 27s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "vigilance",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Vigilance",
+      "description": {
+        "pve": "Increases total weapon damage by 25%. Taking damage disables this buff for 4s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Vigilance",
+      "description": {
+        "pve": "Increases total weapon damage by 25%. Taking damage disables this buff for 3s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "versatile",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Versatile",
+      "description": {
+        "pve": "Amplifies total weapon damage for 10s when swapping between your primary and secondary weapons if they are different.\n\n35% to enemies within 15m for Shotguns and SMGs\n35% to enemies further than 25m for Rifles and MMRs\n10% to enemies between 15-25m for LMGs and Assault Rifles.\n\nAt most once per 5s per weapon type.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Versatile",
+      "description": {
+        "pve": "Amplifies total weapon damage for 10s when swapping between your primary and secondary weapons if they are different.\n\n45% to enemies within 15m for Shotguns and SMGs\n45% to enemies further than 25m for Rifles and MMRs\n20% to enemies between 15-25m for LMGs and Assault Rifles.\n\nAt most once per 5s per weapon type.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "unstoppable-force",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Unstoppable Force",
+      "description": {
+        "pve": "Killing an enemy increases total weapon damage by 5% for 15s.\nStacks up to 5 times.\n\nGrenade kills add 2 stacks.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Unstoppable Force",
+      "description": {
+        "pve": "Killing an enemy increases total weapon damage by 7% for 15s.\nStacks up to 5 times.\n\nGrenade kills add 2 stacks.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "companion",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Companion",
+      "description": {
+        "pve": "While you are within 5 m of an ally or skill, total weapon damage is increased by 15%",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Companion",
+      "description": {
+        "pve": "While you are within 10 m of an ally or skill, total weapon damage is increased by 20%",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": "Perfect is on named CHEST item Only."
+  },
+  {
+    "id": "composure",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Composure",
+      "description": {
+        "pve": "While in cover, increases total weapon damage by 15%.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Composure",
+      "description": {
+        "pve": "While in cover, increases total weapon damage by 15%.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "concussion",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Concussion",
+      "description": {
+        "pve": "Headshots increase total weapon damage by 10% for 1.5s, 5s with marksman rifles.\nHeadshot kills increase total weapon damage by 15% for 10s.\n\nBoth buffs can be active for an increase of 25% total weapon damage",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Concussion",
+      "description": {
+        "pve": "Headshots increase total weapon damage by 20% for 1.5s, 5s with marksman rifles.\nHeadshot kills increase total weapon damage by 15% for 10s.\n\nBoth buffs can be active for an increase of 35% total weapon damage",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "wicked",
+    "slot": "backpack",
+    "category": "Weapon DPS",
+    "normal": {
+      "name": "Wicked",
+      "description": {
+        "pve": "Applying a status effect increases total weapon damage by 18% for 20s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Wicked",
+      "description": {
+        "pve": "Applying a status effect increases total weapon damage by 18% for 27s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "opportunistic",
+    "slot": "backpack",
+    "category": "Weapon/ Skill DPS",
+    "normal": {
+      "name": "Opportunistic",
+      "description": {
+        "pve": "Enemies you hit with shotguns and marksman rifles amplifies the damage they take by 10% from all sources for 5s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Opportunistic",
+      "description": {
+        "pve": "Enemies you hit with shotguns and marksman rifles amplifies the damage they take by 15% from all sources for 5s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "clutch",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Clutch",
+      "description": {
+        "pve": "When you are below 15% armor, critical hits repair 2.5% of missing armor.\nOn kill, critical hits repair 2.5% of missing armor for 4 seconds.\nLowest possible repair is 0% armour\n\nEach red core attribute adds 1 second to the time.\nMaximum is 10 seconds.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Clutch",
+      "description": {
+        "pve": "When you are below 20% armor, critical hits repair 2.5% of missing armor.\nOn kill, critical hits repair 2.5% of missing armor for 4 seconds.\nLowest possible repair is 0% armour\n\nEach red core attribute adds 1 second to the time.\nMaximum is 10 seconds.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "safeguard",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Safeguard",
+      "description": {
+        "pve": "While at full armor, increases total skill repair by 130%.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Safeguard",
+      "description": {
+        "pve": "While at full armor, increases total skill repair by 160%.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "bloodsucker",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Bloodsucker",
+      "description": {
+        "pve": "Killing an enemy adds and refreshes a stack of +10% bonus armor for 10s. Max stack is 10.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Bloodsucker",
+      "description": {
+        "pve": "Killing an enemy adds and refreshes a stack of +12% bonus armor for 10s. Max stack is 10.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "leadership",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Leadership",
+      "description": {
+        "pve": "Performing a cover to cover grants 15% of your armor as bonus armor to you and all allies for 10s.\nThis is doubled if you end within 10m of an enemy.\n\nCooldown: 10s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Leadership",
+      "description": {
+        "pve": "Performing a cover to cover grants 20% of your armor as bonus armor to you and all allies for 10s.\nThis is tripled if you end within 10m of an enemy.\n\nCooldown: 10s.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": "8% of armor",
+    "notes": null
+  },
+  {
+    "id": "protector",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Protector",
+      "description": {
+        "pve": "When your shield is damaged, you gain +5% and all other allies gain +15% of your armor as bonus armor for 3s.\n\nCooldown: 3s.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": null,
+      "description": null
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "adrenaline-rush",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Adrenaline Rush",
+      "description": {
+        "pve": "When you are within 10m of an enemy, gain 20% bonus armor for 5s. Stacks up to 3 times.\n\nCooldown: 5s",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Adrenaline Rush",
+      "description": {
+        "pve": "When you are within 10m of an enemy, gain 23% bonus armor for 5s. Stacks up to 3 times.\n\nCooldown: 5s",
+        "pvp": null
+      }
+    },
+    "pvpModifier": "Gain 10% bonus armor,\nPerfect: Gain 12% bonus armour",
+    "notes": null
+  },
+  {
+    "id": "galvanize",
+    "slot": "backpack",
+    "category": "Sustain",
+    "normal": {
+      "name": "Galvanize",
+      "description": {
+        "pve": "Applying a Blind, Ensnare, Confuse, or Shock to an enemy grants 40% of your armor as bonus armor to you and all allies within 20m of that enemy for 10s",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Galvanize",
+      "description": {
+        "pve": "Applying a Blind, Ensnare, Confuse, or Shock to an enemy grants 50% of your armor as bonus armor to you and all allies within 30m of that enemy for 10s",
+        "pvp": null
+      }
+    },
+    "pvpModifier": "20% of armor",
+    "notes": null
+  },
+  {
+    "id": "energize",
+    "slot": "backpack",
+    "category": "Utility",
+    "normal": {
+      "name": "Energize",
+      "description": {
+        "pve": "Using an armor kit grants +1 skill tier for 15s.\nIf already at skill tier 6, grants overcharge.\n\nCooldown: 60s",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Energize",
+      "description": {
+        "pve": "Using an armor kit grants +1 skill tier for 15s.\nIf already at skill tier 6, grants overcharge.\n\nCooldown: 30s",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "calculated",
+    "slot": "backpack",
+    "category": "Utility",
+    "normal": {
+      "name": "Calculated",
+      "description": {
+        "pve": "Kills from cover reduce skill cooldowns by 10%.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfectly Calculated",
+      "description": {
+        "pve": "Kills from cover reduce skill cooldowns by 15%.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "overclock",
+    "slot": "backpack",
+    "category": "Utility",
+    "normal": {
+      "name": "Overclock",
+      "description": {
+        "pve": "You and allies within 7m of your deployed skills, gain +25% reload speed and reduces active cooldowns by 0.2 each second.",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Overclock",
+      "description": {
+        "pve": "You and allies within 15m of your deployed skills, gain +30% reload speed and reduces active cooldowns by 0.6 each second.",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  },
+  {
+    "id": "creeping-death",
+    "slot": "backpack",
+    "category": "Utility",
+    "normal": {
+      "name": "Creeping Death",
+      "description": {
+        "pve": "When you apply a status effect, it is also applied to all enemies within 8m of your target.\n\nCooldown: 15s",
+        "pvp": null
+      }
+    },
+    "perfect": {
+      "name": "Perfect Creeping Death",
+      "description": {
+        "pve": "When you apply a status effect, it is also applied to all enemies within 10m of your target.\n\nCooldown: 10s",
+        "pvp": null
+      }
+    },
+    "pvpModifier": null,
+    "notes": null
+  }
+]

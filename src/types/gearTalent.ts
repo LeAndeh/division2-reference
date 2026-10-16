@@ -1,10 +1,18 @@
-import type { ModeValue } from './common'
+import type { ModeValue } from "./common";
+
+export type GearTalentSlot = "chest" | "backpack";
+
+export interface GearTalentVersion {
+  name: string | null;
+  description: ModeValue<string> | null;
+}
 
 export interface GearTalent {
-  id: string
-  name: string
-  perfectName?: string | null
-  slot: 'chest' | 'backpack'
-  category?: string | null
-  description: ModeValue<string>
+  id: string;
+  slot: GearTalentSlot;
+  category: string;
+  normal: GearTalentVersion;
+  perfect: GearTalentVersion;
+  pvpModifier?: string | null;
+  notes?: string | null;
 }
