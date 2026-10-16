@@ -260,7 +260,7 @@ footer {
   display: block;
   margin-bottom: 0.75rem;
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .weapon-card--named .weapon-card__classification,
@@ -296,6 +296,8 @@ footer {
 .gear-card__talent p,
 .gear-card__special p {
   margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
   white-space: pre-line;
 }
 
@@ -338,6 +340,8 @@ footer {
 .weapon-card__details-content,
 .gear-card__details-content {
   margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -381,6 +385,8 @@ footer {
 
 /* weapon talents card */
 .weapon-talent-card__description {
+  font-size: 0.9rem;
+  line-height: 1.5;
   white-space: pre-line;
 }
 /*category card*/
@@ -598,6 +604,8 @@ footer {
 .gear-set-card__talent p,
 .gear-set-card__detail-block p {
   margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
   white-space: pre-line;
 }
 
@@ -698,6 +706,8 @@ footer {
 
 .brand-set-card__bonus p {
   margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
   white-space: pre-line;
 }
 
@@ -705,4 +715,18 @@ footer {
   .brand-set-filters {
     grid-template-columns: 1fr;
   }
+}
+
+/* Smaller metadata / descriptor text for gear cards */
+.gear-card h3 {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.gear-card__classification,
+.gear-card__brand,
+.gear-card__source,
+.gear-card__detail-row span,
+.gear-card__detail-block > span {
+  font-size: 0.75rem;
 }
