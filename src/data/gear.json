@@ -1,1 +1,2040 @@
-[]
+[
+  {
+    "id": "punch-drunk",
+    "name": "Punch Drunk",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Douglas & Harding",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Headshot Damage\n20%",
+      "Any Basic\n(cant be HSD)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra Headshot Damage",
+      "pvp": null
+    }
+  },
+  {
+    "id": "nightwatcher",
+    "name": "Nightwatcher",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Gila Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Scanner Pulse Haste\n100%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Scanner Pulse Haste",
+      "pvp": null
+    }
+  },
+  {
+    "id": "chill-out",
+    "name": "Chill Out",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Gila Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Mod Slot",
+      "Mod Slot"
+    ],
+    "source": "Special Event Hoarder",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Has 2 Mod Slots and only 1 Minor Stat",
+      "pvp": null
+    }
+  },
+  {
+    "id": "visionario",
+    "name": "Visionario",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Legatus S.p.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "50% optimal range",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra optimal range",
+      "pvp": null
+    }
+  },
+  {
+    "id": "the-hollow-man",
+    "name": "The Hollow Man",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Yaahl Gear",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Damage to Health 14%",
+      "Any Basic"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Damage to Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "liquid-engineer",
+    "name": "Liquid Engineer",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Belstone Armory",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Bloodsucker",
+      "description": {
+        "pve": "Killing an enemy adds and refreshes a stack of +12% bonus armor for 10s. Max stack is 10",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "hermano",
+    "name": "Hermano",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Brazos de Arcabuz",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Overclock",
+      "description": {
+        "pve": "You and allies within 15m of your deployed skills, gain +30% reload speed and reduces active cooldowns by 0.6 each second.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-courier",
+    "name": "The Courier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Habsburg Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ only",
+    "talent": {
+      "name": "Perfect Creeping Death",
+      "description": {
+        "pve": "When you apply a status effect, it is also applied to all enemies within 10m of your target.\n\nCooldown: 10s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "backbone",
+    "name": "Backbone",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Lengmo",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Unstoppable Force",
+      "description": {
+        "pve": "Killing an enemy increases total weapon damage by 7% for 15s.\nStacks up to 5.\nGrenade kills add 2 stacks.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "anarchist-s-cookbook",
+    "name": "Anarchist's Cookbook",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Golan Gear",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ, DZ\nWarlords Campaign\nVivian Conley (story)",
+    "talent": {
+      "name": "Perfectly Wicked",
+      "description": {
+        "pve": "Applying a status effect increases total weapon damage by 18% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "strategic-alignment",
+    "name": "Strategic Alignment",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "China Light Industries Corporation",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Shock and Awe",
+      "description": {
+        "pve": "Applying a status effect to an enemy increases total skill damage and repair by 20% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "lavoisier",
+    "name": "Lavoisier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Electrique",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Galvanize",
+      "description": {
+        "pve": "Applying Blind, Ensnare, Confuse, or Shock to an enemy grants 50% of your armor as bonus armor to you and all allies within 30 meters of that enemy for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "matador",
+    "name": "Matador",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Walker, Harris & Co.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Adrenaline Rush",
+      "description": {
+        "pve": "When you are within 10m of an enemy, gain 23% bonus armor for 5s. Stacks up to 3 times.\n\nCooldown: 5s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-gift",
+    "name": "The Gift",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Providence Defense",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Vigilance",
+      "description": {
+        "pve": "Increases total weapon damage by 25%.\nTaking damage disables buff for 3s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "percussive-maintenance",
+    "name": "Percussive Maintenance",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Alps Summit Armament",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Tech Support",
+      "description": {
+        "pve": "Skill kills increase total skill damage by 25% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Legatus S.p.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Versatile",
+      "description": {
+        "pve": "Amplifies total weapon damage for 10s when swapping between your primary and secondary weapons if they are different.\n\n45% to enemies within 15m for Shotguns and SMG's.\n45% to enemies further than 25m for Rifles and MMR's.\n20% to enemies between 15-25m for LMG's and AR's\nAt most once per 5s per weapon type.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "devil-s-due",
+    "name": "Devil's Due",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Ceska Vyroba s.r.o",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Clutch",
+      "description": {
+        "pve": "When you are below 20% armor, critical hits repair 2.5% of missing armour.\nOn kill, critical hits repair 2.5% of missing armor for 4 seconds.\nLowest possible repair is 0% armour\n\nEach red core attribute adds 1 second to the time.\nMaximum is 10 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "battery-pack",
+    "name": "Battery Pack",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Empress International",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Calculated",
+      "description": {
+        "pve": "Kills from cover reduce skill cooldowns by 15%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-setup",
+    "name": "The Setup",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Uzina Getica",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Opportunistic",
+      "description": {
+        "pve": "Enemies you hit with shotguns and marksman rifles amplifies the damage they take by 15% from all sources for 5s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "force-multiplier",
+    "name": "Force Multiplier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Hana-U Corporation",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Combined Arms",
+      "description": {
+        "pve": "Shooting an enemy increases total skill damage by 30% for 3s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "proxy",
+    "name": "Proxy",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Palisade Steelworks",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Tamper Proof",
+      "description": {
+        "pve": "Enemies that walk within 3 meters of your Hive, Turret, Remote Pulse or Decoy are shocked.\n\nArm time: 2 seconds. Cooldown per Skill: 8 seconds",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "axel",
+    "name": "Axel",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Shiny Monkey",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Energize",
+      "description": {
+        "pve": "Using an armor kit grants +1 Skill Tier for 15s.\nIf already at Skill Tier 6, grants Overcharge.\n\nCooldown 30s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "cap-n",
+    "name": "Cap'n",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Imminence Armaments",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Leadership",
+      "description": {
+        "pve": "Performing a cover to cover grants 20% of your armor as bonus armor to you and all allies for 10s.\nThis is Tripled if you end within 10m of an enemy.\n\nCooldown: 10s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "bulldog",
+    "name": "Bulldog",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Royal Works",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Composure",
+      "description": {
+        "pve": "While in cover, increases total weapon damage by 20%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "momma-badger",
+    "name": "Momma Badger",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Edelweiss GPz",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ/DZ",
+    "talent": {
+      "name": "Peerfect Safeguard",
+      "description": {
+        "pve": "While at full armor, increases total skill repair by (160%).",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "festive-delivery",
+    "name": "Festive Delivery",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Grupo Sombra S.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "Special Event Hoarder",
+    "talent": {
+      "name": "Fireworks Show",
+      "description": {
+        "pve": "Concussion grenades become Festive Grenades.\n\nHitting an enemy with a Festive Grenade will cause explosions to happen around two other enemies within 20m.",
+        "pvp": "Concussion grenades become Festive Grenades.\n\nHitting an enemy with a Festive Grenade will cause explosions to happen around two other enemies within 10m.\n\nFestive Grenade explosions deal 15% damage in PvP."
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "henri",
+    "name": "Henri",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Electrique",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Companion",
+      "description": {
+        "pve": "While you are within 10m of an ally or skill, total weapon damage is increased by 20%",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "hunter-killer",
+    "name": "Hunter-Killer",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Golan Gear",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "Off-White cache\nthen Cassie Mendoza",
+    "talent": {
+      "name": "Perfect intimidate",
+      "description": {
+        "pve": "While you have bonus armour, gain 3 stacks each second up to a max of 10. Each stack increases total weapon damage by 4% to enemies within 10m.\n\nAll stacks are lost when you have no bonus armour.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "everyday-carrier",
+    "name": "Everyday Carrier",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Belstone Armory",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Efficient",
+      "description": {
+        "pve": "Using an armor kit has a 75% chance to not consume the armor kit. Specialization armor kit bonuses are increased by 100%.\n\nRequires 10 seconds to arm talent",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "chainkiller",
+    "name": "Chainkiller",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Walker, Harris & Co.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Headhunter",
+      "description": {
+        "pve": "After killing an enemy with a headshot, your next weapon hit within 30s deals 150% of that killing blow’s damage in addition to it.\n\nDamage is capped to 800% of your weapon damage. This is raised to 1250% if your headshot damage is greater than 150%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "pointman",
+    "name": "Pointman",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Gila",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ\nWarlords Campaign\nJames Dragov (story)",
+    "talent": {
+      "name": "Perfect Vanguard",
+      "description": {
+        "pve": "Deploying a shield makes it invulnerable for 5s and grants 50% of your armor as bonus armor to all other allies for 20s.\n\nCooldown: 25s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "vedmedytsya-vest",
+    "name": "Vedmedytsya Vest",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Petrov",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "Crafted",
+    "talent": {
+      "name": "Perfect Braced",
+      "description": {
+        "pve": "While in cover weapon handling is increased by +50%",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-sacrifice",
+    "name": "The Sacrifice",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Providence Defense",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Glass Cannon",
+      "description": {
+        "pve": "All damage you deal is amplified by 30%.\nAll damage you take is amplified by 60%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "zero-fs",
+    "name": "Zero F’s",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Badger Tuff",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Unbreakable",
+      "description": {
+        "pve": "When your armor is depleted, repair 100% of your armor.\nCooldown: 55s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "ferocious-calm",
+    "name": "Ferocious Calm",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Fenris Group AB",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Overwatch",
+      "description": {
+        "pve": "After staying in cover for 8 seconds, increase your and all allies’ total weapon and skill damage by 14% as long as you remain in cover or in a cover-to-cover move.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "door-kickers-knock",
+    "name": "Door-Kicker’s Knock",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Grupo Sombra S.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Spark",
+      "description": {
+        "pve": "Damaging an enemy with a skill increases total weapon damage by 18% for 20 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "caesar-s-guard",
+    "name": "Caesar's Guard",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Empress International",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Skilled",
+      "description": {
+        "pve": "Skill kills have a 30% chance to reset skill cooldowns",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "closer",
+    "name": "Closer",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Uzina Getica",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Spotter",
+      "description": {
+        "pve": "Amplifies total weapon and skill damage by 20% to pulsed enemies.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "cherished",
+    "name": "Cherished",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Habsburg Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ only",
+    "talent": {
+      "name": "Perfect Trauma",
+      "description": {
+        "pve": "Applies blind to enemy hit in the head. Cooldown 20 seconds. Applies bleed to an enemy hit in the chest. Cooldown 20 seconds",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "carpenter",
+    "name": "Carpenter",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Lengmo",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Mad Bomber",
+      "description": {
+        "pve": "Grenade Radius is increased by 75%\nGrenade that kill an enemy are refunded.\nGrenades can now be ''cooked'' by holding the fire button, making them explode earlier.\nGain 15% bonus armor while aiming grendes",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "bober",
+    "name": "Bober",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Zwiadowka Sp. z o.o.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Entrench",
+      "description": {
+        "pve": "If you are below 30% Armor, headshots from cover repair 30% of your armor. Cooldown 2 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "pristine-example",
+    "name": "Pristine Example",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Airaldi Holdings",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Focus",
+      "description": {
+        "pve": "Increases total weapon damage by 6% every second you are aiming while scoped 8x or higher, up to 60%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "sleight",
+    "name": "Sleight",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Urban Lookout",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Protected Reload",
+      "description": {
+        "pve": "Grants +40% bonus armor while reloading.\n\nGrants 0-30% of your armor as bonus armor to all other allies when they are reloading, based on your Blue core attribute.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "combustor",
+    "name": "Combustor",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Palisade Steelworks",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Explosive Delivey",
+      "description": {
+        "pve": "Whenever you throw a skill, 1.5 seconds after landing, it creates an explosion damaging enemies within 5m.\nAfterwards explosions will occur evey 5s.\n\nDamage scales with skill tier dealing 25-100% damage of a concussion grenade.\n\nOccurs once per skill.\n\nApplies to Remote Pulse, All Turrets, All Hives, Explosive Seeker, Cluster Seeker, Mender Seeker, Decoy, All Traps.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "impetus",
+    "name": "Impetus",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Wyvern Wear",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Perfect Kinetic Momentum",
+      "description": {
+        "pve": "When in combat, each skill generates a stack while active or not on cooldown.\n\nStacks increase your total skill damage by 1.5% and total skill repair by 2%. Up to 18 stacks per skill. Lost when on cooldown.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "robin",
+    "name": "Robin",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Royal Works",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Gunslinger",
+      "description": {
+        "pve": "Weapon swapping increases total weapon damage by 28% for 5s. This buff is lost for 5s if you weapon swap while it is active",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "benefactor",
+    "name": "Benefactor",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Edelweiss GPz",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ/DZ",
+    "talent": {
+      "name": "Perfect Empathic Resolve",
+      "description": {
+        "pve": "Repairing an ally, increases their total weapon and skill damage by 3-20% for 10s.\n\n1-15% if self. Effectiveness increased by your skill tier.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "equalizer",
+    "name": "Equalizer",
+    "type": "named",
+    "slot": "chest",
+    "brand": "Unit Alloys",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Obliterate",
+      "description": {
+        "pve": "Critical hits increase total weapon damage by 1% for 10s. Stacks up to 24 times.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "deathgrips",
+    "name": "Deathgrips",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "5.11 Tactical",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Armor on Kill\n10%",
+      "Any Basic"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Armor on Kill",
+      "pvp": null
+    }
+  },
+  {
+    "id": "contractors-gloves",
+    "name": "Contractor’s Gloves",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Petrov",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Damage to Armor\n8%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Damage to Armor",
+      "pvp": null
+    }
+  },
+  {
+    "id": "motherly-love",
+    "name": "Motherly Love",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Alps Summit Armament",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Health\n25%",
+      "Any Basic"
+    ],
+    "source": "Crafted",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Skill Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "eagles-grasp",
+    "name": "Eagles Grasp",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Zwiadowka Sp. z o.o.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Weapon handling\n15%",
+      "Any Basic\n(Cant be handling)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Weapon Handling",
+      "pvp": null
+    }
+  },
+  {
+    "id": "firm-handshake",
+    "name": "Firm Handshake",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Sokolov Concern",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Status Effects\n16%",
+      "Any Basic\n(Cant be Status)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra Status effect",
+      "pvp": null
+    }
+  },
+  {
+    "id": "forge",
+    "name": "Forge",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Richter & Kaiser",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Shield Health\n50%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Shield Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "ammo-dump",
+    "name": "Ammo Dump",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Badger Tuff",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Ammo capacity\n10%",
+      "Any Basic",
+      "Any Basic"
+    ],
+    "source": "Crafted",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Ammo Capacity",
+      "pvp": null
+    }
+  },
+  {
+    "id": "picaros-holster",
+    "name": "Picaros Holster",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Brazos de Arcabuz",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Weapon damage\n10%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Weapon Damage Minor Stat",
+      "pvp": null
+    }
+  },
+  {
+    "id": "spot-on",
+    "name": "Spot-On",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Urban Lookout",
+    "coreAttribute": "Weapon damage\n1.5% - 15% (15% - 22.5)",
+    "minorAttributes": [
+      "Accuracy\n38%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Accuracy",
+      "pvp": null
+    }
+  },
+  {
+    "id": "salvo",
+    "name": "Salvo",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Unit Alloys",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "5% Rate of Fire",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Rate of Fire",
+      "pvp": null
+    }
+  },
+  {
+    "id": "claws-out",
+    "name": "Claws Out",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Wyvern Wear",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Melee Damage\n500%",
+      "Any Basic",
+      "Pistol Damage\n11%"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Melee Damage + Pistol Damage",
+      "pvp": null
+    }
+  },
+  {
+    "id": "foxs-prayer",
+    "name": "Fox’s Prayer",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Overlord Armaments",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Damage to out of Cover\n8%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Damage to Targets Out of Cover",
+      "pvp": null
+    }
+  },
+  {
+    "id": "snow-machine",
+    "name": "Snow Machine",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Electrique",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Any Basic"
+    ],
+    "source": "Special Event Hoarder",
+    "talent": {
+      "name": "Flurry",
+      "description": {
+        "pve": "status effects apply snowfall to target",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "turmoil",
+    "name": "Turmoil",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Ceska Vyroba s.r.o",
+    "coreAttribute": "15% Weapon Damage",
+    "minorAttributes": [
+      "12% Critical Hit Damage",
+      "6% Critical Hit Chance"
+    ],
+    "source": "Limited time April Fools event.",
+    "talent": {
+      "name": "Bewildered",
+      "description": {
+        "pve": "When dealing Weapon Damage to an enemy, 50% of the damage will be dealt to another enemy within 30m instead. When there are no enemies nearby, deal damage normally. Does not apply to Armor Plates",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "emperors-guard",
+    "name": "Emperor’s Guard",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Murakami Industries",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Armor Regen\n1%",
+      "Any Basic"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "% Armor Regen",
+      "pvp": null
+    }
+  },
+  {
+    "id": "grease",
+    "name": "Grease",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Shiny Monkey",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Status Effects\n16%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra Status effect",
+      "pvp": null
+    }
+  },
+  {
+    "id": "cloak",
+    "name": "Cloak",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "Imminence Armaments",
+    "coreAttribute": "15% Weapon Damage",
+    "minorAttributes": [
+      "Reduced Threat\n50%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "% Reduced Threat",
+      "pvp": null
+    }
+  },
+  {
+    "id": "vile",
+    "name": "Vile",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Status Effect\n5% - 10%",
+      "Hazard Protection\n5% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Toxic Delivery",
+      "description": {
+        "pve": "Status effects also apply a damage over time debuff for 10s.\n\nTotal Damage dealt is equal to 50% of your concussion grenade damage and increased by your status effect attributes.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "catharsis",
+    "name": "Catharsis",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170,000",
+    "minorAttributes": [
+      "Incoming Repair\n7.8% - 20%",
+      "Armor Regen\n1689 - 4925",
+      "Mod Slot"
+    ],
+    "source": "- Season 9 Track (TU15)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Vicious Cycle",
+      "description": {
+        "pve": "Taking damage builds stacks to a cap of 30. Each stack grants 1.5% Weapon Damage. Taking damage at max stacks triggers a purge, removing all stacks and Status Effects and then dropping a healing cloud which restores 5% of Max Armor for 10s to all allies in the cloud.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "coyotes-mask",
+    "name": "Coyote’s Mask",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Season 1 track\n- Coyote, Jefferson Trade Centre\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Pack Instincts",
+      "description": {
+        "pve": "You and all allies gain a bonus based on the distance of the last enemy you hit.\n\n0-15m: +25% critical hit damage\n15-25m: +10% critical hit chance and +10% critical hit damage\n25m+: +25% critcal hit Chance",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "catalyst",
+    "name": "Catalyst",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Hazard Protection\n5% - 10%",
+      "Status Effect\n5% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- LM-21 \"Marauder\", Army Terminal\n- Brooklyn open world Named Bosses",
+    "talent": {
+      "name": "Chemical Agent",
+      "description": {
+        "pve": "Catalysis\nDealing and recieving status effects (Burn, Bleed, Shock, EMP/Disrupt, Poison and blind/disorient) builds stacks of Catalysis to a maximum of 12. each stack grants:\n+2% Weapon Damage\n+2% Status Effects\n\nEach enemy within 25 Meters that is affected by a status effect grants +1 stack/sec. Being affectedby status effects grants +2 stacks/sec.\nStacks decay at 1 stac/sec after 5s if no enemies in the radius or you are affected by status effects.\n\nReactant\nAt max stacks, killing a status-affected enemy grants bonuses for 5s:\n+25% bonus armor\n+20% reload speed\n\nStabilizer\nWhile burning, you can maintain ADS without disruption.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "tinkerer",
+    "name": "Tinkerer",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Guaranteed reward for first completion of Y7S1 Climax mission on master difficulty\n- Drop chance from boss of Y7S1 Climax mission on any difficulty (Difficulty affects droprate)",
+    "talent": {
+      "name": "Abridged",
+      "description": {
+        "pve": "If your Primary and Secondary weapon are not Exotic or Named and of the same type, the Secondary Weapon's talent will also be applied to the Primary Weapon.\n\nDoesn't apply to talents that include Weapon Swapping.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "investor",
+    "name": "Investor",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "This item can feature any Core Attribute. This item features a third random Attribute instead of having a Gear Mod Slot.",
+    "minorAttributes": [
+      "This item cannot feature the Headshot Damage, Health or Skill Repair Attributes"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Slotted",
+      "description": {
+        "pve": "Receive bonuses for each non-Core Attribute on this item, depending on their color:\n\nRed: +10% Crit Damage\nYellow: +5% Skill Efficiency\nBlue: +1% Armor Regen",
+        "pvp": "Receive bonuses for each non-Core Attribute on this item, depending on their color:\n\nRed: +10% Crit Damage\nYellow: +5% Skill Efficiency\nBlue: +0.5% Armor Regen"
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "acosta-s-go-bag",
+    "name": "Acosta's Go-Bag",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Damage\n1.3% - 10%",
+      "Skill Haste\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Faction lockboxes (3%)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "One in the Hand... ...Two in the bag",
+      "description": {
+        "pve": "Throwing a grenade refunds it and grants +1 skill tier for 15s.\nGrants overcharge if already at skill tier 6\n\nCooldown: 60s\n\n+1 Armor Kit Capacity\n+3 Grenade Capacity\n+25% Ammo Capacity\n+10% Repair-Skills\n+10% Status Effects",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "birdie-s-quick-fix-pack",
+    "name": "Birdie's Quick Fix Pack",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Haste\n6% - 12%",
+      "Repair Skills\n7.8% - 20%",
+      "Mod Slot"
+    ],
+    "source": "- Guaranteed reward for first completion of Y6S3 Climax mission on master difficulty\n- Drop chance from boss of Y6S3 Climax mission on any difficulty (Difficulty affects droprate)",
+    "talent": {
+      "name": "Combat Medic",
+      "description": {
+        "pve": "+80% Revive Speed\n-50% Weakened Debuff timer\n+45% Hive efficiency\nProvides +50% damage resistance to both agents while reviving or being revived, and for 5s after a successful Hive Revive, or 10s after a Manual Revive. Any successful revives provide  +1 Skill tier for 5s. Revives at skill tier 6 grant Overcharge for 15s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "memento",
+    "name": "Memento",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Kill Confirmed",
+      "description": {
+        "pve": "Enemies you kill drop a trophy on death. Collecting trophies provides both a short and long term buff, the first of which scales with the number of core attributes equipped and lasts 10s.\n\nRed Core - 5% Weapon Damage\nBlue Core - 10% Bonus Armor\nYellow Core - 5% Skill Effciency\n\nFor every trophy collected gain an additional +1% weapon damage, +1% skill efficiency and +0.1% armor regeneration for 300s\n\nMaximum 30 stacks",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "ninjabike-messenger-backpack",
+    "name": "NinjaBike Messenger Backpack",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "- Season 11 reward track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Resourceful",
+      "description": {
+        "pve": "Slots in with any equipped Gear Set and/or\nBrand Set item to fulfill a requirement towards\nunlocking a Gear and/or Brand Sets bonus.\nCan unlock bonuses from multiple sets\nsimultaneously.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "harrier-pride",
+    "name": "Harrier Pride",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      "1\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Harrier Pride",
+      "description": {
+        "pve": "Getting kills and hitting enemies 3 times builds Red stacks. Each stack provides 0.5% Weapon Damage.\n\nGetting hit 3 times builds Blue stacks. Each stack provides 0.5% Damage Resistance.\n\nUpon reaching 80 stacks in total, receive a separate bonus of 0.5% Damage Resistance per Red stack and 0.5% Weapon Damage per Blue stack until the next time the stack cap is reached.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "collector",
+    "name": "Collector",
+    "type": "exotic",
+    "slot": "chest",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Year 5 Season 2 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Hoarder",
+      "description": {
+        "pve": "+3 Grenade Capacity\n+50% Grenade Radius\n+35% Grenade Damage\n+25% Grenade Damage for each extra enemy caught in the blast\nAutomatically regenerate grenades every 30s, if you have less than 2 grenades in your inventory.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "provocator",
+    "name": "Provocator",
+    "type": "exotic",
+    "slot": "chest",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Armor Regen\n1689 - 4925",
+      "Hazard Protection\n5% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- Guaranteed reward for first completion of Y6S2 Climax mission on master difficulty\n- Drop chance from boss of Y6S2 Climax mission on any difficulty (Difficulty affects droprate)",
+    "talent": {
+      "name": "Challenger",
+      "description": {
+        "pve": "Recieve +25% Damage resistance from enemies within 20m",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "type": "exotic",
+    "slot": "chest",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Bond",
+      "description": {
+        "pve": "Both you and Allies receive +30% Critical Hit Damage, +15% Skill Efficiency and +2% Armor Regen when an Ally is within 10 m of you.\n\nReceive +15% Critical Hit Damage, +7.5% Skill Efficiency and +1% Armor Regen when one of your Skills is within 10m of you.\n\nOnly the highest group of buffs can be active at one time.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "tardigrade-armor-system",
+    "name": "Tardigrade Armor System",
+    "type": "exotic",
+    "slot": "chest",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Armor Regen\n1689 - 4925",
+      "Explosive Resist\n1% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- True Sons Bosses\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Ablative Nano-Plating",
+      "description": {
+        "pve": "Whenever you or any ally's armor breaks, they gain 80% of your armor as bonus armor for 10s.\n\nCooldown per ally: 45s\n\nKilling an enemy with your specialization weapon removes this cooldown for all allies.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "ridgeway-s-pride",
+    "name": "Ridgeway's Pride",
+    "type": "exotic",
+    "slot": "chest",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "-The Summit project:\n\"Body Armor\" floor 1-20\n\"Shoulder Pads\" floor 21-40\n\"Hunting Knife\" on floor 41-60\n\"Flag Patch\" floor 61-80\n\"Dog Tags\" floor 81-100\n\nAfter owning blueprint\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Bleeding Edge",
+      "description": {
+        "pve": "Shooting enemies within 15m applies bleed to the target.\n\nRepair 3-48% of your armor per second for every enemy that is bleeding within 15m.\n\nRepair strength per number of bleeding enemies:\n\n1:3% 2:6% 3:12% 4:24% 5:48%",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "bloody-knuckles",
+    "name": "Bloody Knuckles",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Season 10 Track (TU16)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Over the top",
+      "description": {
+        "pve": "Damaging an enemy with a grenade or striking an enemy with a melee attack, activates Seeing Red.\n\nSeeing Red grants +25% weapon damage and +100% melee damage.\n\nSeeing Red lasts 20 seconds and starts a 60 second cooldown after completion.\n\nWhile in cooldown, damaging an enemy with a melee attack or hitting an enemy with the effect of a grenade will complete the cooldown instantly.\n\nEditor's note: the 25% \"weapon damage\" buff actually gives total weapon damage.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "btsu-datagloves",
+    "name": "BTSU Datagloves",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Haste\n6% - 12%",
+      "Skill Repair\n7.8% - 20%"
+    ],
+    "source": "- Black Tusk Medics\n- Galveston, Camp White Oak\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Transference Overclock",
+      "description": {
+        "pve": "Grants 15% Hive skill haste per skill tier.\n\nDetonating a hive refreshes your skill cooldowns and grants overcharge for 15s.\nIf at Skill Tier 6, this effect also applies to all allies.\n\nAllies recieving this effect are unable to benefit from it again for 120s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "exodus-gloves",
+    "name": "Exodus Gloves",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 6 Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Smoke Screen",
+      "description": {
+        "pve": "On Armor break, drop a Smoke Bomb at your feet, concealing you from enemies for 3s.\nCooldown: 40s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "overdogs",
+    "name": "Overdogs",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 7 Season 2 track",
+    "talent": {
+      "name": "Weakest Link",
+      "description": {
+        "pve": "Amplifies Weapon Damage by 30% to the lowest ranking enemies currently in combat, as per the Tier hierarchy.\n\nTier 1: Hunter, Rogue, Leader, Tank, Shield, Heavy Weapons, RPG, Medic, Controller, Warhound, Marauder.\nTier 2: Support, Engineer, Bodyguard, Immobilizer, Bomber, Mini Tank, Drone Operator.\nTier 3: Any other enemy or skill proxy.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "rugged-gauntlets",
+    "name": "Rugged Gauntlets",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 5 Season 3 Track (TU20)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Iron Grip",
+      "description": {
+        "pve": "-50% Recoil Penalty when hip-firing.\n\n-50% Recoil Penalty when blind-firing from cover.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "centurion-scabbard",
+    "name": "Centurion Scabbard",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Weapon Handling\n?% - 8%"
+    ],
+    "source": "- Year 6 Season 2 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Counter",
+      "description": {
+        "pve": "Swapping weapons will give the following groups of bonuses one by one, in order:\n\n1. +20% Rate of Fire, +20% Weapon Damage\n2. +50% Magazine Size, +50% Reload Speed\n\nThe bonuses remain active for 12s or until the next weapon swap.\nSwapping to your sidearm will not trigger the next group of bonuses.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "dodge-city-gunslinger-s-holster",
+    "name": "Dodge City Gunslinger's Holster",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Weapon Handling\n?% - 8%",
+      "Headshot Damage\n1.3% - 10%"
+    ],
+    "source": "- Project questline (from blueprint vendor)\n\nAfter you own blueprint\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Ouick Draw",
+      "description": {
+        "pve": "While your pistol is holstered, gain a stacking buff every 0.3s, up to 100.\n\nWhen you swap to it, your first shot consumes the buff and deals +10% damage per stack.  This deals headshot damage to anywhere you hit.\n\nREQUIRES\nPistol Equipped",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "imperial-dynasty",
+    "name": "Imperial Dynasty",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Status Effects\n5% - 10%",
+      "Hazard Protection\n5% - 10%"
+    ],
+    "source": "- Cleaners Bosses\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Dragon's Glare",
+      "description": {
+        "pve": "While in combat, applies burn to the enemy closest to you within 20m.\n\nCooldown: 35s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "shocker-punch",
+    "name": "Shocker Punch",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Explosive Resist\n1% - 10%",
+      "Hazard Protection\n5% - 10%"
+    ],
+    "source": "- Year 5 Season 1 (TU18)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Defibrillator",
+      "description": {
+        "pve": "While \"Shocker Punch\" is equipped, the stun received by the agent from the Shock status effect will be reduced by 50%.\n\nUsing a shield will give 100% to melee damage.\n\nUsing St. Elmo's Engine with the holster will give 100% extra melee damage and will make the next melee attack apply shock to the target.\n\nUsing all three items will offer all of the above mentioned bonuses and the Shock from the melee attack will have a 5m radius, starting from the first target.\n\n15 second cooldown.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "waveform",
+    "name": "Waveform",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Damage",
+      "Skill Haste"
+    ],
+    "source": "- Season 4 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Alternating Current",
+      "description": {
+        "pve": "Generate a stack of 3% skill damage on one of your skills every second, capping at 10 stacks. After 10 seconds at the cap the stacks transfer to your other skill. The process then repeats ad-infinitum",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "nimble-holster",
+    "name": "Nimble Holster",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 7 Season 1 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Bob and Weave",
+      "description": {
+        "pve": "Receive repairs of 5% of your Total Armor for every 1m run in cover-to-cover. Damage taken while doing a cover-to-cover is healed over 10s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "sawyer-s-kneepads",
+    "name": "Sawyer's Kneepads",
+    "type": "exotic",
+    "slot": "kneepads",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Explosive Resist\n1% - 10%",
+      "Health\n8405 - 18935"
+    ],
+    "source": "- Hyena Bosses\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Stand Your Ground",
+      "description": {
+        "pve": "Cannot be staggered by explosions.\n\nIncreases total weapon damage by 3% each second you are not moving.\nStacks up to 10 until you start moving.  All stacks lost 10s after moving.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "acosta-kneepads",
+    "name": "Acosta Kneepads",
+    "type": "exotic",
+    "slot": "kneepads",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic Red Attribute",
+      "Any Basic Blue Attribute"
+    ],
+    "source": "- Year 6 Season 1 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Escape Plan",
+      "description": {
+        "pve": "Vaulting grants +10% Movement Speed for 3s.\nAfter not moving for 5s, recieve +20% Movement Speed for 5s.\nBeing applied a Stutus Effect grants +10% Movement Speed for 5s.\nMax Movement Speed bonus is 20%. The bonuses do not stack with Movement Speed bonuses from other sources.\n-50% Movement Impairment penalty from Status Effects.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "blacklisters",
+    "name": "Blacklisters",
+    "type": "exotic",
+    "slot": "kneepads",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Guaranteed reward for first completion of Y7S2 Climax mission on master difficulty\n- Drop chance from boss of Y7S2 Climax mission on any difficulty (Difficulty affects droprate)\"",
+    "talent": {
+      "name": "Ostracize",
+      "description": {
+        "pve": "Shooting an enemy applies a mark. Only one mark can be active at a time. The mark disappears after 15s, or when the marked enemy dies. Recieve 600% Amplified Damage from the marked enemy. Deal 20% Amplified Damage to unmarked enemies. If only one enemy remains in combat, the mark disappears and cannot be reapplied.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "nurse-s-kneepads",
+    "name": "Nurse's Kneepads",
+    "type": "exotic",
+    "slot": "kneepads",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Impervious",
+      "description": {
+        "pve": "Both you and Allies within 10m of you receive +40% Hazard Protection.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "ninjabike-messenger-kneepads",
+    "name": "NinjaBike Messenger Kneepads",
+    "type": "exotic",
+    "slot": "kneepads",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- DZ Airdrops 3%\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Parkour!",
+      "description": {
+        "pve": "Performing a cover to cover or vaulting reloads your drawn weapon and grants +25% bonus arrmor for 5s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  }
+]
