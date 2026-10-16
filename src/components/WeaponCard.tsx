@@ -26,6 +26,7 @@ function formatWeaponType(value: string) {
       aria-label={`${weapon.name}, ${weapon.type} weapon`}
     >
       <div className="weapon-card__header">
+        <span className="weapon-card__classification">{weapon.type.toUpperCase()}</span>
         <div>
           <h2>{weapon.name}</h2>
         </div>
@@ -71,7 +72,7 @@ function formatWeaponType(value: string) {
       )}
 
       <details className="weapon-card__details">
-        <summary>Extra details</summary>
+        <summary>View details</summary>
 
         <div className="weapon-card__details-content">
           <div className="weapon-card__detail-row">

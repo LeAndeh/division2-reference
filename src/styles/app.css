@@ -164,7 +164,8 @@ footer {
    Weapons section
    ========================= */
 
-.weapons-section {
+.weapons-section,
+.gear-section {
   margin-top: 2rem;
 }
 
@@ -185,7 +186,8 @@ footer {
   font-size: 0.9rem;
 }
 
-.weapon-filters {
+.weapon-filters,
+.gear-filters {
   display: grid;
   grid-template-columns: minmax(240px, 2fr) 1fr 1fr;
   gap: 0.75rem;
@@ -193,12 +195,15 @@ footer {
 }
 
 .weapon-filters input,
-.weapon-filters select {
+.weapon-filters select,
+.gear-filters input,
+.gear-filters select {
   width: 100%;
+  min-width: 0;
   padding: 0.75rem 0.9rem;
 
   background: var(--surface);
-  color: var(--text-primary);
+  color: var(--text);
 
   border: 1px solid var(--border);
   border-radius: 6px;
@@ -207,15 +212,19 @@ footer {
 }
 
 .weapon-filters input:focus,
-.weapon-filters select:focus {
-  outline: 2px solid var(--accent-primary);
+.weapon-filters select:focus,
+.gear-filters input:focus,
+.gear-filters select:focus {
+  outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
 
-.weapon-grid {
+.weapon-grid,
+.gear-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
+  align-items: start;
 }
 
 .empty-state {
@@ -224,7 +233,8 @@ footer {
 }
 
 @media (max-width: 750px) {
-  .weapon-filters {
+  .weapon-filters,
+  .gear-filters {
     grid-template-columns: 1fr;
   }
 
@@ -234,71 +244,138 @@ footer {
   }
 }
 
-.weapon-card {
-  border-left: 4px solid transparent;
+.weapon-card,
+.gear-card {
+  min-width: 0;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  overflow-wrap: anywhere;
 }
 
-.weapon-card--named {
-  border-left-color: var(--named-color);
+.weapon-card__classification,
+.gear-card__classification {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
-.weapon-card--exotic {
-  border-left-color: var(--exotic-color);
+.weapon-card--named .weapon-card__classification,
+.gear-card--named .gear-card__classification {
+  color: var(--named-color);
 }
 
-/* new line properly */
+.weapon-card--exotic .weapon-card__classification,
+.gear-card--exotic .gear-card__classification {
+  color: var(--exotic-color);
+}
+
+.weapon-card__header h2,
+.gear-card__header h2 {
+  margin: 0 0 0.75rem;
+}
+
+.weapon-card__talent,
+.weapon-card__special,
+.gear-card__talent,
+.gear-card__special {
+  margin-top: 1rem;
+}
+
+.weapon-card h3,
+.gear-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
 .weapon-card__talent p,
-.weapon-card__special p {
+.weapon-card__special p,
+.gear-card__talent p,
+.gear-card__special p {
+  margin: 0;
   white-space: pre-line;
 }
 
-.weapon-card__details {
+.weapon-card__source,
+.weapon-card__normal-talent,
+.gear-card__source {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: pre-line;
+}
+
+.gear-card__brand {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.weapon-card__details,
+.gear-card__details {
   margin-top: 1rem;
   padding-top: 0.75rem;
   border-top: 1px solid var(--border);
 }
 
-.weapon-card__details summary {
+.weapon-card__details summary,
+.gear-card__details summary {
   cursor: pointer;
-  color: var(--accent-primary);
+  color: var(--accent);
   font-weight: 600;
   font-size: 0.9rem;
   user-select: none;
 }
 
-.weapon-card__details summary:hover {
+.weapon-card__details summary:hover,
+.gear-card__details summary:hover {
   text-decoration: underline;
 }
 
-.weapon-card__details-content {
+.weapon-card__details-content,
+.gear-card__details-content {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
 }
 
-.weapon-card__detail-row {
+.weapon-card__detail-row,
+.gear-card__detail-row {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
 
 .weapon-card__detail-row span,
-.weapon-card__detail-block > span {
-  color: var(--text-secondary);
+.weapon-card__detail-block > strong,
+.gear-card__detail-row span,
+.gear-card__detail-block > span {
+  color: var(--text-muted);
   font-size: 0.85rem;
 }
 
-.weapon-card__detail-row strong {
+.weapon-card__detail-row strong,
+.gear-card__detail-row strong {
   text-align: right;
 }
 
-.weapon-card__detail-block ul {
+.gear-card__detail-block p {
+  margin: 0.5rem 0 0;
+  white-space: pre-line;
+}
+
+.weapon-card__detail-block ul,
+.gear-card__detail-block ul {
   margin: 0.5rem 0 0;
   padding-left: 1.25rem;
 }
 
-.weapon-card__detail-block li {
+.weapon-card__detail-block li,
+.gear-card__detail-block li {
   margin-bottom: 0.35rem;
 }
 
