@@ -8,6 +8,7 @@ import { WeaponTalentSection } from "./components/WeaponTalentSection";
 import { GearSetSection } from "./components/GearSetSection";
 import { BrandSetSection } from "./components/BrandSetSection";
 import { GearSection } from "./components/GearSection";
+import { GearTalentSection } from "./components/GearTalentSection";
 
 type Category =
   | "weapons"
@@ -98,10 +99,7 @@ function App() {
         )}
 
         {activeCategory === "gear-talents" && (
-          <section className="empty-state">
-            <h2>Gear Talents</h2>
-            <p>This section has not been implemented yet.</p>
-          </section>
+          <GearTalentSection mode={mode} />
         )}
       </main>
 

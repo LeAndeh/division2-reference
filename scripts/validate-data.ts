@@ -6,6 +6,7 @@ import { weaponTalentsSchema } from "../src/schemas/weaponTalentSchema.js";
 import { gearSetsSchema } from "../src/schemas/gearSetSchema.js";
 import { brandSetsSchema } from "../src/schemas/brandSetSchema.js";
 import { gearSchema } from "../src/schemas/gearSchema.js";
+import { gearTalentsSchema } from "../src/schemas/gearTalentSchema.js";
 
 const weaponsPath = path.resolve("src/data/weapons.json");
 const weaponTalentsPath = path.resolve("src/data/weapon-talents.json");
@@ -176,4 +177,38 @@ for (const item of gearResult.data) {
 
 console.log(
   `Gear data valid: ${gearResult.data.length} records checked, no duplicate IDs.`,
+);
+
+// gear talent validation
+
+const gearTalentsPath = path.resolve("src/data/gear-talents.json");
+const gearTalentsRawJson = fs.readFileSync(gearTalentsPath, "utf8");
+const gearTalentsData: unknown = JSON.parse(gearTalentsRawJson);
+const gearTalentsResult = gearTalentsSchema.safeParse(gearTalentsData);
+
+if (!gearTalentsResult.success) {
+  console.error("Gear talent data validation failed:\n");
+
+  for (const issue of gearTalentsResult.error.issues) {
+    console.error(
+      `Path: ${issue.path.join(".") || "(root)"}\n` +
+        `Error: ${issue.message}\n`,
+    );
+  }
+
+  throw new Error("Gear talent data validation failed.");
+}
+
+const gearTalentIds = new Set<string>();
+
+for (const talent of gearTalentsResult.data) {
+  if (gearTalentIds.has(talent.id)) {
+    throw new Error(`Duplicate gear talent id: ${talent.id}`);
+  }
+
+  gearTalentIds.add(talent.id);
+}
+
+console.log(
+  `Gear talent data valid: ${gearTalentsResult.data.length} records checked, no duplicate IDs.`,
 );
