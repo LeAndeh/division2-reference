@@ -2375,7 +2375,7 @@
     ],
     "source": "Y8S3 Season Pass"
   },
-    {
+  {
     "id": "vertigo",
     "name": "Vertigo",
     "type": "exotic",
@@ -2395,5 +2395,20 @@
       "Muzzle: +10% Rate of Fire"
     ],
     "source": "Y8S3.1 Red Moon Rising, PVE Dark Zone Invasion Event"
+  },
+  {
+    "id": "lichtenberg",
+    "name": "Lichtenberg",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Classic M1A",
+    "talent": {
+      "name": "Run and Gun",
+      "description": {
+        "pve": "While moving, you accrue 5 stacks per second, up to a maximum of 100 stacks.\n\nHeadshots with Lichtenberg grant 15 stacks and 20% Movement Speed for 5 seconds.\n\nWhile at maximum stacks, your next shot with Lichtenberg consumes all stacks, deals 200% bonus damage, and Shocks the target for 2 second.",
+        "pvp": "While moving, you accrue 5 stacks per second, up to a maximum of 100 stacks.\n\nHeadshots with Lichtenberg grant 10 stacks and 10% Movement Speed for 3 seconds.\n\nWhile at maximum stacks, your next shot with Lichtenberg consumes all stacks, deals 70% bonus damage, and Shocks the target for 1 second."
+      }
+    },
+    "source": "Red Moon Unleashed Gear Cache Loot Table"
   }
 ]

@@ -6,10 +6,7 @@
     "slot": "mask",
     "brand": "Douglas & Harding",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Headshot Damage\n20%",
-      "Any Basic\n(cant be HSD)"
-    ],
+    "minorAttributes": ["Headshot Damage\n20%", "Any Basic\n(cant be HSD)"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -24,10 +21,7 @@
     "slot": "mask",
     "brand": "Gila Guard",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Scanner Pulse Haste\n100%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Scanner Pulse Haste\n100%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -42,11 +36,7 @@
     "slot": "mask",
     "brand": "Gila Guard",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Mod Slot",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Mod Slot", "Mod Slot"],
     "source": "Special Event Hoarder",
     "talent": null,
     "specialEffect": {
@@ -61,10 +51,7 @@
     "slot": "mask",
     "brand": "Legatus S.p.A.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "50% optimal range",
-      "Any Basic"
-    ],
+    "minorAttributes": ["50% optimal range", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -79,10 +66,7 @@
     "slot": "mask",
     "brand": "Yaahl Gear",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Damage to Health 14%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Damage to Health 14%", "Any Basic"],
     "source": "DZ",
     "talent": null,
     "specialEffect": {
@@ -97,11 +81,7 @@
     "slot": "backpack",
     "brand": "Belstone Armory",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Bloodsucker",
@@ -119,11 +99,7 @@
     "slot": "backpack",
     "brand": "Brazos de Arcabuz",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Overclock",
@@ -141,11 +117,7 @@
     "slot": "backpack",
     "brand": "Habsburg Guard",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ only",
     "talent": {
       "name": "Perfect Creeping Death",
@@ -163,11 +135,7 @@
     "slot": "backpack",
     "brand": "Lengmo",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Unstoppable Force",
@@ -185,11 +153,7 @@
     "slot": "backpack",
     "brand": "Golan Gear",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ, DZ\nWarlords Campaign\nVivian Conley (story)",
     "talent": {
       "name": "Perfectly Wicked",
@@ -207,11 +171,7 @@
     "slot": "backpack",
     "brand": "China Light Industries Corporation",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Shock and Awe",
@@ -229,11 +189,7 @@
     "slot": "backpack",
     "brand": "Electrique",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Galvanize",
@@ -251,11 +207,7 @@
     "slot": "backpack",
     "brand": "Walker, Harris & Co.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Adrenaline Rush",
@@ -273,11 +225,7 @@
     "slot": "backpack",
     "brand": "Providence Defense",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Vigilance",
@@ -295,11 +243,7 @@
     "slot": "backpack",
     "brand": "Alps Summit Armament",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Tech Support",
@@ -317,11 +261,7 @@
     "slot": "backpack",
     "brand": "Legatus S.p.A.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Versatile",
@@ -339,11 +279,7 @@
     "slot": "backpack",
     "brand": "Ceska Vyroba s.r.o",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Clutch",
@@ -361,11 +297,7 @@
     "slot": "backpack",
     "brand": "Empress International",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Calculated",
@@ -383,11 +315,7 @@
     "slot": "backpack",
     "brand": "Uzina Getica",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Opportunistic",
@@ -405,11 +333,7 @@
     "slot": "backpack",
     "brand": "Hana-U Corporation",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Combined Arms",
@@ -427,11 +351,7 @@
     "slot": "backpack",
     "brand": "Palisade Steelworks",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Tamper Proof",
@@ -449,11 +369,7 @@
     "slot": "backpack",
     "brand": "Shiny Monkey",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Energize",
@@ -471,11 +387,7 @@
     "slot": "backpack",
     "brand": "Imminence Armaments",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Leadership",
@@ -493,11 +405,7 @@
     "slot": "backpack",
     "brand": "Royal Works",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Composure",
@@ -515,11 +423,7 @@
     "slot": "backpack",
     "brand": "Edelweiss GPz",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ/DZ",
     "talent": {
       "name": "Peerfect Safeguard",
@@ -537,11 +441,7 @@
     "slot": "backpack",
     "brand": "Grupo Sombra S.A.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "Special Event Hoarder",
     "talent": {
       "name": "Fireworks Show",
@@ -559,11 +459,7 @@
     "slot": "chest",
     "brand": "Electrique",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Companion",
@@ -581,11 +477,7 @@
     "slot": "chest",
     "brand": "Golan Gear",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "Off-White cache\nthen Cassie Mendoza",
     "talent": {
       "name": "Perfect intimidate",
@@ -603,11 +495,7 @@
     "slot": "chest",
     "brand": "Belstone Armory",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Efficient",
@@ -625,11 +513,7 @@
     "slot": "chest",
     "brand": "Walker, Harris & Co.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Headhunter",
@@ -647,11 +531,7 @@
     "slot": "chest",
     "brand": "Gila",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ\nWarlords Campaign\nJames Dragov (story)",
     "talent": {
       "name": "Perfect Vanguard",
@@ -669,11 +549,7 @@
     "slot": "chest",
     "brand": "Petrov",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "Crafted",
     "talent": {
       "name": "Perfect Braced",
@@ -691,11 +567,7 @@
     "slot": "chest",
     "brand": "Providence Defense",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Glass Cannon",
@@ -713,11 +585,7 @@
     "slot": "chest",
     "brand": "Badger Tuff",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Unbreakable",
@@ -735,11 +603,7 @@
     "slot": "chest",
     "brand": "Fenris Group AB",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Overwatch",
@@ -757,11 +621,7 @@
     "slot": "chest",
     "brand": "Grupo Sombra S.A.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "DZ",
     "talent": {
       "name": "Perfect Spark",
@@ -779,11 +639,7 @@
     "slot": "chest",
     "brand": "Empress International",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Skilled",
@@ -801,11 +657,7 @@
     "slot": "chest",
     "brand": "Uzina Getica",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Spotter",
@@ -823,11 +675,7 @@
     "slot": "chest",
     "brand": "Habsburg Guard",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ only",
     "talent": {
       "name": "Perfect Trauma",
@@ -845,11 +693,7 @@
     "slot": "chest",
     "brand": "Lengmo",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Mad Bomber",
@@ -867,11 +711,7 @@
     "slot": "chest",
     "brand": "Zwiadowka Sp. z o.o.",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Entrench",
@@ -889,11 +729,7 @@
     "slot": "chest",
     "brand": "Airaldi Holdings",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Focus",
@@ -911,11 +747,7 @@
     "slot": "chest",
     "brand": "Urban Lookout",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Protected Reload",
@@ -933,11 +765,7 @@
     "slot": "chest",
     "brand": "Palisade Steelworks",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfectly Explosive Delivey",
@@ -955,11 +783,7 @@
     "slot": "chest",
     "brand": "Wyvern Wear",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": null,
     "talent": {
       "name": "Perfect Kinetic Momentum",
@@ -977,11 +801,7 @@
     "slot": "chest",
     "brand": "Royal Works",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Gunslinger",
@@ -999,11 +819,7 @@
     "slot": "chest",
     "brand": "Edelweiss GPz",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ/DZ",
     "talent": {
       "name": "Perfect Empathic Resolve",
@@ -1021,11 +837,7 @@
     "slot": "chest",
     "brand": "Unit Alloys",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Mod Slot"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Mod Slot"],
     "source": "LZ",
     "talent": {
       "name": "Perfect Obliterate",
@@ -1043,10 +855,7 @@
     "slot": "gloves",
     "brand": "5.11 Tactical",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Armor on Kill\n10%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Armor on Kill\n10%", "Any Basic"],
     "source": "DZ",
     "talent": null,
     "specialEffect": {
@@ -1061,10 +870,7 @@
     "slot": "gloves",
     "brand": "Petrov",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Damage to Armor\n8%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Damage to Armor\n8%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1079,10 +885,7 @@
     "slot": "gloves",
     "brand": "Alps Summit Armament",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Skill Health\n25%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Skill Health\n25%", "Any Basic"],
     "source": "Crafted",
     "talent": null,
     "specialEffect": {
@@ -1115,10 +918,7 @@
     "slot": "gloves",
     "brand": "Sokolov Concern",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Status Effects\n16%",
-      "Any Basic\n(Cant be Status)"
-    ],
+    "minorAttributes": ["Status Effects\n16%", "Any Basic\n(Cant be Status)"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1133,10 +933,7 @@
     "slot": "holster",
     "brand": "Richter & Kaiser",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Shield Health\n50%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Shield Health\n50%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1151,11 +948,7 @@
     "slot": "holster",
     "brand": "Badger Tuff",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Ammo capacity\n10%",
-      "Any Basic",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Ammo capacity\n10%", "Any Basic", "Any Basic"],
     "source": "Crafted",
     "talent": null,
     "specialEffect": {
@@ -1170,10 +963,7 @@
     "slot": "holster",
     "brand": "Brazos de Arcabuz",
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Weapon damage\n10%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Weapon damage\n10%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1188,10 +978,7 @@
     "slot": "holster",
     "brand": "Urban Lookout",
     "coreAttribute": "Weapon damage\n1.5% - 15% (15% - 22.5)",
-    "minorAttributes": [
-      "Accuracy\n38%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Accuracy\n38%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1206,10 +993,7 @@
     "slot": "holster",
     "brand": "Unit Alloys",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "5% Rate of Fire",
-      "Any Basic"
-    ],
+    "minorAttributes": ["5% Rate of Fire", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1243,10 +1027,7 @@
     "slot": "kneepads",
     "brand": "Overlord Armaments",
     "coreAttribute": "Weapon damage\n1.5% - 15%",
-    "minorAttributes": [
-      "Damage to out of Cover\n8%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Damage to out of Cover\n8%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1261,11 +1042,7 @@
     "slot": "kneepads",
     "brand": "Electrique",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Any Basic",
-      "Any Basic",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Any Basic", "Any Basic", "Any Basic"],
     "source": "Special Event Hoarder",
     "talent": {
       "name": "Flurry",
@@ -1283,10 +1060,7 @@
     "slot": "kneepads",
     "brand": "Ceska Vyroba s.r.o",
     "coreAttribute": "15% Weapon Damage",
-    "minorAttributes": [
-      "12% Critical Hit Damage",
-      "6% Critical Hit Chance"
-    ],
+    "minorAttributes": ["12% Critical Hit Damage", "6% Critical Hit Chance"],
     "source": "Limited time April Fools event.",
     "talent": {
       "name": "Bewildered",
@@ -1304,10 +1078,7 @@
     "slot": "kneepads",
     "brand": "Murakami Industries",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Armor Regen\n1%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Armor Regen\n1%", "Any Basic"],
     "source": "DZ",
     "talent": null,
     "specialEffect": {
@@ -1322,10 +1093,7 @@
     "slot": "kneepads",
     "brand": "Shiny Monkey",
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Status Effects\n16%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Status Effects\n16%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1340,10 +1108,7 @@
     "slot": "kneepads",
     "brand": "Imminence Armaments",
     "coreAttribute": "15% Weapon Damage",
-    "minorAttributes": [
-      "Reduced Threat\n50%",
-      "Any Basic"
-    ],
+    "minorAttributes": ["Reduced Threat\n50%", "Any Basic"],
     "source": "LZ",
     "talent": null,
     "specialEffect": {
@@ -1729,10 +1494,7 @@
     "slot": "gloves",
     "brand": null,
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Skill Haste\n6% - 12%",
-      "Skill Repair\n7.8% - 20%"
-    ],
+    "minorAttributes": ["Skill Haste\n6% - 12%", "Skill Repair\n7.8% - 20%"],
     "source": "- Black Tusk Medics\n- Galveston, Camp White Oak\n\n-- Target loot\n-- Exotic Caches",
     "talent": {
       "name": "Transference Overclock",
@@ -1897,10 +1659,7 @@
     "slot": "holster",
     "brand": null,
     "coreAttribute": ">+1<\nSkill tier",
-    "minorAttributes": [
-      "Skill Damage",
-      "Skill Haste"
-    ],
+    "minorAttributes": ["Skill Damage", "Skill Haste"],
     "source": "- Season 4 track\n\n-- Target loot\n-- Exotic Caches",
     "talent": {
       "name": "Alternating Current",
@@ -1939,10 +1698,7 @@
     "slot": "kneepads",
     "brand": null,
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Explosive Resist\n1% - 10%",
-      "Health\n8405 - 18935"
-    ],
+    "minorAttributes": ["Explosive Resist\n1% - 10%", "Health\n8405 - 18935"],
     "source": "- Hyena Bosses\n\n-- Target loot\n-- Exotic Caches",
     "talent": {
       "name": "Stand Your Ground",
@@ -1960,10 +1716,7 @@
     "slot": "kneepads",
     "brand": null,
     "coreAttribute": "Armour\n16,594 - 170.000",
-    "minorAttributes": [
-      "Any Basic Red Attribute",
-      "Any Basic Blue Attribute"
-    ],
+    "minorAttributes": ["Any Basic Red Attribute", "Any Basic Blue Attribute"],
     "source": "- Year 6 Season 1 track\n\n-- Target loot\n-- Exotic Caches",
     "talent": {
       "name": "Escape Plan",
@@ -2032,6 +1785,28 @@
       "name": "Parkour!",
       "description": {
         "pve": "Performing a cover to cover or vaulting reloads your drawn weapon and grants +25% bonus arrmor for 5s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "sarru",
+    "name": "Sarru",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "Red Moon Unleashed Loot Table Cache",
+    "talent": {
+      "name": "Decoy King",
+      "description": {
+        "pve": "While in combat, the Moon will cycle through its phases every 5s. There are 8 Moon phases.\n\nStarting from a New Moon, all damage you deal will be Amplified by 5%. The value of the Amplifier will increase by 5% each phase until reaching 25% during a Full Moon, then it will decrease as the Moon return to being a New Moon, restarting the cycle.\n\nDuring a Full Moon, deploying a Decoy will grant it Overcharge and the cycle will pause for 10s.",
         "pvp": null
       }
     },
