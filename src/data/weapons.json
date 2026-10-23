@@ -2410,5 +2410,20 @@
       }
     },
     "source": "Red Moon Unleashed Gear Cache Loot Table"
+  },
+  {
+    "id": "inconspicuous",
+    "name": "Inconspicuous",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "SASG-12",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 15% armor over 5 seconds.\n\nHeadshot kills improve the repair by an additional 15%",
+        "pvp": null
+      }
+    },
+    "source": "Red Moon Unleashed Gear Cache Loot Table"
   }
 ]
