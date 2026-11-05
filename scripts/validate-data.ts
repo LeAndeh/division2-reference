@@ -1,5 +1,6 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
+import { changelogSchema } from "../src/schemas/changelogSchema.js";
 
 import { weaponsSchema } from "../src/schemas/weaponSchema.js";
 import { weaponTalentsSchema } from "../src/schemas/weaponTalentSchema.js";
@@ -212,3 +213,18 @@ for (const talent of gearTalentsResult.data) {
 console.log(
   `Gear talent data valid: ${gearTalentsResult.data.length} records checked, no duplicate IDs.`,
 );
+
+// changelog validation
+const changelogData: unknown = JSON.parse(
+  fs.readFileSync(path.resolve("src/data/changelog.json"), "utf8"),
+);
+const changelogResult = changelogSchema.safeParse(changelogData);
+
+if (!changelogResult.success) {
+  for (const issue of changelogResult.error.issues) {
+    console.error(`Path: ${issue.path.join(".") || "(root)"}\nError: ${issue.message}\n`);
+  }
+  throw new Error("Changelog validation failed.");
+}
+
+console.log(`Changelog valid: ${changelogResult.data.entries.length} entries checked.`);

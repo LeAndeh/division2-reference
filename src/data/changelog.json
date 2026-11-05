@@ -1,0 +1,17 @@
+{
+  "currentPatch": "Y8 S3.3",
+  "lastUpdated": "2026-11-05",
+  "entries": [
+    {
+      "date": "2026-11-05",
+      "patch": "Y8 S3.3",
+      "title": "New DLC items",
+      "changes": [
+        "Added The Ratel exotic assault rifle.",
+        "Added Loaded for Bear exotic gloves.",
+        "Added PvP values for Voracious and Afterburn.",
+        "WIP: Validation for all previous and new items"
+      ]
+    }
+  ]
+}

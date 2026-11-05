@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ModeToggle } from "./components/ModeToggle";
+import { Changelog } from "./components/Changelog";
 import type { GameMode } from "./types/gameMode";
 import "./styles/app.css";
 
@@ -60,6 +61,8 @@ function App() {
         <section className="status-bar" aria-live="polite">
           Viewing <strong>{mode.toUpperCase()}</strong> values
         </section>
+
+        <Changelog />
 
         <section className="category-grid" aria-label="Reference categories">
           {categories.map(([title, category, description]) => (
