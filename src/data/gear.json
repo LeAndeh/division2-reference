@@ -1811,5 +1811,23 @@
       }
     },
     "specialEffect": null
+  },
+  {
+    "id": "loaded-for-bear",
+    "name": "Loaded for Bear",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": null,
+    "minorAttributes": [],
+    "source": null,
+    "talent": {
+      "name": "Afterburn",
+      "description": {
+        "pve": "Hitting enemies applies stacks to them. An enemy cannot have more than 20 stacks applied to them.\n\nWhen reloading your weapon, all stacks will be consumed to deal 100% Weapon Damage per stack to the enemy they are applied on.",
+        "pvp": "Hitting enemies applies stacks to them. An enemy cannot have more than 10 stacks applied to them.\n\nWhen reloading your weapon, all stacks will be consumed to deal 25% Weapon Damage per stack to the enemy they are applied on.\n\nIn PvP environments, swapping weapons also triggers the talent effect."
+      }
+    },
+    "specialEffect": null
   }
 ]

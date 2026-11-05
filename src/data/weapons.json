@@ -2425,5 +2425,19 @@
       }
     },
     "source": "Red Moon Unleashed Gear Cache Loot Table"
+  },
+  {
+    "id": "the-ratel",
+    "name": "The Ratel",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "baseVariant": "Honey Badger",
+    "talent": {
+      "name": "Voracious",
+      "description": {
+        "pve": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n250 weapon hits grant a stack. Maximum stacks: 4. Each stack increases the maximum Amplified Damage by 20% and grants +15% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds.",
+        "pvp": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n100 weapon hits grant a stack. Maximum stacks: 2. Each stack increases the maximum Amplified Damage by 18% and grants +20% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds."
+      }
+    }
   }
 ]
