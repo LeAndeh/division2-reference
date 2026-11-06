@@ -1829,5 +1829,22 @@
       }
     },
     "specialEffect": null
+  },
+  {
+    "id": "specters-gloves",
+    "name": "Specter's Gloves",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Walker, Harris & Co.",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+8.0% Damage to Armor"
+    ],
+    "source": "Obtained by killing all 4 hunters in Central Park and looting their keys to open the chest at the Tower Settlement gift shop.",
+    "talent": null,
+    "specialEffect": {
+      "pve": "+8.0% Damage to Armor",
+      "pvp": null
+    }
   }
 ]

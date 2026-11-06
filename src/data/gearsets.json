@@ -1178,5 +1178,59 @@
       }
     },
     "source": "LZ and DZ"
+  },
+  {
+    "id": "apex-protocol",
+    "name": "Apex Protocol",
+    "coreAttributes": [
+      {
+        "attribute": "weapon-damage",
+        "slots": [
+          "holster",
+          "kneepads",
+          "chest",
+          "gloves"
+        ]
+      },
+      {
+        "attribute": "skill-tier",
+        "slots": [
+          "backpack",
+          "mask"
+        ]
+      }
+    ],
+    "bonuses": {
+      "twoPiece": {
+        "pve": "+10% Weapon Damage\n+10% Skill Damage",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "+15% Weapon Handling\n+15% Hazard Protection",
+        "pvp": null
+      }
+    },
+    "fourPiece": {
+      "name": "Apex Engine",
+      "description": {
+        "pve": "Weapon hits build stacks. Upon reaching 100 stacks, all stacks are consumed to grant and refresh a stack of +1 Skill Tier and +65% Weapon Damage for 30s, and reduce all active Skill Cooldowns by 10s. The maximum amount of bonus stacks that can be granted by this talent at one time is 3.\n\nBase stack decay for the weapon hits is 10 stacks every 5s. The decay is decreased by 5 stacks if two Guardian Skills are equipped. Stack decay is halted for 10s upon deploying a Guardian Skill.",
+        "pvp": null
+      }
+    },
+    "chestTalent": {
+      "name": "Veer Override",
+      "description": {
+        "pve": "While at maximum Apex Engine stacks, enemies damaged by your Skills are marked for 10s. Deal +20% Amplified Damage to marked enemies.",
+        "pvp": null
+      }
+    },
+    "backpackTalent": {
+      "name": "Veer Failsafe",
+      "description": {
+        "pve": "Receive +5% Armor on Kill and +10% Skill Damage per Apex Engine bonus stack.",
+        "pvp": null
+      }
+    },
+    "source": "Obtained by killing Guardians. Each Guardian has a specific gear-set piece that it can drop."
   }
 ]

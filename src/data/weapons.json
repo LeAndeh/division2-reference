@@ -2439,5 +2439,22 @@
         "pvp": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n100 weapon hits grant a stack. Maximum stacks: 2. Each stack increases the maximum Amplified Damage by 18% and grants +20% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds."
       }
     }
+  },
+  {
+    "id": "clockwork-mp5-n",
+    "name": "Clockwork MP5-N",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP5-N",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "More base damage and more optimal range than the normal MP5 N.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Obtained by collecting all Guardian cards in Central Park. A gate will then open near the east checkpoint of the park. Listen to the Echo there and the weapon will drop."
   }
 ]

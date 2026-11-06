@@ -1,7 +1,18 @@
 {
   "currentPatch": "Y8 S3.3",
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "entries": [
+    {
+      "date": "2026-11-06",
+      "patch": "Y8 S3.3",
+      "title": "DLC gear and weapon update",
+      "changes": [
+        "Added Specter's Gloves named gloves.",
+        "Added Clockwork MP5-N named submachine gun.",
+        "Added the Apex Protocol gear set.",
+        "Added Apex Engine, Veer Override, and Veer Failsafe."
+      ]
+    },
     {
       "date": "2026-11-05",
       "patch": "Y8 S3.3",
