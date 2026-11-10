@@ -15,6 +15,7 @@
   --accent-strong: #ef5a0f;
   --named-color: #ebc047;
   --exotic-color: #ff6f36;
+  --perfect-color: #ebc047;
 }
 
 * {
@@ -283,14 +284,6 @@ footer {
   outline-offset: 1px;
 }
 
-.weapon-grid,
-.gear-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  align-items: start;
-}
-
 .empty-state {
   color: var(--text-secondary);
   padding: 2rem 0;
@@ -306,17 +299,6 @@ footer {
     align-items: start;
     flex-direction: column;
   }
-}
-
-.weapon-card,
-.gear-card {
-  min-width: 0;
-  background: var(--surface);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-  overflow-wrap: anywhere;
 }
 
 .weapon-card__classification,
@@ -529,19 +511,6 @@ footer {
   outline-offset: 1px;
 }
 
-.weapon-talent-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-}
-
-.weapon-talent-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-}
-
 .weapon-talent-card__variant + .weapon-talent-card__variant {
   margin-top: 1.25rem;
   padding-top: 1.25rem;
@@ -562,32 +531,6 @@ footer {
 
 .weapon-talent-card__description {
   white-space: pre-line;
-}
-
-.weapon-talent-card__version-toggle {
-  display: flex;
-  gap: 0.4rem;
-  margin-bottom: 0.75rem;
-}
-
-.weapon-talent-card__version-toggle button {
-  padding: 0.35rem 0.65rem;
-
-  background: transparent;
-  color: var(--text-secondary);
-
-  border: 1px solid var(--border);
-  border-radius: 5px;
-
-  font: inherit;
-  font-size: 0.8rem;
-
-  cursor: pointer;
-}
-
-.weapon-talent-card__version-toggle button.active {
-  color: var(--text-primary);
-  border-color: var(--accent-primary);
 }
 
 /* gear sets */
@@ -618,22 +561,6 @@ footer {
 .gear-set-filters select:focus {
   outline: 2px solid var(--accent);
   outline-offset: 1px;
-}
-
-.gear-set-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  align-items: start;
-}
-
-.gear-set-card {
-  min-width: 0;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-  overflow-wrap: anywhere;
 }
 
 .gear-set-card__header h2 {
@@ -734,22 +661,6 @@ footer {
   outline-offset: 1px;
 }
 
-.brand-set-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  align-items: start;
-}
-
-.brand-set-card {
-  min-width: 0;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-  overflow-wrap: anywhere;
-}
-
 .brand-set-card__header h2 {
   margin: 0 0 0.75rem;
 }
@@ -825,21 +736,6 @@ footer {
   outline-offset: 1px;
 }
 
-.gear-talent-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-}
-
-.gear-talent-card {
-  min-width: 0;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 1.25rem;
-  overflow-wrap: anywhere;
-}
-
 .gear-talent-card__meta {
   display: flex;
   flex-direction: column;
@@ -852,28 +748,6 @@ footer {
 .gear-talent-card h2 {
   margin: 0 0 0.75rem;
   font-size: 1.17rem;
-}
-
-.gear-talent-card__version-toggle {
-  display: flex;
-  gap: 0.4rem;
-  margin-bottom: 0.75rem;
-}
-
-.gear-talent-card__version-toggle button {
-  padding: 0.35rem 0.65rem;
-  background: transparent;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  font: inherit;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
-.gear-talent-card__version-toggle button.active {
-  color: var(--text);
-  border-color: var(--accent);
 }
 
 .gear-talent-card__description,
@@ -907,4 +781,113 @@ footer {
   .gear-talent-filters {
     grid-template-columns: 1fr;
   }
+}
+
+/* Shared reference-card presentation */
+.weapon-grid, .gear-grid, .weapon-talent-grid, .gear-talent-grid,
+.gear-set-grid, .brand-set-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.weapon-card, .gear-card, .weapon-talent-card, .gear-talent-card,
+.gear-set-card, .brand-set-card {
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.weapon-card__header h2, .gear-card__header h2,
+.gear-set-card__header h2, .brand-set-card__header h2,
+.weapon-talent-card__variant > h3, .gear-talent-card > h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.17rem;
+  line-height: 1.3;
+}
+
+.weapon-card h3, .gear-card h3, .gear-set-card h3, .brand-set-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.weapon-card__classification, .gear-card__classification,
+.weapon-card__source, .weapon-card__normal-talent, .gear-card__source,
+.gear-card__brand, .gear-set-card__source, .gear-set-card__cores,
+.brand-set-card__core, .weapon-talent-card__types span,
+.gear-talent-card__meta, .weapon-card__detail-row span,
+.weapon-card__detail-block > strong, .gear-card__detail-row span,
+.gear-card__detail-block > span {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.weapon-talent-card__types span { color: var(--text-muted); }
+
+.weapon-talent-card__description, .gear-talent-card__description {
+  max-height: 12rem;
+  overflow-y: auto;
+  flex-shrink: 0;
+  scrollbar-gutter: stable;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.weapon-talent-card__version-toggle, .gear-talent-card__version-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.weapon-talent-card__version-toggle button,
+.gear-talent-card__version-toggle button {
+  padding: 0.35rem 0.65rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.talent-version--normal.active {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.weapon-talent-card__version-toggle .talent-version--normal.active,
+.gear-talent-card__version-toggle .talent-version--normal.active {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.weapon-talent-card__version-toggle .talent-version--perfect.active,
+.gear-talent-card__version-toggle .talent-version--perfect.active,
+.weapon-talent-card .talent-name--perfect,
+.gear-talent-card .talent-name--perfect {
+  color: var(--perfect-color);
+  border-color: var(--perfect-color);
+}
+
+.weapon-talent-card button:focus-visible, .gear-talent-card button:focus-visible,
+.weapon-talent-card__description:focus-visible,
+.gear-talent-card__description:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }

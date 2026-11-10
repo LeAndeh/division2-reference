@@ -43,7 +43,7 @@ export default function GearTalentCard({ talent, mode }: GearTalentCardProps) {
         <span>{talent.category}</span>
       </div>
 
-      <h2>{selected.name}</h2>
+      <h2 className={version === "perfect" && hasPerfect ? "talent-name--perfect" : undefined}>{selected.name}</h2>
 
       {hasPerfect && (
         <div
@@ -52,7 +52,7 @@ export default function GearTalentCard({ talent, mode }: GearTalentCardProps) {
         >
           <button
             type="button"
-            className={version === "normal" ? "active" : ""}
+            className={version === "normal" ? "talent-version--normal active" : "talent-version--normal"}
             onClick={() => setVersion("normal")}
             aria-pressed={version === "normal"}
           >
@@ -60,7 +60,7 @@ export default function GearTalentCard({ talent, mode }: GearTalentCardProps) {
           </button>
           <button
             type="button"
-            className={version === "perfect" ? "active" : ""}
+            className={version === "perfect" ? "talent-version--perfect active" : "talent-version--perfect"}
             onClick={() => setVersion("perfect")}
             aria-pressed={version === "perfect"}
           >
@@ -69,7 +69,7 @@ export default function GearTalentCard({ talent, mode }: GearTalentCardProps) {
         </div>
       )}
 
-      <p className="gear-talent-card__description">{description}</p>
+      <p className="gear-talent-card__description" tabIndex={0} aria-label="Talent description">{description}</p>
 
       {mode === "pvp" && talent.pvpModifier && (
         <p className="gear-talent-card__pvp-modifier">

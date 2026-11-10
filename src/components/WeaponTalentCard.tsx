@@ -61,26 +61,28 @@ function TalentVariant({ variant, mode }: TalentVariantProps) {
         >
           <button
             type="button"
-            className={version === "normal" ? "active" : ""}
+            className={version === "normal" ? "talent-version--normal active" : "talent-version--normal"}
             onClick={() => setVersion("normal")}
+            aria-pressed={version === "normal"}
           >
             Normal
           </button>
 
           <button
             type="button"
-            className={version === "perfect" ? "active" : ""}
+            className={version === "perfect" ? "talent-version--perfect active" : "talent-version--perfect"}
             onClick={() => setVersion("perfect")}
+            aria-pressed={version === "perfect"}
           >
             Perfect
           </button>
         </div>
       )}
 
-      <h3>{selectedVersion.name}</h3>
+      <h3 className={version === "perfect" && hasPerfect ? "talent-name--perfect" : undefined}>{selectedVersion.name}</h3>
 
       {description && (
-        <p className="weapon-talent-card__description">
+        <p className="weapon-talent-card__description" tabIndex={0} aria-label="Talent description">
           {description}
         </p>
       )}
