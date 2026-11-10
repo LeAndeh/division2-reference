@@ -1,0 +1,328 @@
+[
+  {
+    "id": "the-virginian",
+    "name": "The Virginian",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "1886",
+    "talent": {
+      "name": "Perfect Boomerang",
+      "description": {
+        "pve": "Critical hits have a 75% chance to return the bullet to the magazine. If a bullet is returned to the magazine, the next shot has 50% increased damage.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "trader",
+    "name": "Trader",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "ACR SS",
+    "talent": {
+      "name": "Perfect Back and Forth",
+      "description": {
+        "pve": "Swapping to this weapon grants +13% Rate of Fire and +12% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cooler",
+    "name": "Cooler",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M1A CQB",
+    "talent": {
+      "name": "Refreshing",
+      "description": {
+        "pve": "The Weapon fires a stream of water. Hitting an ally agent builds stacks on them. Max stack is 5. Stacks deplete every 2s. While having at least 1 stack, the ally will have +50% Hazard Protection.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "baker-s-dozen",
+    "name": "Baker's Dozen",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M1A",
+    "talent": {
+      "name": "Perfect Lucky Shot",
+      "description": {
+        "pve": "Magazine capacity is increased by 30%. Missed shots from cover have a 100% chance to return to the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "stage-left",
+    "name": "Stage Left",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "SOCOM MIA",
+    "talent": {
+      "name": "Perfect Sledgehammer",
+      "description": {
+        "pve": "Dealing damage with a grenade applies a mark on target. Targets with marks take 40% more damage to armor and -10% movement speed.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "surge",
+    "name": "Surge",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M4",
+    "talent": {
+      "name": "Perfect Spike",
+      "description": {
+        "pve": "Headshots grant 25% skill damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "everlasting-gaze",
+    "name": "Everlasting Gaze",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Police Mk-17",
+    "talent": {
+      "name": "Perfect Perpetuation",
+      "description": {
+        "pve": "Headshots grant 75% status effect damage and duration to the next status effect you apply. Cooldown is 16 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Resolute MK47",
+    "talent": {
+      "name": "Perfectly In Sync",
+      "description": {
+        "pve": "Hitting an enemy grants +20% skill damage for 5s.\nUsing a skill or damaging an enemy with a skill grants +20% weapon damage for 5s.\nDamage increases are doubled while both buffs are active at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "artist-s-tool",
+    "name": "Artist's Tool",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "SIG 716",
+    "talent": {
+      "name": "Perfect Rifleman",
+      "description": {
+        "pve": "Landing headshots adds a stack of bonus 11% weapon damage for 5 seconds. Max stack is 6. Additional headshots refresh the duration.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "achilles",
+    "name": "Achilles",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "USC .45 ACP",
+    "talent": {
+      "name": "Perfect Soft Spot",
+      "description": {
+        "pve": "Destroying a Weakpoint grants 24% Weapon Damage for 15s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "M16A2",
+    "talent": {
+      "name": "Perfectly Behind You",
+      "description": {
+        "pve": "Amplifies weapon damage by +20% to enemies that are not targeting you.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "ruthless",
+    "name": "Ruthless",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "AKM",
+    "talent": {
+      "name": "Binary Trigger",
+      "description": {
+        "pve": "This weapon fires on trigger pull and release.\n\nIf both bullets hit the same enemy, gain a stack.\n\nAt 7 stacks, shooting an enemy deals 500% amplified damage and creates a 7m explosion dealing 500% weapon damage, consuming the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Stability",
+      "Underbarrel: +15% Weapon Handling"
+    ],
+    "source": "Pre-Order\nOR buy Deluxe Pack with\nPremium Credits"
+  },
+  {
+    "id": "merciless",
+    "name": "Merciless",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "AKM",
+    "talent": {
+      "name": "Binary Trigger",
+      "description": {
+        "pve": "This weapon fires on trigger pull and release.\n\nIf both bullets hit the same enemy, gain a stack.\n\nAt 7 stacks, shooting an enemy deals 500% amplified damage and creates a 7m explosion dealing 500% weapon damage, consuming the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Stability",
+      "Underbarrel: +15% Weapon Handling"
+    ],
+    "source": "- Hyena bosses\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "diamondback",
+    "name": "Diamondback",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "1886",
+    "talent": {
+      "name": "Agonizing Bite",
+      "description": {
+        "pve": "Diamondback randomly marks an enemy within 20m. If no enemies are within 20m, it marks the enemy closest to you.\n\nHitting that enemy consumes the mark, guaranteeing a critical hit with damage amplified by 20%.\n\nAfter hitting a mark, all shots fired are guaranteed critical hits for 5 seconds.\n\nA new random enemy is marked afterwards and whenever you reload.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% stability"
+    ],
+    "source": "- Kenly College end cache\n- (Can be obtained once per\nexpedition opening)\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "doctor-home",
+    "name": "Doctor Home",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "M1A CQB",
+    "talent": {
+      "name": "Doctor Home",
+      "description": {
+        "pve": "Shooting an enemy with this weapon will apply a mark for 5 seconds.\nIf a marked target is killed it will give a 10% armor repair kit which applies to the whole party.\nThe kit will not give bonus armor.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Accuracy",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Season 10 Manhunt Reward\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "bittersweet",
+    "name": "Bittersweet",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "Classic M1A",
+    "talent": {
+      "name": "Transfusion",
+      "description": {
+        "pve": "Hitting headshots builds stacks up to a max of 8. When shooting an Ally or Skill, repair them for 50% of the shot damage for each stack.\n\nHealed Allies receive 200% of your Repair Skills bonus as Bonus Armor for each stack for 10 seconds.\n\nAll hits become guaranteed headshots for 8 seconds after healing an Ally or Skill while at maximum stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Headshot Damage",
+      "Underbarrel: +5% Headshot Damage",
+      "Magazine: +10 Rounds"
+    ],
+    "source": "Y7 S3 pass"
+  },
+  {
+    "id": "the-ravenous",
+    "name": "The Ravenous",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "SIG 716",
+    "talent": {
+      "name": "Geri and Freki",
+      "description": {
+        "pve": "On trigger pull, fire both barrels at once.\n\nWhen fired from the right shoulder, hits add offensive primers, and defensive primers when fired drom the left shoulder.\n\nHits from one shoulder will detonate all of the opposite shoulder's primers when present.\n\nWhen detonated, each offensive primer deals 100% weapon damage, while each defensive primer grants +4% bonus armor and +10% amplified damage to armor plates for 5s.\n\nPrimer effectiveness is doubled at 10 stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Critical Hit Chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +5% Critical Hit Damage"
+    ],
+    "source": "Operation Iron Horse on Normal: 1% Chance per boss encounter, or End Cache @ 10%. Low chance from the Dark Zone"
+  },
+  {
+    "id": "vindicator",
+    "name": "Vindicator",
+    "type": "exotic",
+    "weaponType": "rifle",
+    "baseVariant": "Modified Desert Tech MDR",
+    "talent": {
+      "name": "Ortiz Assault Interface",
+      "description": {
+        "pve": "While scoped, the weapon will highlight a random body section of each enemy.\nThe weapon amplifies damage by +60% Weapon Damage to highlighted body sections.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +5 Rounds",
+      "Muzzle: +10% Optimal Range",
+      "Underbarrel: +15% Stability"
+    ],
+    "source": "NSA Store, with currency from the Descent"
+  },
+  {
+    "id": "lichtenberg",
+    "name": "Lichtenberg",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "Classic M1A",
+    "talent": {
+      "name": "Run and Gun",
+      "description": {
+        "pve": "While moving, you accrue 5 stacks per second, up to a maximum of 100 stacks.\n\nHeadshots with Lichtenberg grant 15 stacks and 20% Movement Speed for 5 seconds.\n\nWhile at maximum stacks, your next shot with Lichtenberg consumes all stacks, deals 200% bonus damage, and Shocks the target for 2 second.",
+        "pvp": "While moving, you accrue 5 stacks per second, up to a maximum of 100 stacks.\n\nHeadshots with Lichtenberg grant 10 stacks and 10% Movement Speed for 3 seconds.\n\nWhile at maximum stacks, your next shot with Lichtenberg consumes all stacks, deals 70% bonus damage, and Shocks the target for 1 second."
+      }
+    },
+    "source": "Red Moon Unleashed Gear Cache Loot Table"
+  }
+]

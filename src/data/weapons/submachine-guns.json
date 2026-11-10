@@ -1,0 +1,348 @@
+[
+  {
+    "id": "the-grudge",
+    "name": "The Grudge",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "CMMG Banshee",
+    "talent": {
+      "name": "Perfectly Vindictive",
+      "description": {
+        "pve": "Killing an enemy with a status effect applied grants all group members within 20 meters 21% critical hit chance and 21% critical hit damage for 20 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\n\nWarlords Campaign\nAaron Keener (story)"
+  },
+  {
+    "id": "interchange",
+    "name": "Interchange",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Enhanced AUG A3P",
+    "talent": {
+      "name": "Perfect Back and Forth",
+      "description": {
+        "pve": "Swapping to this weapon grants +13% Rate of Fire and +12% Weapon Damage for 10s. Swapping from this weapon grants +5% Rate of Fire and +4.5% Weapon Damage for 10s. Receiving one of the bonuses will remove the previous one if it's still active. Two instances of this Talent will not function at the same time.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cabaret",
+    "name": "Cabaret",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP5 ST",
+    "talent": {
+      "name": "Perfect Thunder Strike",
+      "description": {
+        "pve": "Deals 35% extra damage to shocked targets.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "grown-great",
+    "name": "Grown Great",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Perfect Stabilize",
+      "description": {
+        "pve": "1% Weapon Accuracy and +1% Weapon Stability per bullet shot, up to 75%.\nStopping shooting will start a timer of 6 seconds, after which the bonuses reset",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "swap-chain",
+    "name": "Swap Chain",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP7",
+    "talent": {
+      "name": "Perfect Unwavering",
+      "description": {
+        "pve": "Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the buff. Swapping away disables this from all weapons for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "safety-distance",
+    "name": "Safety Distance",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MPX",
+    "talent": {
+      "name": "Perfect Outsider",
+      "description": {
+        "pve": "After killing an enemy, gain 150% optimal range and 125% accuracy for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-apartment",
+    "name": "The Apartment",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "talent": {
+      "name": "Perfectly Measured",
+      "description": {
+        "pve": "The top half of the magazine has +25% rate of fire and -30% weapon damage. The bottom half of the magazine has -18% rate of fire and +38% weapon damage.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "emeline-s-guard",
+    "name": "Emeline's Guard",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "FN P90",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 15% armor over 5 seconds. Headshot kills improves the repair to 30%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "purist",
+    "name": "Purist",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Converted SMG-9 A2",
+    "talent": {
+      "name": "Perfect Streamline",
+      "description": {
+        "pve": "Increase Weapon Damage by 47% when no Skills are on cooldown.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-sleigher",
+    "name": "The Sleigher",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Hidden Rock",
+      "description": {
+        "pve": "Headshots apply confuse. Cooldown 20s",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "cold-relations",
+    "name": "Cold Relations",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Enhanced PP-19",
+    "talent": {
+      "name": "Perfectly Strained",
+      "description": {
+        "pve": "Gain 10% critical hit damage for every 0.5 seconds you are firing. Stacks up to 8 times.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "slingshot",
+    "name": "Slingshot",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tactical UMP-45",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+45 Optimal Range (60 total)",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "froth",
+    "name": "Froth",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tactical Vector SBR 9mm",
+    "talent": {
+      "name": "Perfect Immobilize",
+      "description": {
+        "pve": "Amplifies weapon damage by 25% to ensared enemies. After 3 kills applies Ensnare to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "dark-winter",
+    "name": "Dark Winter",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Vector SBR .45 ACP",
+    "talent": {
+      "name": "Perfect Killer",
+      "description": {
+        "pve": "Killing an enemy with a critical hit grants 90% critical hit damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "backfire",
+    "name": "Backfire",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MPX",
+    "talent": {
+      "name": "Payment in kind",
+      "description": {
+        "pve": "Dealing damage to enemies adds a stack of 2% Critical Hit Damage, up to 100 stacks, lasting 10s.\n\nOn reload apply a 10s bleed to yourself, which deals 0.5% armor damage per stack.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +20 Rounds",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "the-chatterbox",
+    "name": "The Chatterbox",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "FN P90",
+    "talent": {
+      "name": "Incessant Chatter",
+      "description": {
+        "pve": "When you reload, rate of fire is increased by 25% for each enemy within 15m for the duration of that magazine.\n\nMax stacks: 5\n\nKills refill 50% of your magazine.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +10 Rounds",
+      "Muzzle: +15% Critical Hit Damage",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Hyena Cache questline\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "lady-death",
+    "name": "Lady Death",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "CMMG Banshee",
+    "talent": {
+      "name": "Breathe Free",
+      "description": {
+        "pve": "When moving, gain 4 stacks per second, or 8 stacks if sprinting. Max stack is equal to the weapon's Magazine Size.\n\nEach round fired consumes a stack, amplifying damage by 75%.\n\nKills grant +20% movement speed for 10s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: 10% Critical Hit Damage",
+      "Underbarrel: +500% Melee Damage"
+    ],
+    "source": "- 22 NY open world bosses (3%)\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "ouroboros",
+    "name": "Ouroboros",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Vector",
+    "talent": {
+      "name": "Rule them all",
+      "description": {
+        "pve": "When the agent has a Status Effect applied to them, 50% of the ammo in their next magazine will apply the same Status Effect to their targets.\n\nThis effect will only occur during combat.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +25% Reload Speed",
+      "Muzzle: +10% Rate of Fire",
+      "Underbarrel: +10% Critical Hit Chance"
+    ],
+    "source": "- Incursions Chest 10%.\n- Incursions Boss drop 1%"
+  },
+  {
+    "id": "underboss-pts",
+    "name": "Underboss (PTS)",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "Tommy Gun",
+    "talent": {
+      "name": "Gangland Hit",
+      "description": {
+        "pve": "Shooting an enemy with this weapon applies a mark. You can only apply one mark at a time. Shooting another enemy will transfer the mark.\n\nMore marks can be applied on the same enemy by other agents using this weapon. Maximum amount of marks that can be applied on an enemy is 4.\n\nThis weapon deals +20% Amplified Damage to marked enemies. The bonus is increased by 5% for each extra mark on the enemy other than your own.",
+        "pvp": null
+      }
+    }
+  },
+  {
+    "id": "oxpecker",
+    "name": "Oxpecker",
+    "type": "exotic",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP7",
+    "talent": {
+      "name": "Symbiosis",
+      "description": {
+        "pve": "While having a Shield deployed, lose Shield Health at a rate of 10% per second.\nYour Shield recieves repairs of 25% of the damage dealt by this weapon.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +50% Optimal Range",
+      "Muzzle: +10 Rounds",
+      "Underbarrel: +15% Critical Hit Chance"
+    ],
+    "source": "- Year 6 Season 3 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "clockwork-mp5-n",
+    "name": "Clockwork MP5-N",
+    "type": "named",
+    "weaponType": "submachine-gun",
+    "baseVariant": "MP5-N",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "More base damage and more optimal range than the normal MP5 N.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Obtained by collecting all Guardian cards in Central Park. A gate will then open near the east checkpoint of the park. Listen to the Echo there and the weapon will drop."
+  }
+]

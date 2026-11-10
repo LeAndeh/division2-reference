@@ -1,0 +1,293 @@
+[
+  {
+    "id": "the-white-death",
+    "name": "The White Death",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M44",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "137.0% Headshot Damage",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "oh-carol",
+    "name": "Oh Carol",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M44",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "137.0% Headshot Damage & Twinkling Lights\nOnly at night with twinkling lights can you fill their heads with festive might.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "ekim-s-long-stick",
+    "name": "Ekim's Long Stick",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Model 700",
+    "talent": {
+      "name": "Perfect Ranger",
+      "description": {
+        "pve": "Amplifies weapon damage by 2% for every 3 meters you are away from the target.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-darkness",
+    "name": "The Darkness",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "MK20 SSR\n(FN SCAR-SSR)",
+    "talent": {
+      "name": "Perfect Eyeless",
+      "description": {
+        "pve": "Deal 35% weapon damage to blinded enemies. After 3 kills, applies blind to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\nWarlords Campaign\nTheo Parnell (story)"
+  },
+  {
+    "id": "designated-hitter",
+    "name": "Designated Hitter",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SR-1",
+    "talent": {
+      "name": "Perfect Reformation",
+      "description": {
+        "pve": "Headshots grant 80% skill repair for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "pinprick",
+    "name": "Pinprick",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SRS",
+    "talent": {
+      "name": "Perfect First Blood",
+      "description": {
+        "pve": "If scoped, your first 2 shots fired from out of combat or after fully reloading from empty deal headshot damage to any part of the body hit. Requires a Scope with 8x magnification or higher.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "commando",
+    "name": "Commando",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Paratrooper SVD",
+    "talent": {
+      "name": "Perfectly Naked",
+      "description": {
+        "pve": "Hitting an enemy with no armor grants 50% headshot damage for 8 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "handbasket",
+    "name": "Handbasket",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Surplus SVD",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+230,326 Base damage, -200 RPM",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "relic",
+    "name": "Relic",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "G28 Marksmen Rifle",
+    "talent": {
+      "name": "Perfectly Determined",
+      "description": {
+        "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed (critical) headshot. While the talent is active, killing an enemy will not retrigger the talent.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "scalpel",
+    "name": "Scalpel",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Tactical .308",
+    "talent": {
+      "name": "Future Perfection",
+      "description": {
+        "pve": "Weapon kills grant +1 skill tier for 19s. Stacks up to 3 times.\nWeapon kills at skill tier 6 grant overcharge for 15s.\nOvercharge Cooldown: 90s",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "instigator",
+    "name": "Instigator",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Custom M44",
+    "talent": {
+      "name": "Perfect Soft Spot",
+      "description": {
+        "pve": "Destroying a Weakpoint grants 24% Weapon Damage for 15s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "brutus",
+    "name": "Brutus",
+    "type": "named",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M700 Carbon",
+    "talent": {
+      "name": "Perfectly Behind You",
+      "description": {
+        "pve": "Amplifies weapon damage by +25% to enemies that are not targeting you.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "sacrum-imperium",
+    "name": "Sacrum Imperium",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "G28 Marksmen Rifle",
+    "talent": {
+      "name": "The Trap",
+      "description": {
+        "pve": "Tags enemies when in scope (maximum 10) If Agent kills any marked target with a headshot, all other targets will have 50% movement speed and receive burn for 10 seconds.\n\nCooldown 30 seconds.\n\nKilling another enemy with a headshot will shorten the cooldown for 10 seconds.\n\nTargets are marked after 1 seconds in crosshair.",
+        "pvp": "Tags enemies when in scope (maximum 10) If Agent kills any marked target with a headshot, all other targets will have 20% movement speed and receive burn for 10 seconds.\n\nCooldown 30 seconds.\n\nKilling another enemy with a headshot will shorten the cooldown for 10 seconds.\n\nTargets are marked after 1 seconds in crosshair."
+      }
+    },
+    "exoticMods": [
+      "Optics: +20% Headshot damage",
+      "Magazine: +10% Headshot damage",
+      "Muzzle: +20% Optimal Range",
+      "Underbarrel: +20% Stability"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "dread-edict",
+    "name": "Dread Edict",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SVD",
+    "talent": {
+      "name": "Full Stop",
+      "description": {
+        "pve": "Shooting enemies builds stacks to a cap of 20. Headshots grant 2 stacks. Each stack grants 2% Weapon Damage and 5% Headshot Damage. On reload, clear all stacks and gain 5% of your max armor as temp armor for 10 seconds for each stack removed.\n\nHeadshot kills with Dread Edict restore all bullets in the magazine. This does not count as a reload.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damage",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +10% Critical Hit Chance",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "nemesis",
+    "name": "Nemesis",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "Custom AWM\nAICS 2.0 chasis\nAX50 stock\nMagpul AFG-12",
+    "talent": {
+      "name": "Electromagnetic Accelerator",
+      "description": {
+        "pve": "Shots fired deal 0-100% weapon damage based on how long the trigger is held before releasing.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +45% Headshot Damage",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +5% Critical Hit Damage",
+      "Underbarrel: +5% Weapon Handling"
+    ],
+    "source": "Black Tusk Invaded Stronghold Questline.\n\n After completion, Targetable"
+  },
+  {
+    "id": "shroud",
+    "name": "Shroud",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "M700 Carbon",
+    "talent": {
+      "name": "High Priority Target",
+      "description": {
+        "pve": "Amplifies Weapon Damage by 125% to the highest ranking enemies currently in combat, as per the Tier hierarchy.\n\nTier 1: Hunter, Rogue, Leader, Tank, Shield, Heavy Weapons, RPG, Medic, Controller, Warhound, Marauder.\nTier 2: Support, Engineer, Bodyguard, Immobilizer, Bomber, Mini Tank, Drone Operator.\nTier 3: Any other enemy or skill proxy.\n\nEditor's note: 2.25x amplifier includes Headhunter bonus, for more details read Headhunter Synergy Guide.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +25% Headshot Damage",
+      "Magazine: +25% Reload Speed",
+      "Muzzle: +20% Headshot Damage",
+      "Underbarrel: +5% Critical Hit Chance"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "mantis",
+    "name": "Mantis",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "baseVariant": "SRS-A1",
+    "talent": {
+      "name": "In Plain Sight",
+      "description": {
+        "pve": "Your scoped view displays additional information about enemies not targetting you.\n\nHeadshot and weakpoint damage against enemies not targetting you is amplified by 50%.\n\nHeadshot kills reset the cooldown of your Decoy Skill. This bonus will wait until the Decoy goes on cooldown if currently active.\n\nEditor's note: 1.5x amplifier excludes Headhunter bonus, for more details read Headhunter Synergy Guide.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damaeg",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +5% Critical Hit Chance",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "Targetable"
+  }
+]

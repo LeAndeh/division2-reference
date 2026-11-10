@@ -1,0 +1,596 @@
+[
+  {
+    "id": "liquid-engineer",
+    "name": "Liquid Engineer",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Belstone Armory",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Bloodsucker",
+      "description": {
+        "pve": "Killing an enemy adds and refreshes a stack of +12% bonus armor for 10s. Max stack is 10",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "hermano",
+    "name": "Hermano",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Brazos de Arcabuz",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Overclock",
+      "description": {
+        "pve": "You and allies within 15m of your deployed skills, gain +30% reload speed and reduces active cooldowns by 0.6 each second.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-courier",
+    "name": "The Courier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Habsburg Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ only",
+    "talent": {
+      "name": "Perfect Creeping Death",
+      "description": {
+        "pve": "When you apply a status effect, it is also applied to all enemies within 10m of your target.\n\nCooldown: 10s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "backbone",
+    "name": "Backbone",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Lengmo",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Unstoppable Force",
+      "description": {
+        "pve": "Killing an enemy increases total weapon damage by 7% for 15s.\nStacks up to 5.\nGrenade kills add 2 stacks.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "anarchist-s-cookbook",
+    "name": "Anarchist's Cookbook",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Golan Gear",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ, DZ\nWarlords Campaign\nVivian Conley (story)",
+    "talent": {
+      "name": "Perfectly Wicked",
+      "description": {
+        "pve": "Applying a status effect increases total weapon damage by 18% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "strategic-alignment",
+    "name": "Strategic Alignment",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "China Light Industries Corporation",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Shock and Awe",
+      "description": {
+        "pve": "Applying a status effect to an enemy increases total skill damage and repair by 20% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "lavoisier",
+    "name": "Lavoisier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Electrique",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Galvanize",
+      "description": {
+        "pve": "Applying Blind, Ensnare, Confuse, or Shock to an enemy grants 50% of your armor as bonus armor to you and all allies within 30 meters of that enemy for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "matador",
+    "name": "Matador",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Walker, Harris & Co.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Adrenaline Rush",
+      "description": {
+        "pve": "When you are within 10m of an enemy, gain 23% bonus armor for 5s. Stacks up to 3 times.\n\nCooldown: 5s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-gift",
+    "name": "The Gift",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Providence Defense",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Vigilance",
+      "description": {
+        "pve": "Increases total weapon damage by 25%.\nTaking damage disables buff for 3s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "percussive-maintenance",
+    "name": "Percussive Maintenance",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Alps Summit Armament",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Tech Support",
+      "description": {
+        "pve": "Skill kills increase total skill damage by 25% for 27s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "vigil",
+    "name": "Vigil",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Legatus S.p.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Versatile",
+      "description": {
+        "pve": "Amplifies total weapon damage for 10s when swapping between your primary and secondary weapons if they are different.\n\n45% to enemies within 15m for Shotguns and SMG's.\n45% to enemies further than 25m for Rifles and MMR's.\n20% to enemies between 15-25m for LMG's and AR's\nAt most once per 5s per weapon type.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "devil-s-due",
+    "name": "Devil's Due",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Ceska Vyroba s.r.o",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "DZ",
+    "talent": {
+      "name": "Perfect Clutch",
+      "description": {
+        "pve": "When you are below 20% armor, critical hits repair 2.5% of missing armour.\nOn kill, critical hits repair 2.5% of missing armor for 4 seconds.\nLowest possible repair is 0% armour\n\nEach red core attribute adds 1 second to the time.\nMaximum is 10 seconds.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "battery-pack",
+    "name": "Battery Pack",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Empress International",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Calculated",
+      "description": {
+        "pve": "Kills from cover reduce skill cooldowns by 15%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "the-setup",
+    "name": "The Setup",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Uzina Getica",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Opportunistic",
+      "description": {
+        "pve": "Enemies you hit with shotguns and marksman rifles amplifies the damage they take by 15% from all sources for 5s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "force-multiplier",
+    "name": "Force Multiplier",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Hana-U Corporation",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Combined Arms",
+      "description": {
+        "pve": "Shooting an enemy increases total skill damage by 30% for 3s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "proxy",
+    "name": "Proxy",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Palisade Steelworks",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfectly Tamper Proof",
+      "description": {
+        "pve": "Enemies that walk within 3 meters of your Hive, Turret, Remote Pulse or Decoy are shocked.\n\nArm time: 2 seconds. Cooldown per Skill: 8 seconds",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "axel",
+    "name": "Axel",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Shiny Monkey",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Energize",
+      "description": {
+        "pve": "Using an armor kit grants +1 Skill Tier for 15s.\nIf already at Skill Tier 6, grants Overcharge.\n\nCooldown 30s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "cap-n",
+    "name": "Cap'n",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Imminence Armaments",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Leadership",
+      "description": {
+        "pve": "Performing a cover to cover grants 20% of your armor as bonus armor to you and all allies for 10s.\nThis is Tripled if you end within 10m of an enemy.\n\nCooldown: 10s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "bulldog",
+    "name": "Bulldog",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Royal Works",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ",
+    "talent": {
+      "name": "Perfect Composure",
+      "description": {
+        "pve": "While in cover, increases total weapon damage by 20%.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "momma-badger",
+    "name": "Momma Badger",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Edelweiss GPz",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "LZ/DZ",
+    "talent": {
+      "name": "Peerfect Safeguard",
+      "description": {
+        "pve": "While at full armor, increases total skill repair by (160%).",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "festive-delivery",
+    "name": "Festive Delivery",
+    "type": "named",
+    "slot": "backpack",
+    "brand": "Grupo Sombra S.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Any Basic",
+      "Any Basic",
+      "Mod Slot"
+    ],
+    "source": "Special Event Hoarder",
+    "talent": {
+      "name": "Fireworks Show",
+      "description": {
+        "pve": "Concussion grenades become Festive Grenades.\n\nHitting an enemy with a Festive Grenade will cause explosions to happen around two other enemies within 20m.",
+        "pvp": "Concussion grenades become Festive Grenades.\n\nHitting an enemy with a Festive Grenade will cause explosions to happen around two other enemies within 10m.\n\nFestive Grenade explosions deal 15% damage in PvP."
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "acosta-s-go-bag",
+    "name": "Acosta's Go-Bag",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Damage\n1.3% - 10%",
+      "Skill Haste\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Faction lockboxes (3%)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "One in the Hand... ...Two in the bag",
+      "description": {
+        "pve": "Throwing a grenade refunds it and grants +1 skill tier for 15s.\nGrants overcharge if already at skill tier 6\n\nCooldown: 60s\n\n+1 Armor Kit Capacity\n+3 Grenade Capacity\n+25% Ammo Capacity\n+10% Repair-Skills\n+10% Status Effects",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "birdie-s-quick-fix-pack",
+    "name": "Birdie's Quick Fix Pack",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Haste\n6% - 12%",
+      "Repair Skills\n7.8% - 20%",
+      "Mod Slot"
+    ],
+    "source": "- Guaranteed reward for first completion of Y6S3 Climax mission on master difficulty\n- Drop chance from boss of Y6S3 Climax mission on any difficulty (Difficulty affects droprate)",
+    "talent": {
+      "name": "Combat Medic",
+      "description": {
+        "pve": "+80% Revive Speed\n-50% Weakened Debuff timer\n+45% Hive efficiency\nProvides +50% damage resistance to both agents while reviving or being revived, and for 5s after a successful Hive Revive, or 10s after a Manual Revive. Any successful revives provide  +1 Skill tier for 5s. Revives at skill tier 6 grant Overcharge for 15s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "memento",
+    "name": "Memento",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Kill Confirmed",
+      "description": {
+        "pve": "Enemies you kill drop a trophy on death. Collecting trophies provides both a short and long term buff, the first of which scales with the number of core attributes equipped and lasts 10s.\n\nRed Core - 5% Weapon Damage\nBlue Core - 10% Bonus Armor\nYellow Core - 5% Skill Effciency\n\nFor every trophy collected gain an additional +1% weapon damage, +1% skill efficiency and +0.1% armor regeneration for 300s\n\nMaximum 30 stacks",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "ninjabike-messenger-backpack",
+    "name": "NinjaBike Messenger Backpack",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "- Season 11 reward track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Resourceful",
+      "description": {
+        "pve": "Slots in with any equipped Gear Set and/or\nBrand Set item to fulfill a requirement towards\nunlocking a Gear and/or Brand Sets bonus.\nCan unlock bonuses from multiple sets\nsimultaneously.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "harrier-pride",
+    "name": "Harrier Pride",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      "1\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Harrier Pride",
+      "description": {
+        "pve": "Getting kills and hitting enemies 3 times builds Red stacks. Each stack provides 0.5% Weapon Damage.\n\nGetting hit 3 times builds Blue stacks. Each stack provides 0.5% Damage Resistance.\n\nUpon reaching 80 stacks in total, receive a separate bonus of 0.5% Damage Resistance per Red stack and 0.5% Weapon Damage per Blue stack until the next time the stack cap is reached.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "sarru",
+    "name": "Sarru",
+    "type": "exotic",
+    "slot": "backpack",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Armour\n16,594 - 170,000",
+      ">+1<\nSkill tier",
+      "Mod Slot"
+    ],
+    "source": "Red Moon Unleashed Loot Table Cache",
+    "talent": {
+      "name": "Decoy King",
+      "description": {
+        "pve": "While in combat, the Moon will cycle through its phases every 5s. There are 8 Moon phases.\n\nStarting from a New Moon, all damage you deal will be Amplified by 5%. The value of the Amplifier will increase by 5% each phase until reaching 25% during a Full Moon, then it will decrease as the Moon return to being a New Moon, restarting the cycle.\n\nDuring a Full Moon, deploying a Decoy will grant it Overcharge and the cycle will pause for 10s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  }
+]

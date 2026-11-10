@@ -1,0 +1,304 @@
+[
+  {
+    "id": "orbit",
+    "name": "Orbit",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "586 Magnum",
+    "talent": {
+      "name": "Perfect Finisher",
+      "description": {
+        "pve": "Swapping from this weapon within 10 seconds of killing an enemy grants 35% critical hit chance and 40% critical hit damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "prophet",
+    "name": "Prophet",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Police 686 Magnum",
+    "talent": {
+      "name": "Perfectly Determined",
+      "description": {
+        "pve": "After killing an enemy with a headshot the next shot landed on any enemy will be a guaranteed (critical) headshot. While the talent is active, killing an enemy will not retrigger the talent.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "sharpshooter-s-93r",
+    "name": "Sharpshooter's 93R",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "93R",
+    "talent": {
+      "name": "Perfect Unwavering",
+      "description": {
+        "pve": "Swapping to this weapon grants 400% weapon handling for 5 seconds. Kills refresh the buff. Swapping away disables this from all weapons for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Sharpshooter Specialization"
+  },
+  {
+    "id": "survivalist-d50",
+    "name": "Survivalist D50",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Desert Eagle",
+    "talent": {
+      "name": "Perfect Sadist",
+      "description": {
+        "pve": "Deal +25% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "Survivalist Specialization"
+  },
+  {
+    "id": "mozambique-special",
+    "name": "Mozambique Special",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "M45A1\n(M45A1 CQBP)",
+    "talent": {
+      "name": "Perfect Breadbasket",
+      "description": {
+        "pve": "Landing body shots adds a stack of bonus 70% headshot damage to the next headshot for 10 seconds. Max stack is 2.",
+        "pvp": null
+      }
+    },
+    "source": "LZ\nWarlords Campaign\nJavier Kajika (story)"
+  },
+  {
+    "id": "quickstep",
+    "name": "Quickstep",
+    "type": "named",
+    "weaponType": "pistol",
+    "talent": {
+      "name": "Sport Mode",
+      "description": {
+        "pve": "+20% Movement Speed. This bonus does not stack with other Movement Speed bonuses.",
+        "pvp": null
+      }
+    },
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "maxim-9",
+    "name": "Maxim 9",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Maxim 9",
+    "talent": {
+      "name": "Perfect Spike",
+      "description": {
+        "pve": "Headshots grant 25% skill damage for 15 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Technician Specialization"
+  },
+  {
+    "id": "p320-xcompact",
+    "name": "P320 XCompact",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "P320",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 12% armor over 5 seconds. Headshot kills improves the repair to 24%.",
+        "pvp": null
+      }
+    },
+    "source": "Gunner Specialization"
+  },
+  {
+    "id": "lightning-rod",
+    "name": "Lightning Rod",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "PF45",
+    "talent": {
+      "name": "Perfect Salvage",
+      "description": {
+        "pve": "Killing a target has a 85% chance to refill the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "tdi-kard-custom",
+    "name": "TDI \"Kard\" Custom",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "KARD-45",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Secondary Attribute\n+1 Skill Tier when used",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Dark Zone, Caches"
+  },
+  {
+    "id": "the-harvest",
+    "name": "The Harvest",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Police 686 Magnum",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "+10% base damage, -7% RoF",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "diceros-special",
+    "name": "Diceros Special",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "Rhino",
+    "talent": {
+      "name": "Perfect Optimist",
+      "description": {
+        "pve": "Weapon damage is increased by 4% for every 10% ammo missing from the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "Demolitionist Specialization"
+  },
+  {
+    "id": "liberty",
+    "name": "Liberty",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "D50\n(Desert Eagle)",
+    "talent": {
+      "name": "Liberty or Death",
+      "description": {
+        "pve": "Hits grant +2% weapon damage. Stacks up to 30 times.\n\nHeadshots consume all stacks, repairing your shield for 3% per stack.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +5% Headshot Damage",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +5% Critical Hit Chance",
+      "Underbarrel: +15% Rate of Fire"
+    ],
+    "source": "- True Sons mission questline:\n(Capitol, American History,\nViewpoint, Space Admin)\n\nAfter completion, Targetable"
+  },
+  {
+    "id": "whiplash",
+    "name": "Whiplash",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "Diceros",
+    "talent": {
+      "name": "Faster than Reloading",
+      "description": {
+        "pve": "Having this weapon holstered for 5s reloads and primes it. While primed, swapping to this weapon reloads you Primary and Secondary weapons and grants +20% Rate of Fire and +50% Weapon Damage until its magazine is emptied. Reloading or swapping from this weapon before its magazine is emptied will remove its stat bonuses.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +10% Critical Hit Chance",
+      "Underbarrel: +50% Swap Speed"
+    ],
+    "source": "Completion of the Y8S1 Climax Mission (The Pentagon: The Director)"
+  },
+  {
+    "id": "busy-little-bee",
+    "name": "Busy Little Bee",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "PF45",
+    "talent": {
+      "name": "Busy Little Bee",
+      "description": {
+        "pve": "Each shot to a different target will give 1 stack, up to 10, each stack will give 20% weapon damage increase.\n\nStacks will activate once the agent switches weapon and will last for 10 seconds.\n\nEditor's note: each stack adds to an amplifier, (1 + 0.2 * n) where n is number of stacks, n from 1 to 10.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +25% Optimal Range",
+      "Magazine: +10% Reload speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +5% Critical Hit Chance"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "regulus",
+    "name": "Regulus",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "Magnum",
+    "talent": {
+      "name": "Regicide",
+      "description": {
+        "pve": "Headshot Kills create a 5m explosion, dealing 400% weapon damage and applying bleed to all enemies hit.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +10% Reload speed",
+      "Muzzle: +20% Accuracy"
+    ],
+    "source": "- Iron Horse Raid Project"
+  },
+  {
+    "id": "tempest",
+    "name": "Tempest",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "M93R",
+    "talent": {
+      "name": "Restrained",
+      "description": {
+        "pve": "The pistol is fully automatic and deals +25% Amplified Damage for 20s after your Shield gets broken.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +50% Stability",
+      "Muzzle: +15% Critical Hit Chance"
+    ],
+    "source": "- Guaranteed reward for first completion of Y7S2 Climax mission on master difficulty\n- Drop chance from boss of Y7S2 Climax mission on any difficulty (Difficulty affects droprate)\n- Drop chance from Summit Floor 100 completion on any difficulty (Difficulty affects droprate)"
+  },
+  {
+    "id": "mosquito",
+    "name": "Mosquito",
+    "type": "exotic",
+    "weaponType": "pistol",
+    "baseVariant": "M9",
+    "talent": {
+      "name": "Mosquito Song",
+      "description": {
+        "pve": "Hitting an enemy applies a stack. Stacks are shared between players.\n\nAt 5 stacks, the enemy will forcefully target the last player to apply a stack for 5s and take 25% more damage to armor.\n\nStacks deplete every 5s. Activating the effect on an enemy will remove all stacks from other enemies.\n\nEditor's note: the \"damage to armor\" taken debuff works similarly to Sledgehammer, in that it is an amplifier that applies to both armor and armor plating.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +15% Reload Speed",
+      "Muzzle: +15% Weapon Accuracy"
+    ],
+    "source": "Targetable"
+  }
+]

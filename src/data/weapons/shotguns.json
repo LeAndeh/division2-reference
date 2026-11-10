@@ -1,0 +1,334 @@
+[
+  {
+    "id": "rock-n-roll",
+    "name": "Rock n' Roll",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "ACS-12",
+    "talent": {
+      "name": "Perfectly Extra",
+      "description": {
+        "pve": "Increased magazine size by 50%.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "lefty",
+    "name": "Lefty",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Perfect Sledgehammer",
+      "description": {
+        "pve": "Dealing damage with a grenade applies a mark on target. Targets with marks take 40% more damage to armor and -10% movement speed.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "boomstick",
+    "name": "Boomstick",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Double Barrel",
+    "talent": {
+      "name": "Perfect Pumped Up",
+      "description": {
+        "pve": "Reloading grants 6% weapon damage for 10 seconds. Stacks up to 5 times.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-send-off",
+    "name": "The Send-Off",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "KSG",
+    "talent": {
+      "name": "Perfect Distance",
+      "description": {
+        "pve": "Increase optimal range by 100%.",
+        "pvp": null
+      }
+    },
+    "source": "Technician Field Research"
+  },
+  {
+    "id": "cuelebre",
+    "name": "Cuélebre",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Military M870",
+    "talent": {
+      "name": "Perfect Jazz Hands",
+      "description": {
+        "pve": "Increase reload speed by 50%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "lockdown",
+    "name": "Lockdown",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "M870 Express",
+    "talent": {
+      "name": "Perfect Immobilize",
+      "description": {
+        "pve": "Amplifies weapon damage by 25% to ensared enemies. After 3 kills applies Ensnare to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "tsunami",
+    "name": "Tsunami",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "SASG-12",
+    "talent": {
+      "name": "Perfect Pummel",
+      "description": {
+        "pve": "2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "backup-boomstick",
+    "name": "Backup Boomstick",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Sawed Off",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Core Attribute\n17.0% Shotgun Damage",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "firestarter",
+    "name": "Firestarter",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Primer Rounds",
+      "description": {
+        "pve": "Damaged enemies lose 50% burn resistance for 5 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Firewall Specialization"
+  },
+  {
+    "id": "like-glue",
+    "name": "Like Glue",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Super 90",
+    "talent": {
+      "name": "Perfect Brazen",
+      "description": {
+        "pve": "Receive +1% Amplified Damage on the next shot with the weapon for each pellet that this hits the target, if at least 4 pellets hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "enforcer",
+    "name": "Enforcer",
+    "type": "named",
+    "weaponType": "shotgun",
+    "talent": {
+      "name": "Perfect Pummel",
+      "description": {
+        "pve": "2 consecutive kills refill the magazine and grant 40% weapon damage for 10 seconds.",
+        "pvp": null
+      }
+    },
+    "source": "Pre-Order Only"
+  },
+  {
+    "id": "thorn",
+    "name": "Thorn",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Spas-12",
+    "talent": {
+      "name": "Perfect Brazen",
+      "description": {
+        "pve": "Receive +1% Amplified Damage on the next shot with the weapon for each pellet that this hits the target, if at least 4 pellets hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "the-mop",
+    "name": "The Mop",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "Six12",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "Secondary Attribute\n10% Armor On Kill.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "LZ"
+  },
+  {
+    "id": "lullaby",
+    "name": "Lullaby",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SPAS-12",
+    "talent": {
+      "name": "Sandman",
+      "description": {
+        "pve": "Melee attacks instantly kill non-elite enemies.\n\nCooldown: 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Magazine: +15% Reload Speed",
+      "Underbarrel: 25% Optimal Range"
+    ],
+    "source": "Pre-Order\nOR buy Deluxe Pack with\nPremium Credits"
+  },
+  {
+    "id": "sweet-dreams",
+    "name": "Sweet Dreams",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SPAS-12",
+    "talent": {
+      "name": "Sandman",
+      "description": {
+        "pve": "Melee attacks instantly kill non-elite enemies.\n\nCooldown: 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Accuracy",
+      "Muzzle: +15% Reload Speed",
+      "Underbarrel: +25% Optimal Range"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "overlord",
+    "name": "Overlord",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "KSG",
+    "talent": {
+      "name": "Capitulate",
+      "description": {
+        "pve": "Hitting an enemy applies -4% Movement Speed for each pellet hit for 5 seconds. Shooting the enemy again will reapply the stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics Slot: 15% Critical Hit Damage",
+      "Magazine Slot: +15% Reload Speed",
+      "Underbarrel Slot: +20% Weapon Stability"
+    ],
+    "source": "Targetable"
+  },
+  {
+    "id": "the-sheriff",
+    "name": "The Sheriff",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "Super 90",
+    "talent": {
+      "name": "Autentico",
+      "description": {
+        "pve": "+35 Weapon Damage. +100% accuracy. No Damage Drop Off. These bonus are built into the weapons base stats",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics Slot: 15% Critical Hit Damage",
+      "Magazine Slot: +15% Reload Speed",
+      "Underbarrel Slot: +20% Weapon Stability"
+    ],
+    "source": "Completion of the Climax Mission (Power Plant)"
+  },
+  {
+    "id": "scorpio",
+    "name": "Scorpio",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "SIX12",
+    "talent": {
+      "name": "Septic Shock",
+      "description": {
+        "pve": "Shooting a target applies stacks of venom, which last for 10s. Increasing stacks adds more severe debuffs to the target.\n\n2 - Poison\n4 - Disorient\n6 - Shock\n9 - Target takes additional 20% damage (from all sources). Stacks no longer increase.\n\nDuration of Status Effects is based on percentage of pellets hit on applying shot.\n\nEditor's note: The 20% damage taken debuff actually starts applying on stack 8. Stack 9 refreshes the duration.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% critical hit chance",
+      "Magazine: +10% Reload Speed",
+      "Muzzle: +10% Stability",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "- Season 4 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "fafnir",
+    "name": "Fafnir",
+    "type": "exotic",
+    "weaponType": "shotgun",
+    "baseVariant": "Military M870",
+    "talent": {
+      "name": "Dragon's Breath",
+      "description": {
+        "pve": "This weapon fires Dragon's Breath shells.\n\n Each shot has a 40% chance of applying Burn to the enemy. An enemy cannot be applied Burn if they are burning already.\n\nWeapon Damage is amplified by 50% of your Status Effects bonus.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +5 Rounds",
+      "Underbarrel: +10% Weapon Handling"
+    ],
+    "source": "Y8S3 Season Pass"
+  },
+  {
+    "id": "inconspicuous",
+    "name": "Inconspicuous",
+    "type": "named",
+    "weaponType": "shotgun",
+    "baseVariant": "SASG-12",
+    "talent": {
+      "name": "Perfect Preservation",
+      "description": {
+        "pve": "Killing an enemy repairs 15% armor over 5 seconds.\n\nHeadshot kills improve the repair by an additional 15%",
+        "pvp": null
+      }
+    },
+    "source": "Red Moon Unleashed Gear Cache Loot Table"
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "dare",
+    "name": "Dare",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "HK GR9",
+    "talent": {
+      "name": "Perfect Flatline",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to pulsed enemies. After 3 kills, applies pulse to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "tabula-rasa",
+    "name": "Tabula Rasa",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "L86",
+    "talent": {
+      "name": "Perfectly Steady Handed",
+      "description": {
+        "pve": "Hits grant a stack of 1% accuracy and stability. At 75 stacks, consumes them to refill the magazine.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "black-friday",
+    "name": "Black Friday",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Perfectly Unhinged",
+      "description": {
+        "pve": "Receive 22% weapon damage at the cost of 25% stability and 25% accuracy.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "good-times",
+    "name": "Good Times",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M60",
+    "talent": {
+      "name": "Perfect Fast Hands",
+      "description": {
+        "pve": "Critical hits add a stack of 5% reload speed bonus. Max stack is 40.",
+        "pvp": null
+      }
+    },
+    "source": "Dark Zone"
+  },
+  {
+    "id": "the-headline-grabber",
+    "name": "The Headline-grabber",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Military M60",
+    "talent": {
+      "name": "Perfectly Strained",
+      "description": {
+        "pve": "Gain 10% critical hit damage for every 0.5 seconds you are firing. Stacks up to 8 times.",
+        "pvp": null
+      }
+    },
+    "source": "Capitol Globe classified mission completion reward"
+  },
+  {
+    "id": "the-stinger",
+    "name": "The Stinger",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Swift",
+      "description": {
+        "pve": "Performing a cover to cover grants +20% weapon damage for 20s.",
+        "pvp": null
+      }
+    },
+    "source": "Friend Referral"
+  },
+  {
+    "id": "gear-shift",
+    "name": "Gear Shift",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MK46",
+    "talent": {
+      "name": "Perfectly Measured",
+      "description": {
+        "pve": "The top half of the magazine has +25% rate of fire and -30% weapon damage. The bottom half of the magazine has -18% rate of fire and +38% weapon damage.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "sleipner",
+    "name": "Sleipner",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Perfect Frenzy",
+      "description": {
+        "pve": "For every 8 bullets in the magazine capacity, gain 3% rate of fire and 3% weapon damage for 9 seconds when reloading from empty.",
+        "pvp": null
+      }
+    },
+    "source": "Gunner Field Research\n(crafting blueprint)"
+  },
+  {
+    "id": "big-show",
+    "name": "Big Show",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Perfect Thunder Strike",
+      "description": {
+        "pve": "Deals 35% extra damage to shocked targets.",
+        "pvp": null
+      }
+    },
+    "source": "LZ only"
+  },
+  {
+    "id": "bellringer",
+    "name": "Bellringer",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Infantry MG5",
+    "specialEffects": [
+      {
+        "description": {
+          "pve": "As you fire, the gun will play Christmas music.",
+          "pvp": null
+        }
+      }
+    ],
+    "canUseNormalTalent": true,
+    "source": "Special Event Reward"
+  },
+  {
+    "id": "carnage",
+    "name": "Carnage",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "NEGEV",
+    "talent": {
+      "name": "Perfect Sadist",
+      "description": {
+        "pve": "Deal +35% weapon damage to bleeding enemies. After 3 kills, applies bleed to the next enemy you hit.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "new-reliable",
+    "name": "New Reliable",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "RPK-74",
+    "talent": {
+      "name": "Perfectly Optimized",
+      "description": {
+        "pve": "Increase weapon handling by 40%.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "cricket",
+    "name": "Cricket",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "GR9",
+    "talent": {
+      "name": "Perfect Precision Strike",
+      "description": {
+        "pve": "Killing enemies farther than 20m builds up stacks. Max stack is 2.\nHitting an enemy within 20m will use all stacks to provide +35% Amplified Damage to enemies within 20m for 5s.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "rusty",
+    "name": "Rusty",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Classic RPK",
+    "talent": {
+      "name": "Perfect Pressure Point",
+      "description": {
+        "pve": "Amplifies weapon damage by 20% to enemies under status effects.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "quiet-roar",
+    "name": "Quiet Roar",
+    "type": "named",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Stoner LAMG",
+    "talent": {
+      "name": "Perfect Overwhelm",
+      "description": {
+        "pve": "Suppressing an enemy (that is not currently suppressed) grants 12% weapon damage for 12 seconds. Max stack is 4.",
+        "pvp": null
+      }
+    },
+    "source": "LZ"
+  },
+  {
+    "id": "bullet-king",
+    "name": "Bullet King",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "IWI-NEGEV",
+    "talent": {
+      "name": "Bullet Hell",
+      "description": {
+        "pve": "This weapon never needs to be reloaded.\n\nFor every 100 bullets that hit an enemy, replenish some ammo to you and all your allies' reserves.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: Mag of Holding",
+      "Muzzle: +15% Critical Hit chance",
+      "Underbarrel: +20% Stability"
+    ],
+    "source": "- Rikers bosses\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "big-alejandro",
+    "name": "Big Alejandro",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249/MK46\n\nCETME Ameli\nMG42 Barrel",
+    "talent": {
+      "name": "Cover Shooter",
+      "description": {
+        "pve": "Every bullet fired while in cover increases weapon damage by 1% up to 100%. The bonus lasts for 15 seconds.\n\nGetting a kill with this weapon while in cover resets the duration.\n\nThe bonus damage is canceled by reloading, swapping weapons, or exiting combat.",
+        "pvp": null
+      }
+    }
+  },
+  {
+    "id": "bluescreen",
+    "name": "Bluescreen",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "Stoner LAMG",
+    "talent": {
+      "name": "Disruptor Rounds",
+      "description": {
+        "pve": "Shooting an enemy marks that enemy and adds a stack to the agent up to a count of 50. Shooting a marked enemy refreshes the mark and adds stacks to the agent. When you deploy a non-shield skill, remove all stacks on agent and all marked targets trigger an effect.\n\n1 - 10 Stacks - Pulse marked targets for 5 seconds\n11 - 25 Stacks - Pulse and Disrupt marked targets for 5 seconds.\n26 - 49 Stacks - Pulse, Disrupt, and Disorient marked targets for 5 seconds.\n50 Stacks - Pulse, Disrupt, and Disorient marked targets and all hostiles within 10 meters of the marked targets for 5 seconds. This effect will trigger immediately if any marked enemy is killed.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +20% Reload speed",
+      "Magazine: +15% Weapon Handling",
+      "Muzzle: +20% Rate of fire",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Season 9 Track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "iron-lung",
+    "name": "Iron Lung",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "MG5",
+    "talent": {
+      "name": "Ardent",
+      "description": {
+        "pve": "Shooting heats up the weapon, filling up heat meter. The meter is equivalent to 50% of the weapon's standard Magazine Size.\n\nWhen the meter is full, rounds shot by the weapon will ignite enemies.\n\nWhen not shooting, the meter depletes over time. Reloading or swapping the weapon fully depletes the meter.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +10% Critical Hit Damage",
+      "Magazine: +35 Rrounds",
+      "Underbarrel: +10% Critical Hit Damage"
+    ],
+    "source": "-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "pakhan",
+    "name": "Pakhan",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "RPK",
+    "talent": {
+      "name": "Pakhan",
+      "description": {
+        "pve": "Each kill with this weapon gains a stack of 75% Base Magazine Size increase to the next magazine, up to 4 stacks.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Wapon Damage",
+      "Magazine: +20 Rounds",
+      "Muzzle: +15% Critical Hit chance",
+      "Underbarrel: +10% Reload Speed"
+    ],
+    "source": "- Year 7 Season 1 track\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "pestilence",
+    "name": "Pestilence",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "M249",
+    "talent": {
+      "name": "Plague of the Outcasts",
+      "description": {
+        "pve": "Hits apply a debuff dealing 100% weapon damage over 10s. This stacks up to 50 times.\n\nWhenever an enemy dies with this debuff, the stacks are transferred to a nearby enemy within 25m.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Magazine: +10% Rate of Fire",
+      "Muzzle: +10% Accuracy",
+      "Underbarrel: +10% Stability"
+    ],
+    "source": "- Dark Zone Landmark boss\n- Dark Zone Roaming boss 1%\n\n-- Target loot\n-- Exotic Caches"
+  },
+  {
+    "id": "vertigo",
+    "name": "Vertigo",
+    "type": "exotic",
+    "weaponType": "light-machine-gun",
+    "baseVariant": "GR9",
+    "talent": {
+      "name": "Startling",
+      "description": {
+        "pve": "Whenever this weapon makes an enemy Suppressed, the enemy is applied Disorient, and you and allies receive +30% Damage to Targets Out of Cover for 15s.",
+        "pvp": null
+      }
+    },
+    "exoticMods": [
+      "Optics: +15% Critical Hit Chance",
+      "Magazine: +50 Rounds",
+      "Underbarrel: +15% Reload Speed",
+      "Muzzle: +10% Rate of Fire"
+    ],
+    "source": "Y8S3.1 Red Moon Rising, PVE Dark Zone Invasion Event"
+  }
+]

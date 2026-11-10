@@ -1,14 +1,11 @@
 import { useState } from "react";
-import weaponsData from "../data/weapons.json";
+import { weapons } from "../data/weapons";
 import WeaponCard from "./WeaponCard";
-import type { Weapon } from "../types/weapon";
 import type { GameMode } from "../types/gameMode";
 
 interface WeaponsSectionProps {
   mode: GameMode;
 }
-
-const weapons = weaponsData as Weapon[];
 
 function formatWeaponType(value: string) {
   return value

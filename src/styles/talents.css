@@ -1,0 +1,86 @@
+.weapon-talent-card__variant + .weapon-talent-card__variant {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.weapon-talent-card__types,
+.weapon-talent-card__version-toggle,
+.gear-talent-card__version-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.gear-talent-card__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+}
+
+.gear-talent-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.17rem;
+}
+
+.gear-talent-card__pvp-modifier,
+.gear-talent-card__details p {
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.weapon-talent-card__description,
+.gear-talent-card__description {
+  max-height: 12rem;
+  overflow-y: auto;
+  flex-shrink: 0;
+  scrollbar-gutter: stable;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.weapon-talent-card__version-toggle button,
+.gear-talent-card__version-toggle button {
+  padding: 0.35rem 0.65rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.talent-version--normal.active,
+.weapon-talent-card__version-toggle .talent-version--normal.active,
+.gear-talent-card__version-toggle .talent-version--normal.active {
+  color: var(--text);
+  border-color: var(--text);
+}
+
+.weapon-talent-card__version-toggle .talent-version--perfect.active,
+.gear-talent-card__version-toggle .talent-version--perfect.active,
+.weapon-talent-card .talent-name--perfect,
+.gear-talent-card .talent-name--perfect {
+  color: var(--perfect-color);
+  border-color: var(--perfect-color);
+}
+
+.weapon-talent-card button:focus-visible,
+.gear-talent-card button:focus-visible,
+.weapon-talent-card__description:focus-visible,
+.gear-talent-card__description:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.weapon-talent-card__types span {
+  color: var(--text-muted);
+}

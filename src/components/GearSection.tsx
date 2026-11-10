@@ -1,16 +1,14 @@
 import { useState } from "react";
 
-import gearData from "../data/gear.json";
+import { gear } from "../data/gear";
 import GearCard from "./GearCard";
 
 import type { GameMode } from "../types/gameMode";
-import type { GearItem, GearSlot } from "../types/gear";
+import type { GearSlot } from "../types/gear";
 
 interface GearSectionProps {
   mode: GameMode;
 }
-
-const gear = gearData as GearItem[];
 
 const slotOptions: Array<"all" | GearSlot> = [
   "all",

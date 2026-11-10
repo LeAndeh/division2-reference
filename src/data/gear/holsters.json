@@ -1,0 +1,238 @@
+[
+  {
+    "id": "forge",
+    "name": "Forge",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Richter & Kaiser",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Shield Health\n50%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Shield Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "ammo-dump",
+    "name": "Ammo Dump",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Badger Tuff",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Ammo capacity\n10%",
+      "Any Basic",
+      "Any Basic"
+    ],
+    "source": "Crafted",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Ammo Capacity",
+      "pvp": null
+    }
+  },
+  {
+    "id": "picaros-holster",
+    "name": "Picaros Holster",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Brazos de Arcabuz",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Weapon damage\n10%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Weapon Damage Minor Stat",
+      "pvp": null
+    }
+  },
+  {
+    "id": "spot-on",
+    "name": "Spot-On",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Urban Lookout",
+    "coreAttribute": "Weapon damage\n1.5% - 15% (15% - 22.5)",
+    "minorAttributes": [
+      "Accuracy\n38%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Accuracy",
+      "pvp": null
+    }
+  },
+  {
+    "id": "salvo",
+    "name": "Salvo",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Unit Alloys",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "5% Rate of Fire",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Rate of Fire",
+      "pvp": null
+    }
+  },
+  {
+    "id": "claws-out",
+    "name": "Claws Out",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Wyvern Wear",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Melee Damage\n500%",
+      "Any Basic",
+      "Pistol Damage\n11%"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Melee Damage + Pistol Damage",
+      "pvp": null
+    }
+  },
+  {
+    "id": "centurion-scabbard",
+    "name": "Centurion Scabbard",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Weapon Handling\n?% - 8%"
+    ],
+    "source": "- Year 6 Season 2 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Counter",
+      "description": {
+        "pve": "Swapping weapons will give the following groups of bonuses one by one, in order:\n\n1. +20% Rate of Fire, +20% Weapon Damage\n2. +50% Magazine Size, +50% Reload Speed\n\nThe bonuses remain active for 12s or until the next weapon swap.\nSwapping to your sidearm will not trigger the next group of bonuses.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "dodge-city-gunslinger-s-holster",
+    "name": "Dodge City Gunslinger's Holster",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Weapon Handling\n?% - 8%",
+      "Headshot Damage\n1.3% - 10%"
+    ],
+    "source": "- Project questline (from blueprint vendor)\n\nAfter you own blueprint\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Ouick Draw",
+      "description": {
+        "pve": "While your pistol is holstered, gain a stacking buff every 0.3s, up to 100.\n\nWhen you swap to it, your first shot consumes the buff and deals +10% damage per stack.  This deals headshot damage to anywhere you hit.\n\nREQUIRES\nPistol Equipped",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "imperial-dynasty",
+    "name": "Imperial Dynasty",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Status Effects\n5% - 10%",
+      "Hazard Protection\n5% - 10%"
+    ],
+    "source": "- Cleaners Bosses\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Dragon's Glare",
+      "description": {
+        "pve": "While in combat, applies burn to the enemy closest to you within 20m.\n\nCooldown: 35s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "shocker-punch",
+    "name": "Shocker Punch",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Explosive Resist\n1% - 10%",
+      "Hazard Protection\n5% - 10%"
+    ],
+    "source": "- Year 5 Season 1 (TU18)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Defibrillator",
+      "description": {
+        "pve": "While \"Shocker Punch\" is equipped, the stun received by the agent from the Shock status effect will be reduced by 50%.\n\nUsing a shield will give 100% to melee damage.\n\nUsing St. Elmo's Engine with the holster will give 100% extra melee damage and will make the next melee attack apply shock to the target.\n\nUsing all three items will offer all of the above mentioned bonuses and the Shock from the melee attack will have a 5m radius, starting from the first target.\n\n15 second cooldown.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "waveform",
+    "name": "Waveform",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Damage",
+      "Skill Haste"
+    ],
+    "source": "- Season 4 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Alternating Current",
+      "description": {
+        "pve": "Generate a stack of 3% skill damage on one of your skills every second, capping at 10 stacks. After 10 seconds at the cap the stacks transfer to your other skill. The process then repeats ad-infinitum",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "nimble-holster",
+    "name": "Nimble Holster",
+    "type": "exotic",
+    "slot": "holster",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 7 Season 1 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Bob and Weave",
+      "description": {
+        "pve": "Receive repairs of 5% of your Total Armor for every 1m run in cover-to-cover. Damage taken while doing a cover-to-cover is healed over 10s.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  }
+]

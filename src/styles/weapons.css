@@ -1,0 +1,27 @@
+
+
+.weapon-card__classification {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.weapon-card--named .weapon-card__classification {
+  color: var(--named-color);
+}
+
+.weapon-card--exotic .weapon-card__classification {
+  color: var(--exotic-color);
+}
+
+.weapon-card__source {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
+
+.weapon-card__normal-talent {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  white-space: pre-line;
+}

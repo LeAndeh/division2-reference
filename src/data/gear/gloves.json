@@ -1,0 +1,232 @@
+[
+  {
+    "id": "deathgrips",
+    "name": "Deathgrips",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "5.11 Tactical",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Armor on Kill\n10%",
+      "Any Basic"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Armor on Kill",
+      "pvp": null
+    }
+  },
+  {
+    "id": "contractors-gloves",
+    "name": "Contractor’s Gloves",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Petrov",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Damage to Armor\n8%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Damage to Armor",
+      "pvp": null
+    }
+  },
+  {
+    "id": "motherly-love",
+    "name": "Motherly Love",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Alps Summit Armament",
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Health\n25%",
+      "Any Basic"
+    ],
+    "source": "Crafted",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Skill Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "eagles-grasp",
+    "name": "Eagles Grasp",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Zwiadowka Sp. z o.o.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Weapon handling\n15%",
+      "Any Basic\n(Cant be handling)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Weapon Handling",
+      "pvp": null
+    }
+  },
+  {
+    "id": "firm-handshake",
+    "name": "Firm Handshake",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Sokolov Concern",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Status Effects\n16%",
+      "Any Basic\n(Cant be Status)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra Status effect",
+      "pvp": null
+    }
+  },
+  {
+    "id": "bloody-knuckles",
+    "name": "Bloody Knuckles",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Season 10 Track (TU16)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Over the top",
+      "description": {
+        "pve": "Damaging an enemy with a grenade or striking an enemy with a melee attack, activates Seeing Red.\n\nSeeing Red grants +25% weapon damage and +100% melee damage.\n\nSeeing Red lasts 20 seconds and starts a 60 second cooldown after completion.\n\nWhile in cooldown, damaging an enemy with a melee attack or hitting an enemy with the effect of a grenade will complete the cooldown instantly.\n\nEditor's note: the 25% \"weapon damage\" buff actually gives total weapon damage.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "btsu-datagloves",
+    "name": "BTSU Datagloves",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Skill Haste\n6% - 12%",
+      "Skill Repair\n7.8% - 20%"
+    ],
+    "source": "- Black Tusk Medics\n- Galveston, Camp White Oak\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Transference Overclock",
+      "description": {
+        "pve": "Grants 15% Hive skill haste per skill tier.\n\nDetonating a hive refreshes your skill cooldowns and grants overcharge for 15s.\nIf at Skill Tier 6, this effect also applies to all allies.\n\nAllies recieving this effect are unable to benefit from it again for 120s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "exodus-gloves",
+    "name": "Exodus Gloves",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 6 Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Smoke Screen",
+      "description": {
+        "pve": "On Armor break, drop a Smoke Bomb at your feet, concealing you from enemies for 3s.\nCooldown: 40s",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "overdogs",
+    "name": "Overdogs",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 7 Season 2 track",
+    "talent": {
+      "name": "Weakest Link",
+      "description": {
+        "pve": "Amplifies Weapon Damage by 30% to the lowest ranking enemies currently in combat, as per the Tier hierarchy.\n\nTier 1: Hunter, Rogue, Leader, Tank, Shield, Heavy Weapons, RPG, Medic, Controller, Warhound, Marauder.\nTier 2: Support, Engineer, Bodyguard, Immobilizer, Bomber, Mini Tank, Drone Operator.\nTier 3: Any other enemy or skill proxy.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "rugged-gauntlets",
+    "name": "Rugged Gauntlets",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%"
+    ],
+    "source": "- Year 5 Season 3 Track (TU20)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Iron Grip",
+      "description": {
+        "pve": "-50% Recoil Penalty when hip-firing.\n\n-50% Recoil Penalty when blind-firing from cover.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "loaded-for-bear",
+    "name": "Loaded for Bear",
+    "type": "exotic",
+    "slot": "gloves",
+    "brand": null,
+    "coreAttribute": null,
+    "minorAttributes": [],
+    "source": null,
+    "talent": {
+      "name": "Afterburn",
+      "description": {
+        "pve": "Hitting enemies applies stacks to them. An enemy cannot have more than 20 stacks applied to them.\n\nWhen reloading your weapon, all stacks will be consumed to deal 100% Weapon Damage per stack to the enemy they are applied on.",
+        "pvp": "Hitting enemies applies stacks to them. An enemy cannot have more than 10 stacks applied to them.\n\nWhen reloading your weapon, all stacks will be consumed to deal 25% Weapon Damage per stack to the enemy they are applied on.\n\nIn PvP environments, swapping weapons also triggers the talent effect."
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "specters-gloves",
+    "name": "Specter's Gloves",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Walker, Harris & Co.",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+8.0% Damage to Armor"
+    ],
+    "source": "Obtained by killing all 4 hunters in Central Park and looting their keys to open the chest at the Tower Settlement gift shop.",
+    "talent": null,
+    "specialEffect": {
+      "pve": "+8.0% Damage to Armor",
+      "pvp": null
+    }
+  }
+]

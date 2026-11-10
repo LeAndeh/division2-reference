@@ -61,11 +61,11 @@ Game data is stored separately from UI components.
 src/
 ├── components/
 ├── data/
-│   ├── weapons.json
+│   ├── weapons/ (by weapon type, combined by index.ts)
 │   ├── weapon-talents.json
 │   ├── gearsets.json
 │   ├── brandsets.json
-│   ├── gear.json
+│   ├── gear/ (by slot, combined by index.ts)
 │   └── gear-talents.json
 ├── styles/
 ├── types/

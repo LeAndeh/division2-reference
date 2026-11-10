@@ -1,0 +1,88 @@
+
+
+.weapon-filters input,
+.weapon-filters select,
+.gear-filters input,
+.gear-filters select,
+.gear-set-filters input,
+.gear-set-filters select,
+.brand-set-filters input,
+.brand-set-filters select,
+.gear-talent-filters input,
+.gear-talent-filters select,
+.weapon-talent-filters input,
+.weapon-talent-filters select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.weapon-filters,
+.gear-filters,
+.gear-talent-filters {
+  display: grid;
+  grid-template-columns: minmax(240px, 2fr) 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.weapon-filters input,
+.weapon-filters select,
+.gear-filters input,
+.gear-filters select,
+.gear-set-filters input,
+.gear-set-filters select,
+.brand-set-filters input,
+.brand-set-filters select,
+.gear-talent-filters input,
+.gear-talent-filters select {
+  min-width: 0;
+  color: var(--text);
+}
+
+.weapon-filters input:focus,
+.weapon-filters select:focus,
+.gear-filters input:focus,
+.gear-filters select:focus,
+.gear-set-filters input:focus,
+.gear-set-filters select:focus,
+.brand-set-filters input:focus,
+.brand-set-filters select:focus,
+.gear-talent-filters input:focus,
+.gear-talent-filters select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.weapon-talent-filters,
+.gear-set-filters,
+.brand-set-filters {
+  display: grid;
+  grid-template-columns: minmax(240px, 2fr) 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.weapon-talent-filters input,
+.weapon-talent-filters select {
+  color: var(--text-primary);
+}
+
+.weapon-talent-filters input:focus,
+.weapon-talent-filters select:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 1px;
+}
+
+@media (max-width: 750px) {
+  .weapon-filters,
+  .gear-filters,
+  .gear-set-filters,
+  .brand-set-filters,
+  .gear-talent-filters {
+    grid-template-columns: 1fr;
+  }
+}

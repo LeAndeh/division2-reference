@@ -1,0 +1,223 @@
+[
+  {
+    "id": "punch-drunk",
+    "name": "Punch Drunk",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Douglas & Harding",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Headshot Damage\n20%",
+      "Any Basic\n(cant be HSD)"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra Headshot Damage",
+      "pvp": null
+    }
+  },
+  {
+    "id": "nightwatcher",
+    "name": "Nightwatcher",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Gila Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Scanner Pulse Haste\n100%",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Scanner Pulse Haste",
+      "pvp": null
+    }
+  },
+  {
+    "id": "chill-out",
+    "name": "Chill Out",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Gila Guard",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Any Basic",
+      "Mod Slot",
+      "Mod Slot"
+    ],
+    "source": "Special Event Hoarder",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Has 2 Mod Slots and only 1 Minor Stat",
+      "pvp": null
+    }
+  },
+  {
+    "id": "visionario",
+    "name": "Visionario",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Legatus S.p.A.",
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "50% optimal range",
+      "Any Basic"
+    ],
+    "source": "LZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Extra optimal range",
+      "pvp": null
+    }
+  },
+  {
+    "id": "the-hollow-man",
+    "name": "The Hollow Man",
+    "type": "named",
+    "slot": "mask",
+    "brand": "Yaahl Gear",
+    "coreAttribute": "Armour\n16,594 - 170.000",
+    "minorAttributes": [
+      "Damage to Health 14%",
+      "Any Basic"
+    ],
+    "source": "DZ",
+    "talent": null,
+    "specialEffect": {
+      "pve": "Damage to Health",
+      "pvp": null
+    }
+  },
+  {
+    "id": "vile",
+    "name": "Vile",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": ">+1<\nSkill tier",
+    "minorAttributes": [
+      "Status Effect\n5% - 10%",
+      "Hazard Protection\n5% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- Season 3 track\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Toxic Delivery",
+      "description": {
+        "pve": "Status effects also apply a damage over time debuff for 10s.\n\nTotal Damage dealt is equal to 50% of your concussion grenade damage and increased by your status effect attributes.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "catharsis",
+    "name": "Catharsis",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Armour\n16,594 - 170,000",
+    "minorAttributes": [
+      "Incoming Repair\n7.8% - 20%",
+      "Armor Regen\n1689 - 4925",
+      "Mod Slot"
+    ],
+    "source": "- Season 9 Track (TU15)\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Vicious Cycle",
+      "description": {
+        "pve": "Taking damage builds stacks to a cap of 30. Each stack grants 1.5% Weapon Damage. Taking damage at max stacks triggers a purge, removing all stacks and Status Effects and then dropping a healing cloud which restores 5% of Max Armor for 10s to all allies in the cloud.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "coyotes-mask",
+    "name": "Coyote’s Mask",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Season 1 track\n- Coyote, Jefferson Trade Centre\n\n-- Target loot\n-- Exotic Caches",
+    "talent": {
+      "name": "Pack Instincts",
+      "description": {
+        "pve": "You and all allies gain a bonus based on the distance of the last enemy you hit.\n\n0-15m: +25% critical hit damage\n15-25m: +10% critical hit chance and +10% critical hit damage\n25m+: +25% critcal hit Chance",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "catalyst",
+    "name": "Catalyst",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Hazard Protection\n5% - 10%",
+      "Status Effect\n5% - 10%",
+      "Mod Slot"
+    ],
+    "source": "- LM-21 \"Marauder\", Army Terminal\n- Brooklyn open world Named Bosses",
+    "talent": {
+      "name": "Chemical Agent",
+      "description": {
+        "pve": "Catalysis\nDealing and recieving status effects (Burn, Bleed, Shock, EMP/Disrupt, Poison and blind/disorient) builds stacks of Catalysis to a maximum of 12. each stack grants:\n+2% Weapon Damage\n+2% Status Effects\n\nEach enemy within 25 Meters that is affected by a status effect grants +1 stack/sec. Being affectedby status effects grants +2 stacks/sec.\nStacks decay at 1 stac/sec after 5s if no enemies in the radius or you are affected by status effects.\n\nReactant\nAt max stacks, killing a status-affected enemy grants bonuses for 5s:\n+25% bonus armor\n+20% reload speed\n\nStabilizer\nWhile burning, you can maintain ADS without disruption.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "tinkerer",
+    "name": "Tinkerer",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "Weapon damage\n1.5% - 15%",
+    "minorAttributes": [
+      "Critical Hit Chance\n1.2% - 6%",
+      "Critical Hit Damage\n6% - 12%",
+      "Mod Slot"
+    ],
+    "source": "- Guaranteed reward for first completion of Y7S1 Climax mission on master difficulty\n- Drop chance from boss of Y7S1 Climax mission on any difficulty (Difficulty affects droprate)",
+    "talent": {
+      "name": "Abridged",
+      "description": {
+        "pve": "If your Primary and Secondary weapon are not Exotic or Named and of the same type, the Secondary Weapon's talent will also be applied to the Primary Weapon.\n\nDoesn't apply to talents that include Weapon Swapping.",
+        "pvp": null
+      }
+    },
+    "specialEffect": null
+  },
+  {
+    "id": "investor",
+    "name": "Investor",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": "This item can feature any Core Attribute. This item features a third random Attribute instead of having a Gear Mod Slot.",
+    "minorAttributes": [
+      "This item cannot feature the Headshot Damage, Health or Skill Repair Attributes"
+    ],
+    "source": null,
+    "talent": {
+      "name": "Slotted",
+      "description": {
+        "pve": "Receive bonuses for each non-Core Attribute on this item, depending on their color:\n\nRed: +10% Crit Damage\nYellow: +5% Skill Efficiency\nBlue: +1% Armor Regen",
+        "pvp": "Receive bonuses for each non-Core Attribute on this item, depending on their color:\n\nRed: +10% Crit Damage\nYellow: +5% Skill Efficiency\nBlue: +0.5% Armor Regen"
+      }
+    },
+    "specialEffect": null
+  }
+]

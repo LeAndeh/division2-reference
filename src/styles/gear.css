@@ -1,0 +1,29 @@
+.gear-card__brand {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.gear-card__detail-block p {
+  margin: 0.5rem 0 0;
+  white-space: pre-line;
+}
+
+.gear-card__classification {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.gear-card--named .gear-card__classification {
+  color: var(--named-color);
+}
+
+.gear-card--exotic .gear-card__classification {
+  color: var(--exotic-color);
+}
+
+.gear-card__source {
+  margin: 1rem 0 0;
+  color: var(--text-muted);
+  white-space: pre-line;
+}
