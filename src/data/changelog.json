@@ -1,7 +1,17 @@
 {
   "currentPatch": "Y8 S3.3",
-  "lastUpdated": "2026-11-06",
+  "lastUpdated": "2026-11-10",
   "entries": [
+      {
+      "date": "2026-11-10",
+      "patch": "Y8 S3.3",
+      "title": "Visual Fixes",
+      "changes": [
+        "Normalized the appearance of all cards.",
+        "Added color to the Perfect perk toggles.",
+        "Adjusted how some data was stored. Please let me know if there are any issues or missing data."
+      ]
+    },
     {
       "date": "2026-11-06",
       "patch": "Y8 S3.3",
