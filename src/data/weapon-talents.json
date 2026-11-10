@@ -785,7 +785,11 @@
     "id": "measured",
     "variants": [
       {
-        "weaponTypes": ["assault-rifle"],
+        "weaponTypes": [
+          "assault-rifle",
+          "submachine-gun",
+          "light-machine-gun"
+        ],
         "normal": {
           "name": "Measured",
           "description": {
@@ -795,40 +799,6 @@
         },
         "perfect": {
           "name": "Perfectly Measured",
-          "description": {
-            "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
-            "pvp": null
-          }
-        }
-      },
-      {
-        "weaponTypes": ["submachine-gun"],
-        "normal": {
-          "name": "Measured",
-          "description": {
-            "pve": "The top half of the magazine has 25% rate of fire and -25% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +30% total weapon damage.",
-            "pvp": null
-          }
-        },
-        "perfect": {
-          "name": "Perfectly Measured",
-          "description": {
-            "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
-            "pvp": null
-          }
-        }
-      },
-      {
-        "weaponTypes": ["light-machine-gun"],
-        "normal": {
-          "name": "Measured",
-          "description": {
-            "pve": "The top half of the magazine has 25% rate of fire and -25% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +30% total weapon damage.",
-            "pvp": null
-          }
-        },
-        "perfect": {
-          "name": "Perfect Measured",
           "description": {
             "pve": "The top half of the magazine has 25% rate of fire and -30% weapon damage.\nThe bottom half of the magazine has -18% rate of fire and +38% total weapon damage.",
             "pvp": null
