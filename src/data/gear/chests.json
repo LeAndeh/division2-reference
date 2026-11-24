@@ -521,8 +521,8 @@
     "talent": {
       "name": "Challenger",
       "description": {
-        "pve": "Recieve +25% Damage resistance from enemies within 20m",
-        "pvp": null
+        "pve": "Recieve +35% Damage resistance from enemies within 25m",
+        "pvp": "Recieve +25% Damage resistance from enemies within 20m"
       }
     },
     "specialEffect": null

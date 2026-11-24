@@ -289,5 +289,26 @@
       "Underbarrel: +10% Stability"
     ],
     "source": "Targetable"
+  },
+  {
+    "id": "prima-donna",
+    "name": "Prima Donna",
+    "type": "exotic",
+    "weaponType": "marksman-rifle",
+    "talent": {
+      "name": "You can look... ...but you can't touch",
+      "description": {
+        "pve": "You can look...\nWhen out of combat, receive 5 stacks.\nThis weapon deals +22% Amplified Damage per stack.\n\n...but you can't touch\n1 stack is automatically consumed to fully repair one instance of damage you receive.\n1 stack replenishes every 5 seconds.",
+        "pvp": "You can look...\nWhen out of combat, receive 10 stacks.\nThis weapon deals +12.5% Amplified Damage per stack.\n\n...but you can't touch\n1 stack is automatically consumed to fully repair one instance of damage you receive.\n1 stack replenishes every 3 seconds."
+      }
+    },
+    "exoticMods": [
+      "Optics: +25% Headshot Damage",
+      "Magazine: +7.5% Weapon Handling",
+      "Underbarrel: +7.5% Weapon Handling",
+      "Muzzle: +20% Headshot Damage"
+    ],
+    "source": "Paradise Lost incursion: 1% drop chance from Wright and The Lovebirds, or a weekly 10% chance from the end chest.\n\nPreviously available from the Scarecrow bounty (20% chance) during the Red Moon Unleashed event, October 15 to November 3, 2026.",
+    "notes": "User-supplied reference statistics (not structurally modeled): Damage 417.7k; Headshot Damage 175%; Rate of Fire 55; Magazine 7; Range 67m; Fire Mode Semi-automatic; Reload Time 2.85s. Weapon level and base variant were not provided."
   }
 ]

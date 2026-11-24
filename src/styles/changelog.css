@@ -32,6 +32,10 @@
   margin-top: 0.5rem;
 }
 
+.changelog__notice {
+  margin-top: 0.5rem;
+}
+
 .changelog__details summary {
   color: var(--accent);
   cursor: pointer;

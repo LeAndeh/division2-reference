@@ -211,7 +211,7 @@
     "exoticMods": [
       "Optics: +15% Accuracy",
       "Magazine: +15% Reload Speed",
-      "Underbarrel: 25% Optimal Range"
+      "Underbarrel: +15% Critical Hit Chance"
     ],
     "source": "Pre-Order\nOR buy Deluxe Pack with\nPremium Credits"
   },
@@ -231,7 +231,7 @@
     "exoticMods": [
       "Optics: +15% Accuracy",
       "Muzzle: +15% Reload Speed",
-      "Underbarrel: +25% Optimal Range"
+      "Underbarrel: +15% Critical Hit Chance"
     ],
     "source": "Targetable"
   },
@@ -244,14 +244,14 @@
     "talent": {
       "name": "Capitulate",
       "description": {
-        "pve": "Hitting an enemy applies -4% Movement Speed for each pellet hit for 5 seconds. Shooting the enemy again will reapply the stacks.",
-        "pvp": null
+        "pve": "Hitting an enemy applies -7% Movement Speed for each pellet hit for 12 seconds. Shooting the enemy again will reapply the stacks.",
+        "pvp": "Hitting an enemy applies -4% Movement Speed for each pellet hit for 5 seconds. Shooting the enemy again will reapply the stacks."
       }
     },
     "exoticMods": [
       "Optics Slot: 15% Critical Hit Damage",
-      "Magazine Slot: +15% Reload Speed",
-      "Underbarrel Slot: +20% Weapon Stability"
+      "Magazine Slot: +15% Weapon Handling",
+      "Underbarrel Slot: +15% Critical Hit Chance"
     ],
     "source": "Targetable"
   },
@@ -271,7 +271,8 @@
     "exoticMods": [
       "Optics Slot: 15% Critical Hit Damage",
       "Magazine Slot: +15% Reload Speed",
-      "Underbarrel Slot: +20% Weapon Stability"
+      "Underbarrel Slot: +20% Weapon Stability",
+      "+15% Critical Hit Chance"
     ],
     "source": "Completion of the Climax Mission (Power Plant)"
   },
@@ -289,7 +290,7 @@
       }
     },
     "exoticMods": [
-      "Optics: +10% critical hit chance",
+      "Optics: +15% Critical Hit Chance",
       "Magazine: +10% Reload Speed",
       "Muzzle: +10% Stability",
       "Underbarrel: +10% Weapon Handling"

@@ -3,6 +3,7 @@ import { z } from "zod";
 export const changelogSchema = z.object({
   currentPatch: z.string().min(1),
   lastUpdated: z.iso.date(),
+  notice: z.string().min(1).nullable().optional(),
   entries: z.array(z.object({
     date: z.iso.date(),
     patch: z.string().min(1).optional(),

@@ -1,8 +1,45 @@
 {
-  "currentPatch": "Y8 S3.3",
-  "lastUpdated": "2026-11-10",
+  "currentPatch": "Y8S4 PTS",
+  "lastUpdated": "2026-11-24",
   "entries": [
-      {
+    {
+      "date": "2026-11-24",
+      "patch": "Y8S4 PTS",
+      "title": "Added Prima Donna",
+      "changes": [
+        "Added Prima Donna as an exotic marksman rifle with its four mods and confirmed acquisition information, completing coverage of the 28 affected exotic items.",
+        "Applied provisional PvE values: 5 stacks, +22% Amplified Damage per stack, and one stack replenished every 5 seconds.",
+        "Preserved supplied live/PvP values: 10 stacks, +12.5% Amplified Damage per stack, and one stack replenished every 3 seconds. The supplied damage value differs from the 11% previous value in the PTS notes.",
+        "Saved supplied reference statistics in item notes without adding structured weapon-stat fields; base variant and weapon level remain unspecified."
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "patch": "Y8S4 PTS",
+      "title": "Y8S4 PTS — Gear and Exotic Balance Changes",
+      "changes": [
+        "Added provisional Y8S4 Public Test Server balance values.",
+        "Updated eight gear sets: Aegis, Foundry Bulwark, Measured Assembly, Heartbreaker, Hunter's Fury, Tipping Scales, Concentrated Company, and Core Strength.",
+        "Updated 27 existing exotic items, including affected talents and weapon mods. Prima Donna is missing from the reference and was not added.",
+        "Exotic mod updates apply in both PvE and PvP. Preserved existing PvP talent values where talent changes are PvE-only.",
+        "Added Increased Threat bonuses to Aegis and Foundry Bulwark in both modes; retained previous PvP values for other changed gear-set bonuses.",
+        "Base statistics are not structurally modeled: Ouroboros base Rate of Fire changes from 1275 to 1200 and base Magazine Size from 50 to 25; St. Elmo's Engine base Magazine Size changes from 40 to 30. Their updated magazine mods (+25 and +40 rounds respectively) are recorded separately on the items.",
+        "Outside the tracked datasets: Threat per Bullet is doubled for Shotguns, SMGs, and Pistols, and halved for Assault Rifles, Rifles, and Marksman Rifles.",
+        "Outside the tracked datasets: Quantum Augment grants a 1.6% chance at Level 1 and a 4.3% chance at Level 10 of 70% Damage Resistance for 2 seconds instead of damage immunity. The bonus cannot refresh while active.",
+        "PTS balance values are provisional and subject to change before the official Y8S4 release."
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "patch": "Y8S4 PTS",
+      "title": "Provisional gear set balance update",
+      "changes": [
+        "Updated PvE bonuses and talents for Aegis, Foundry Bulwark, Measured Assembly, and Heartbreaker.",
+        "Preserved previous PvP talent values and Aegis Health; added +150% Increased Threat per Bullet to Aegis and Foundry Bulwark in both modes.",
+        "These are provisional PTS values and may change before the official Y8S4 release. This update covers the four listed gear sets; other data remains unchanged."
+      ]
+    },
+    {
       "date": "2026-11-10",
       "patch": "Y8 S3.3",
       "title": "Visual Fixes",
@@ -34,5 +71,6 @@
         "WIP: Validation for all previous and new items"
       ]
     }
-  ]
+  ],
+  "notice": "Includes provisional Y8S4 Public Test Server balance changes. Values may change before the official season release."
 }

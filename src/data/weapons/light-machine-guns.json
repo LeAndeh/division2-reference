@@ -240,7 +240,7 @@
       }
     },
     "exoticMods": [
-      "Magazine: Mag of Holding",
+      "Magazine: +10% Rate of Fire",
       "Muzzle: +15% Critical Hit chance",
       "Underbarrel: +20% Stability"
     ],
@@ -258,7 +258,10 @@
         "pve": "Every bullet fired while in cover increases weapon damage by 1% up to 100%. The bonus lasts for 15 seconds.\n\nGetting a kill with this weapon while in cover resets the duration.\n\nThe bonus damage is canceled by reloading, swapping weapons, or exiting combat.",
         "pvp": null
       }
-    }
+    },
+    "exoticMods": [
+      "+15% Critical Hit Chance"
+    ]
   },
   {
     "id": "bluescreen",
@@ -277,7 +280,7 @@
       "Optics: +20% Reload speed",
       "Magazine: +15% Weapon Handling",
       "Muzzle: +20% Rate of fire",
-      "Underbarrel: +10% Stability"
+      "Underbarrel: +15% Critical Hit Chance"
     ],
     "source": "- Season 9 Track\n\n-- Target loot\n-- Exotic Caches"
   },
@@ -290,14 +293,14 @@
     "talent": {
       "name": "Ardent",
       "description": {
-        "pve": "Shooting heats up the weapon, filling up heat meter. The meter is equivalent to 50% of the weapon's standard Magazine Size.\n\nWhen the meter is full, rounds shot by the weapon will ignite enemies.\n\nWhen not shooting, the meter depletes over time. Reloading or swapping the weapon fully depletes the meter.",
-        "pvp": null
+        "pve": "Shooting heats up the weapon, filling up heat meter. The meter is equivalent to 40% of the weapon's standard Magazine Size.\n\nWhen the meter is full, rounds shot by the weapon will ignite enemies.\n\nWhen not shooting, the meter depletes over time. Reloading or swapping the weapon fully depletes the meter.",
+        "pvp": "Shooting heats up the weapon, filling up heat meter. The meter is equivalent to 50% of the weapon's standard Magazine Size.\n\nWhen the meter is full, rounds shot by the weapon will ignite enemies.\n\nWhen not shooting, the meter depletes over time. Reloading or swapping the weapon fully depletes the meter."
       }
     },
     "exoticMods": [
-      "Optics: +10% Critical Hit Damage",
+      "Optics: +15% Critical Hit Chance",
       "Magazine: +35 Rrounds",
-      "Underbarrel: +10% Critical Hit Damage"
+      "Underbarrel: +30% Critical Hit Damage"
     ],
     "source": "-- Target loot\n-- Exotic Caches"
   },
@@ -310,15 +313,15 @@
     "talent": {
       "name": "Pakhan",
       "description": {
-        "pve": "Each kill with this weapon gains a stack of 75% Base Magazine Size increase to the next magazine, up to 4 stacks.",
-        "pvp": null
+        "pve": "Each kill with this weapon gains a stack of 125% Base Magazine Size increase to the next magazine, up to 3 stacks.",
+        "pvp": "Each kill with this weapon gains a stack of 75% Base Magazine Size increase to the next magazine, up to 4 stacks."
       }
     },
     "exoticMods": [
       "Optics: +15% Wapon Damage",
       "Magazine: +20 Rounds",
       "Muzzle: +15% Critical Hit chance",
-      "Underbarrel: +10% Reload Speed"
+      "Underbarrel: +15% Weapon Handling"
     ],
     "source": "- Year 7 Season 1 track\n\n-- Target loot\n-- Exotic Caches"
   },
@@ -337,7 +340,7 @@
     },
     "exoticMods": [
       "Magazine: +10% Rate of Fire",
-      "Muzzle: +10% Accuracy",
+      "Muzzle: +15% Critical Hit Chance",
       "Underbarrel: +10% Stability"
     ],
     "source": "- Dark Zone Landmark boss\n- Dark Zone Roaming boss 1%\n\n-- Target loot\n-- Exotic Caches"

@@ -8,5 +8,6 @@ export interface ChangelogEntry {
 export interface ChangelogData {
   currentPatch: string;
   lastUpdated: string;
+  notice?: string | null;
   entries: ChangelogEntry[];
 }

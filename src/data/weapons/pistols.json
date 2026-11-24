@@ -291,13 +291,13 @@
     "talent": {
       "name": "Mosquito Song",
       "description": {
-        "pve": "Hitting an enemy applies a stack. Stacks are shared between players.\n\nAt 5 stacks, the enemy will forcefully target the last player to apply a stack for 5s and take 25% more damage to armor.\n\nStacks deplete every 5s. Activating the effect on an enemy will remove all stacks from other enemies.\n\nEditor's note: the \"damage to armor\" taken debuff works similarly to Sledgehammer, in that it is an amplifier that applies to both armor and armor plating.",
-        "pvp": null
+        "pve": "Hitting an enemy applies a stack. Stacks are shared between players.\n\nAt 3 stacks, the enemy will forcefully target the last player to apply a stack for 5s and take 25% more damage to armor.\n\nStacks deplete every 5s. Activating the effect on an enemy will remove all stacks from other enemies.\n\nEditor's note: the \"damage to armor\" taken debuff works similarly to Sledgehammer, in that it is an amplifier that applies to both armor and armor plating.",
+        "pvp": "Hitting an enemy applies a stack. Stacks are shared between players.\n\nAt 5 stacks, the enemy will forcefully target the last player to apply a stack for 5s and take 25% more damage to armor.\n\nStacks deplete every 5s. Activating the effect on an enemy will remove all stacks from other enemies.\n\nEditor's note: the \"damage to armor\" taken debuff works similarly to Sledgehammer, in that it is an amplifier that applies to both armor and armor plating."
       }
     },
     "exoticMods": [
-      "Magazine: +15% Reload Speed",
-      "Muzzle: +15% Weapon Accuracy"
+      "Magazine: +15% Critical Hit Chance",
+      "Muzzle: +15% Weapon Handling"
     ],
     "source": "Targetable"
   }

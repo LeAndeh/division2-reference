@@ -23,6 +23,10 @@ export function Changelog() {
         Updated <time dateTime={changelog.lastUpdated}>{formatDate(changelog.lastUpdated)}</time>
       </p>
 
+      {changelog.notice && (
+        <p className="changelog__meta changelog__notice">{changelog.notice}</p>
+      )}
+
       <details className="changelog__details">
         <summary>View changelog</summary>
         {entries.map((entry, index) => (

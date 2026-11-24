@@ -334,8 +334,8 @@
     "exoticMods": [
       "Optics: +15% Critical Hit Chance",
       "Magazine: +20 Rounds",
-      "Muzzle: +20% Accuracy",
-      "Underbarrel: +10% Stability"
+      "Muzzle: +30% Accuracy",
+      "Underbarrel: +30% Stability"
     ],
     "source": "- Bounties\n\n-- Target loot\n-- Exotic Caches"
   },
@@ -368,8 +368,8 @@
     "talent": {
       "name": "Eagle Strike",
       "description": {
-        "pve": "Accuracy increases as you continuously fire, up to 30%.\n\nHeadshot kills grant the Tenacity buff for 15 seconds.\n\nThe strength of Tenacity is increased by 1% for body shots and 5% for headshots.\n\nTenacity\n40-80% of damage taken is delayed until the buff expires.\n\nAll of the total delayed damage is reduced for each enemy killed while the buff is active, up to 100% with 3 kills.",
-        "pvp": null
+        "pve": "Accuracy increases as you continuously fire, up to 60%.\n\nHeadshot kills grant the Tenacity buff for 15 seconds.\n\nThe strength of Tenacity is increased by 1% for body shots and 5% for headshots.\n\nTenacity\n40-80% of damage taken is delayed until the buff expires.\n\nAll of the total delayed damage is reduced for each enemy killed while the buff is active, up to 100% with 3 kills.",
+        "pvp": "Accuracy increases as you continuously fire, up to 30%.\n\nHeadshot kills grant the Tenacity buff for 15 seconds.\n\nThe strength of Tenacity is increased by 1% for body shots and 5% for headshots.\n\nTenacity\n40-80% of damage taken is delayed until the buff expires.\n\nAll of the total delayed damage is reduced for each enemy killed while the buff is active, up to 100% with 3 kills."
       }
     },
     "exoticMods": [
@@ -395,7 +395,7 @@
     },
     "exoticMods": [
       "Optics: +15% Critical Damage",
-      "Magazine: +30 Rounds",
+      "Magazine: +40 Rounds",
       "Muzzle: +15% Critical Hit chance",
       "Underbarrel: +10% Weapon Handling"
     ],
@@ -417,8 +417,8 @@
     "exoticMods": [
       "Optics: +40% Headshot Damage",
       "Magazine: +20% Reload Speed",
-      "Muzzle: +20% Accuracy",
-      "Underbarrel: +20% Stability"
+      "Muzzle: +40% Accuracy",
+      "Underbarrel: +15% Critical Hit Chance"
     ],
     "source": "- Legendary bosses (5%)\n- Extremely Low chance from Dark Zone"
   },
@@ -431,13 +431,13 @@
     "talent": {
       "name": "Talent Unnerve",
       "description": {
-        "pve": "Killing an enemy will apply a mark on every enemy within 20m of it. Multiple marks can be applied to the same enemy. Max number of marks that can be applied to an enemy is 5. all marks on an enemy will disappear 10s after the last one has been applied. Deal +15% Amplified Damage per mark to marked enemies.",
-        "pvp": null
+        "pve": "Killing an enemy will apply a mark on every enemy within 20m of it. Multiple marks can be applied to the same enemy. Max number of marks that can be applied to an enemy is 5. all marks on an enemy will disappear 10s after the last one has been applied. Deal +25% Amplified Damage per mark to marked enemies.",
+        "pvp": "Killing an enemy will apply a mark on every enemy within 20m of it. Multiple marks can be applied to the same enemy. Max number of marks that can be applied to an enemy is 5. all marks on an enemy will disappear 10s after the last one has been applied. Deal +15% Amplified Damage per mark to marked enemies."
       }
     },
     "exoticMods": [
       "Magazine: +20 Rounds",
-      "Muzzle: +5% Critical Hit Damage",
+      "Muzzle: +15% Critical Hit Chance",
       "Optics: +5% Critical Hit Chance",
       "Underbarrel: +10% Weapon Handling"
     ],
@@ -458,9 +458,9 @@
     },
     "exoticMods": [
       "Main attributes:  12% Damage to Armour",
-      "Optics: +10% Critical Hit Chance",
+      "Optics: +15% Critical Hit Chance",
       "Magazine: +11 Rounds",
-      "Muzzle: +30% Critical Hit Damage",
+      "Muzzle: +20% Critical Hit Damage",
       "Underbarrel: +10% Weapon Handling"
     ],
     "source": "- The Summit challenges\n\nAfter acquiring blueprint\n-- Target loot\n-- Exotic Caches"
@@ -474,12 +474,12 @@
     "talent": {
       "name": "Perturb",
       "description": {
-        "pve": "While this weapon is holstered, generate 50% less Threat when shooting. Keeping this weapon holstered for 10s will Prime it.\n\nWhile primed, swapping to this weapon grants +25% Rate of Fire, +30% Weapon Damage and you generate 100% more Threat when Shooting for 20s.\n\nSwapping from this weapon before the timer ends removes the bonuses.",
-        "pvp": null
+        "pve": "While this weapon is holstered, generate 50% less Threat when shooting. Keeping this weapon holstered for 10s will Prime it.\n\nWhile primed, swapping to this weapon grants +30% Rate of Fire, +30% Weapon Damage and you generate 100% more Threat when Shooting for 20s.\n\nSwapping from this weapon before the timer ends removes the bonuses.",
+        "pvp": "While this weapon is holstered, generate 50% less Threat when shooting. Keeping this weapon holstered for 10s will Prime it.\n\nWhile primed, swapping to this weapon grants +25% Rate of Fire, +30% Weapon Damage and you generate 100% more Threat when Shooting for 20s.\n\nSwapping from this weapon before the timer ends removes the bonuses."
       }
     },
     "exoticMods": [
-      "Optics: +10% Critical Hit Chance",
+      "Optics: +15% Critical Hit Chance",
       "Magazine: +20 Rounds",
       "Muzzle: +50% Swap Speed"
     ],
@@ -494,7 +494,7 @@
     "talent": {
       "name": "Voracious",
       "description": {
-        "pve": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n250 weapon hits grant a stack. Maximum stacks: 4. Each stack increases the maximum Amplified Damage by 20% and grants +15% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds.",
+        "pve": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n100 weapon hits grant a stack. Maximum stacks: 4. Each stack increases the maximum Amplified Damage by 20% and grants +15% Reload Speed.\n\nAfter 5 seconds without shooting or reloading, one stack decays every 5 seconds.",
         "pvp": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n100 weapon hits grant a stack. Maximum stacks: 2. Each stack increases the maximum Amplified Damage by 18% and grants +20% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds."
       }
     }

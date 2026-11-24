@@ -240,8 +240,8 @@
     "talent": {
       "name": "Incessant Chatter",
       "description": {
-        "pve": "When you reload, rate of fire is increased by 25% for each enemy within 15m for the duration of that magazine.\n\nMax stacks: 5\n\nKills refill 50% of your magazine.",
-        "pvp": null
+        "pve": "When you reload, rate of fire is increased by 30% for each enemy within 15m for the duration of that magazine.\n\nMax stacks: 5\n\nKills refill 50% of your magazine.",
+        "pvp": "When you reload, rate of fire is increased by 25% for each enemy within 15m for the duration of that magazine.\n\nMax stacks: 5\n\nKills refill 50% of your magazine."
       }
     },
     "exoticMods": [
@@ -261,8 +261,8 @@
     "talent": {
       "name": "Breathe Free",
       "description": {
-        "pve": "When moving, gain 4 stacks per second, or 8 stacks if sprinting. Max stack is equal to the weapon's Magazine Size.\n\nEach round fired consumes a stack, amplifying damage by 75%.\n\nKills grant +20% movement speed for 10s.",
-        "pvp": null
+        "pve": "When moving, gain 4 stacks per second, or 8 stacks if sprinting. Max stack is equal to the weapon's Magazine Size.\n\nEach round fired consumes a stack, amplifying damage by 120%.\n\nKills grant +20% movement speed for 10s.",
+        "pvp": "When moving, gain 4 stacks per second, or 8 stacks if sprinting. Max stack is equal to the weapon's Magazine Size.\n\nEach round fired consumes a stack, amplifying damage by 75%.\n\nKills grant +20% movement speed for 10s."
       }
     },
     "exoticMods": [
@@ -287,9 +287,9 @@
       }
     },
     "exoticMods": [
-      "Optics: +10% Critical Hit Damage",
-      "Magazine: +25% Reload Speed",
-      "Muzzle: +10% Rate of Fire",
+      "Optics: +25% Critical Hit Damage",
+      "Magazine: +25 Rounds",
+      "Muzzle: +17% Rate of Fire",
       "Underbarrel: +10% Critical Hit Chance"
     ],
     "source": "- Incursions Chest 10%.\n- Incursions Boss drop 1%"
@@ -303,8 +303,8 @@
     "talent": {
       "name": "Gangland Hit",
       "description": {
-        "pve": "Shooting an enemy with this weapon applies a mark. You can only apply one mark at a time. Shooting another enemy will transfer the mark.\n\nMore marks can be applied on the same enemy by other agents using this weapon. Maximum amount of marks that can be applied on an enemy is 4.\n\nThis weapon deals +20% Amplified Damage to marked enemies. The bonus is increased by 5% for each extra mark on the enemy other than your own.",
-        "pvp": null
+        "pve": "Shooting an enemy with this weapon applies a mark. You can only apply one mark at a time. Shooting another enemy will transfer the mark.\n\nMore marks can be applied on the same enemy by other agents using this weapon. Maximum amount of marks that can be applied on an enemy is 4.\n\nThis weapon deals +25% Amplified Damage to marked enemies. The bonus is increased by 5% for each extra mark on the enemy other than your own.",
+        "pvp": "Shooting an enemy with this weapon applies a mark. You can only apply one mark at a time. Shooting another enemy will transfer the mark.\n\nMore marks can be applied on the same enemy by other agents using this weapon. Maximum amount of marks that can be applied on an enemy is 4.\n\nThis weapon deals +20% Amplified Damage to marked enemies. The bonus is increased by 5% for each extra mark on the enemy other than your own."
       }
     }
   },
@@ -317,8 +317,8 @@
     "talent": {
       "name": "Symbiosis",
       "description": {
-        "pve": "While having a Shield deployed, lose Shield Health at a rate of 10% per second.\nYour Shield recieves repairs of 25% of the damage dealt by this weapon.",
-        "pvp": null
+        "pve": "While having a Shield deployed, lose Shield Health at a rate of 8% per second.\nYour Shield recieves repairs of 35% of the damage dealt by this weapon.",
+        "pvp": "While having a Shield deployed, lose Shield Health at a rate of 10% per second.\nYour Shield recieves repairs of 25% of the damage dealt by this weapon."
       }
     },
     "exoticMods": [

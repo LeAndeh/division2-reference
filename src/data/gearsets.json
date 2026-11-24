@@ -50,8 +50,8 @@
     ],
     "bonuses": {
       "twoPiece": {
-        "pve": "70%\nHealth",
-        "pvp": null
+        "pve": "100%\nHealth\n\n+150% Increased Threat per Bullet",
+        "pvp": "70%\nHealth\n\n+150% Increased Threat per Bullet"
       },
       "threePiece": {
         "pve": "15%\nTotal Armor",
@@ -61,8 +61,8 @@
     "fourPiece": {
       "name": "Stoic",
       "description": {
-        "pve": "Get +4% Damage Resistance for every enemy that is targeting you.\n\nThe bonus is multiplied by 1.X, where X is the number of agents in your group.",
-        "pvp": null
+        "pve": "Get +5% Damage Resistance for every enemy that is targeting you.\n\nThe bonus is multiplied by 1.X, where X is the number of agents in your group.",
+        "pvp": "Get +4% Damage Resistance for every enemy that is targeting you.\n\nThe bonus is multiplied by 1.X, where X is the number of agents in your group."
       }
     },
     "chestTalent": {
@@ -75,8 +75,8 @@
     "backpackTalent": {
       "name": "Polyethylene Plating",
       "description": {
-        "pve": "Increase Stoic Damage Resistance bonus from 4% to 5%.",
-        "pvp": null
+        "pve": "Increase Stoic Damage Resistance bonus from 5% to 8%.",
+        "pvp": "Increase Stoic Damage Resistance bonus from 4% to 5%."
       }
     },
     "source": "LZ and DZ"
@@ -184,8 +184,8 @@
     "fourPiece": {
       "name": "Camaraderie",
       "description": {
-        "pve": "Shooting an enemy marks them for 10 seconds.\n\nWhen a marked enemy dies, receive one stack of 3% Weapon Damage and 3% Critical Hit Damage for each Ally or Skill that has contributed to killing that enemy.\n\nMax stacks is 35. Stacks decay every 10 seconds.\nMaximum amount of marks that can be placed is 4.",
-        "pvp": null
+        "pve": "Shooting an enemy marks them for 10 seconds.\n\nWhen a marked enemy dies, receive one stack of 4% Weapon Damage and 3% Critical Hit Damage for each Ally or Skill that has contributed to killing that enemy, including yourself.\n\nMax stacks is 35. Stacks decay every 10 seconds.\nMaximum amount of marks that can be placed is 4.",
+        "pvp": "Shooting an enemy marks them for 10 seconds.\n\nWhen a marked enemy dies, receive one stack of 3% Weapon Damage and 3% Critical Hit Damage for each Ally or Skill that has contributed to killing that enemy.\n\nMax stacks is 35. Stacks decay every 10 seconds.\nMaximum amount of marks that can be placed is 4."
       }
     },
     "chestTalent": {
@@ -198,8 +198,8 @@
     "backpackTalent": {
       "name": "One for All",
       "description": {
-        "pve": "Increase the Weapon Damage bonus per stack from 3% to 6%.",
-        "pvp": null
+        "pve": "Increase the Weapon Damage bonus per stack from 4% to 7%.",
+        "pvp": "Increase the Weapon Damage bonus per stack from 3% to 6%."
       }
     },
     "source": "LZ and DZ"
@@ -231,15 +231,15 @@
     "fourPiece": {
       "name": "Core Exercise",
       "description": {
-        "pve": "For each Core attribute, receive 40% of the other two Core Attributes' bonuses.\n\nSkill Tiers count as 15% Skill Efficiency when these attributes are applied.\n\nAll pieces from this Gear Set, apart from the Backpack, will feature random Core Attributes",
-        "pvp": null
+        "pve": "For each Core attribute, receive 50% of the other two Core Attributes' bonuses.\n\nSkill Tiers count as 15% Skill Efficiency when these attributes are applied.\n\nAll pieces from this Gear Set, apart from the Backpack, will feature random Core Attributes",
+        "pvp": "For each Core attribute, receive 40% of the other two Core Attributes' bonuses.\n\nSkill Tiers count as 15% Skill Efficiency when these attributes are applied.\n\nAll pieces from this Gear Set, apart from the Backpack, will feature random Core Attributes"
       }
     },
     "chestTalent": {
       "name": "Inner Core",
       "description": {
-        "pve": "Increase the percentage of the bonuses you receive from the other Cores from 40% to 75%",
-        "pvp": null
+        "pve": "Increase the percentage of the bonuses you receive from the other Cores from 50% to 80%",
+        "pvp": "Increase the percentage of the bonuses you receive from the other Cores from 40% to 75%"
       }
     },
     "backpackTalent": {
@@ -343,8 +343,8 @@
     ],
     "bonuses": {
       "twoPiece": {
-        "pve": "10%\nTotal Armor",
-        "pvp": null
+        "pve": "10%\nTotal Armor\n\n+150% Increased Threat per Bullet",
+        "pvp": "10%\nTotal Armor\n\n+150% Increased Threat per Bullet"
       },
       "threePiece": {
         "pve": "1%\nArmor Regen\n\n50%\nShield Health",
@@ -354,22 +354,22 @@
     "fourPiece": {
       "name": "Makeshift Repairs",
       "description": {
-        "pve": "Whenever you or your shield take damage,\n25% of that amount is repaired to both over 10s.",
-        "pvp": null
+        "pve": "Whenever you or your shield take damage,\n35% of that amount is repaired to both over 5s.",
+        "pvp": "Whenever you or your shield take damage,\n25% of that amount is repaired to both over 10s."
       }
     },
     "chestTalent": {
       "name": "Improved Materials",
       "description": {
-        "pve": "Decreases time taken for Makeshift Repairs\nfrom 10s to 5s.",
-        "pvp": null
+        "pve": "Increases Makeshift Repairs from 35% to 50%.",
+        "pvp": "Decreases time taken for Makeshift Repairs\nfrom 10s to 5s."
       }
     },
     "backpackTalent": {
       "name": "Process Refinery",
       "description": {
-        "pve": "Increases Makeshift Repairs from 25% over 10s\nto 35% over 10s",
-        "pvp": null
+        "pve": "Decreases time taken for Makeshift Repairs\nfrom 5s to 3s.",
+        "pvp": "Increases Makeshift Repairs from 25% over 10s\nto 35% over 10s"
       }
     },
     "source": "LZ and DZ"
@@ -477,8 +477,8 @@
     "fourPiece": {
       "name": "Heartstopper",
       "description": {
-        "pve": "Headshots apply pulse 5s.\nWeapon hits on pulsed enemies add and refreshes a stack of +1% bonus armor and +1.1% weapon damage to pulsed enemies for 5s. Max stack is 50.\n\nTwo stacks are lost per second.",
-        "pvp": null
+        "pve": "Headshots apply pulse 5s.\nWeapon hits on pulsed enemies add and refreshes a stack of +1.25% bonus armor and +1.1% weapon damage to pulsed enemies for 5s. Max stack is 50.\n\nOne stack is lost per second.",
+        "pvp": "Headshots apply pulse 5s.\nWeapon hits on pulsed enemies add and refreshes a stack of +1% bonus armor and +1.1% weapon damage to pulsed enemies for 5s. Max stack is 50.\n\nTwo stacks are lost per second."
       }
     },
     "chestTalent": {
@@ -491,8 +491,8 @@
     "backpackTalent": {
       "name": "Cold",
       "description": {
-        "pve": "Stacks now supply +2% bonus armor",
-        "pvp": null
+        "pve": "Increases Bonus Armor per stack of Heartstopper from 1.25% to 2.5%.",
+        "pvp": "Stacks now supply +2% bonus armor"
       }
     },
     "source": "LZ and DZ"
@@ -552,15 +552,15 @@
         "pvp": null
       },
       "threePiece": {
-        "pve": "20%\nArmor on kill\n\n50%\nHealth on Kill",
-        "pvp": null
+        "pve": "35%\nArmor on Kill\n\n100%\nHealth on Kill",
+        "pvp": "20%\nArmor on kill\n\n50%\nHealth on Kill"
       }
     },
     "fourPiece": {
       "name": "Apex Predator",
       "description": {
-        "pve": "Enemies within 15m receive a debuff, amplifying your weapon damage against them by +20%.\n\nKilling a debuffed enemy with your weapon disorients other enemies within 5m, and amplifies weapon damage by 5% for 10s,\nstacking up to 5 times.",
-        "pvp": null
+        "pve": "Enemies within 15m receive a debuff, amplifying your weapon damage against them by +35%.\n\nKilling a debuffed enemy with your weapon disorients other enemies within 5m, and amplifies weapon damage by 5% for 10s,\nstacking up to 5 times.",
+        "pvp": "Enemies within 15m receive a debuff, amplifying your weapon damage against them by +20%.\n\nKilling a debuffed enemy with your weapon disorients other enemies within 5m, and amplifies weapon damage by 5% for 10s,\nstacking up to 5 times."
       }
     },
     "chestTalent": {
@@ -600,8 +600,8 @@
     "fourPiece": {
       "name": "Huddle",
       "description": {
-        "pve": "Recieve +1 Skill Tier for each ally Agent that is within the range of the hive or Smart Cover. While at Skill Tier 6, having at least one ally Agent in the range of your Hive or Smart Cover for 4s will grant Overcharge for 15s Cooldown: 40s\n\nMortars and enemy Skills that enter the range of your Hive or Smart Cover will be destroyed. cooldown 10s. The cooldown is 20% faster for each ally agent within the range of your hive or smart cover.",
-        "pvp": null
+        "pve": "Receive +2 Skill Tier for each allied agent within the range of your Hive or Smart Cover. While at Skill Tier 6, having at least one allied agent within range for 4s grants Overcharge for 15s. Cooldown: 40s.\n\nMortars and enemy skills entering the range of your Hive or Smart Cover are destroyed. Cooldown: 10s. The cooldown is 15% faster for each allied agent within range.",
+        "pvp": "Recieve +1 Skill Tier for each ally Agent that is within the range of the hive or Smart Cover. While at Skill Tier 6, having at least one ally Agent in the range of your Hive or Smart Cover for 4s will grant Overcharge for 15s Cooldown: 40s\n\nMortars and enemy Skills that enter the range of your Hive or Smart Cover will be destroyed. cooldown 10s. The cooldown is 20% faster for each ally agent within the range of your hive or smart cover."
       }
     },
     "chestTalent": {
@@ -1036,8 +1036,8 @@
     "fourPiece": {
       "name": "Throttle Control",
       "description": {
-        "pve": "Shooting builds stacks to a max of 50. Each stack provides +0.5% Weapon Handling and +5% Critical Hit Damage.\n\n    Lose 6 stacks per second while not shooting. No stacks are lost if an enemy is Suppressed.",
-        "pvp": null
+        "pve": "Shooting builds stacks to a max of 50. Each stack provides +0.5% Weapon Handling and +4% Critical Hit Damage.\n\n    Lose 4 stacks per second while not shooting. No stacks are lost if an enemy is Suppressed.",
+        "pvp": "Shooting builds stacks to a max of 50. Each stack provides +0.5% Weapon Handling and +5% Critical Hit Damage.\n\n    Lose 6 stacks per second while not shooting. No stacks are lost if an enemy is Suppressed."
       }
     },
     "chestTalent": {
