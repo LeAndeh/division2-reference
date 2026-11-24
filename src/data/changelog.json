@@ -5,17 +5,6 @@
     {
       "date": "2026-11-24",
       "patch": "Y8S4 PTS",
-      "title": "Added Prima Donna",
-      "changes": [
-        "Added Prima Donna as an exotic marksman rifle with its four mods and confirmed acquisition information, completing coverage of the 28 affected exotic items.",
-        "Applied provisional PvE values: 5 stacks, +22% Amplified Damage per stack, and one stack replenished every 5 seconds.",
-        "Preserved supplied live/PvP values: 10 stacks, +12.5% Amplified Damage per stack, and one stack replenished every 3 seconds. The supplied damage value differs from the 11% previous value in the PTS notes.",
-        "Saved supplied reference statistics in item notes without adding structured weapon-stat fields; base variant and weapon level remain unspecified."
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "patch": "Y8S4 PTS",
       "title": "Y8S4 PTS — Gear and Exotic Balance Changes",
       "changes": [
         "Added provisional Y8S4 Public Test Server balance values.",
