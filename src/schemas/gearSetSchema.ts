@@ -33,7 +33,7 @@ const gearSetTalentInfoSchema = z.object({
 export const gearSetSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  coreAttributes: z.array(gearSetCoreRuleSchema).min(1),
+  coreAttributes: z.array(gearSetCoreRuleSchema).min(1).nullable(),
   bonuses: z.object({
     twoPiece: modeValueSchema,
     threePiece: modeValueSchema,

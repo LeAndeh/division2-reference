@@ -37,7 +37,8 @@ function GearSetCard({ gearSet, mode }: GearSetCardProps) {
         <h2>{gearSet.name}</h2>
 
         <div className="gear-set-card__cores">
-          {gearSet.coreAttributes.map((core, index) => (
+          {gearSet.coreAttributes === null && <span>Core attributes not confirmed</span>}
+          {gearSet.coreAttributes?.map((core, index) => (
             <div key={`${gearSet.id}-core-${index}`}>
               <strong>{formatCoreAttribute(core.attribute)}</strong>
               {core.slots && (

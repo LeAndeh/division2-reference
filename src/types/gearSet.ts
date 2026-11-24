@@ -26,7 +26,8 @@ export interface GearSetTalentInfo {
 export interface GearSet {
   id: string;
   name: string;
-  coreAttributes: GearSetCoreRule[];
+  // null means the set's core attributes have not been confirmed.
+  coreAttributes: GearSetCoreRule[] | null;
   bonuses: {
     twoPiece: ModeValue<string>;
     threePiece: ModeValue<string>;

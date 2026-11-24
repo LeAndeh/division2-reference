@@ -219,5 +219,23 @@
       }
     },
     "specialEffect": null
+  },
+  {
+    "id": "forward-observer",
+    "name": "Forward Observer",
+    "type": "exotic",
+    "slot": "mask",
+    "brand": null,
+    "coreAttribute": null,
+    "minorAttributes": [],
+    "talent": {
+      "name": "Strike Order",
+      "description": {
+        "pve": "Enemies you aim at for 1s are pulsed and marked for 4s.\n\nMarked enemies take 10% Amplified Damage from all sources.\n\nWhen a marked enemy dies, every ally involved in that kill will receive repairs of 10% of their Total Armor.",
+        "pvp": "Enemies you aim at for 2s are pulsed and marked for 4s.\n\nMarked enemies take 8% Amplified Damage from all sources.\n\nWhen a marked enemy dies, every ally involved in that kill will receive repairs of 20% of their Total Armor."
+      }
+    },
+    "specialEffect": null,
+    "source": null
   }
 ]

@@ -1232,5 +1232,42 @@
       }
     },
     "source": "Obtained by killing Guardians. Each Guardian has a specific gear-set piece that it can drop."
+  },
+  {
+    "id": "field-general",
+    "name": "Field General",
+    "coreAttributes": null,
+    "bonuses": {
+      "twoPiece": {
+        "pve": "+15% Weapon Handling",
+        "pvp": null
+      },
+      "threePiece": {
+        "pve": "+10% Total Armor\n+1 Skill Tier",
+        "pvp": "+7% Total Armor\n+1 Skill Tier"
+      }
+    },
+    "fourPiece": {
+      "name": "Helping Hand",
+      "description": {
+        "pve": "The last enemy damaged by each of your allies is marked. An enemy can only be applied one mark at a time. Deal 40% Amplified Damage to marked enemies.\n\nAssisting in killing a marked enemy will grant every ally +10% Skill Efficiency per every 1 of your Skill Tiers, 200% of your Total Armor as Bonus Armor and +30% Damage to Targets Out of Cover for 10s.\n\nGenerate an Armor Kit for you and your allies every 60s. The timer pauses when out of combat.",
+        "pvp": "The last enemy damaged by each of your allies is marked. An enemy can only be applied one mark at a time. Deal 15% Amplified Damage to marked enemies.\n\nAssisting in killing a marked enemy will grant every ally +3% Skill Efficiency per every 1 of your Skill Tiers, 75% of your Total Armor as Bonus Armor and +10% Damage to Targets Out of Cover for 10s.\n\nGenerate an Armor Kit for you and your allies every 60s. The timer pauses when out of combat."
+      }
+    },
+    "chestTalent": {
+      "name": "Blitz",
+      "description": {
+        "pve": "Increase the Damage to Targets Out of Cover bonus from 30% to 45%.",
+        "pvp": "Increase the Damage to Targets Out of Cover bonus from 10% to 15%."
+      }
+    },
+    "backpackTalent": {
+      "name": "Water Boy",
+      "description": {
+        "pve": "Decrease the Armor Kit generation timer from 60s to 30s.",
+        "pvp": null
+      }
+    },
+    "source": null
   }
 ]

@@ -498,5 +498,25 @@
         "pvp": "This weapon deals increased Amplified Damage proportionate to the amount of combined Armor and Health the enemy has lost. Base maximum Amplified Damage is 0%.\n\n100 weapon hits grant a stack. Maximum stacks: 2. Each stack increases the maximum Amplified Damage by 18% and grants +20% Reload Speed.\n\nAfter 3 seconds without shooting or reloading, one stack decays every 4 seconds."
       }
     }
+  },
+  {
+    "id": "august",
+    "name": "August",
+    "type": "exotic",
+    "weaponType": "assault-rifle",
+    "talent": {
+      "name": "Convergent",
+      "description": {
+        "pve": "2 bullet hits to the body from this weapon build a stack.\n\nAt 25 stacks, all stacks will be consumed upon your next reload to grant +100% Accuracy and +150% Headshot Damage for 10s.\n\nWhile the bonuses are active, 4 bullet hits will build a stack instead.",
+        "pvp": "2 bullet hits to the body from this weapon build a stack.\n\nAt 10 stacks, all stacks will be consumed upon your next reload to grant +100% Accuracy and +25% Headshot Damage for 8s.\n\nWhile the bonuses are active, 4 bullet hits will build a stack instead."
+      }
+    },
+    "exoticMods": [
+      "Optics: +40% Headshot Damage",
+      "Magazine: +20 Rounds",
+      "Muzzle: +20% Accuracy",
+      "Underbarrel: +15% Critical Hit Chance"
+    ],
+    "source": null
   }
 ]

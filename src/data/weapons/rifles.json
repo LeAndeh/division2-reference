@@ -324,5 +324,20 @@
       }
     },
     "source": "Red Moon Unleashed Gear Cache Loot Table"
+  },
+  {
+    "id": "power-spike",
+    "name": "Power Spike",
+    "type": "named",
+    "weaponType": "rifle",
+    "baseVariant": "1886",
+    "talent": {
+      "name": "Perfect Technophobia",
+      "description": {
+        "pve": "Deal 50% Amplified Damage to Skill Proxies and Mechanical Enemies.",
+        "pvp": null
+      }
+    },
+    "source": null
   }
 ]

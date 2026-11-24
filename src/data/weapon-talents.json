@@ -1114,5 +1114,29 @@
         }
       }
     ]
+  },
+  {
+    "id": "technophobia",
+    "variants": [
+      {
+        "weaponTypes": [
+          "all"
+        ],
+        "normal": {
+          "name": "Technophobia",
+          "description": {
+            "pve": "Deal 30% Amplified Damage to Skill Proxies and Mechanical Enemies.",
+            "pvp": null
+          }
+        },
+        "perfect": {
+          "name": "Perfect Technophobia",
+          "description": {
+            "pve": "Deal 50% Amplified Damage to Skill Proxies and Mechanical Enemies.",
+            "pvp": null
+          }
+        }
+      }
+    ]
   }
 ]

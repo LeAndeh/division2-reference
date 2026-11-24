@@ -218,5 +218,22 @@
       }
     },
     "specialEffect": null
+  },
+  {
+    "id": "magnet",
+    "name": "Magnet",
+    "type": "named",
+    "slot": "kneepads",
+    "brand": "5.11 Tactical",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+30% Incoming Repairs"
+    ],
+    "talent": null,
+    "specialEffect": {
+      "pve": "+30% Incoming Repairs",
+      "pvp": null
+    },
+    "source": null
   }
 ]

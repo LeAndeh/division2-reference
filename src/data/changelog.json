@@ -5,6 +5,18 @@
     {
       "date": "2026-11-24",
       "patch": "Y8S4 PTS",
+      "title": "New seasonal equipment and Technophobia",
+      "changes": [
+        "Added August exotic assault rifle and Forward Observer exotic mask with their supplied PvE and PvP talent values.",
+        "Added Field General with Helping Hand, Blitz, and Water Boy, including mode-specific bonuses. Core attributes are not yet confirmed.",
+        "Added Magnet, Siphon, Thrive, and Hearty named gear with their fixed attributes.",
+        "Added Blackout and Power Spike with Perfect Technophobia. Added Technophobia / Perfect Technophobia to Weapon Talents, provisionally applicable to all weapon categories.",
+        "Acquisition sources and other unprovided attributes remain unspecified."
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "patch": "Y8S4 PTS",
       "title": "Y8S4 PTS — Gear and Exotic Balance Changes",
       "changes": [
         "Added provisional Y8S4 Public Test Server balance values.",

@@ -228,5 +228,22 @@
       "pve": "+8.0% Damage to Armor",
       "pvp": null
     }
+  },
+  {
+    "id": "thrive",
+    "name": "Thrive",
+    "type": "named",
+    "slot": "gloves",
+    "brand": "Gila Guard",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+50% Health"
+    ],
+    "talent": null,
+    "specialEffect": {
+      "pve": "+50% Health",
+      "pvp": null
+    },
+    "source": null
   }
 ]

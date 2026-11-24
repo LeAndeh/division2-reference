@@ -234,5 +234,39 @@
       }
     },
     "specialEffect": null
+  },
+  {
+    "id": "siphon",
+    "name": "Siphon",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Belstone Armory",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+30% Incoming Repairs"
+    ],
+    "talent": null,
+    "specialEffect": {
+      "pve": "+30% Incoming Repairs",
+      "pvp": null
+    },
+    "source": null
+  },
+  {
+    "id": "hearty",
+    "name": "Hearty",
+    "type": "named",
+    "slot": "holster",
+    "brand": "Palisade Steelworks",
+    "coreAttribute": null,
+    "minorAttributes": [
+      "+50% Health"
+    ],
+    "talent": null,
+    "specialEffect": {
+      "pve": "+50% Health",
+      "pvp": null
+    },
+    "source": null
   }
 ]

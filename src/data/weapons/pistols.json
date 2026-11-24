@@ -300,5 +300,20 @@
       "Muzzle: +15% Weapon Handling"
     ],
     "source": "Targetable"
+  },
+  {
+    "id": "blackout",
+    "name": "Blackout",
+    "type": "named",
+    "weaponType": "pistol",
+    "baseVariant": "X-45",
+    "talent": {
+      "name": "Perfect Technophobia",
+      "description": {
+        "pve": "Deal 50% Amplified Damage to Skill Proxies and Mechanical Enemies.",
+        "pvp": null
+      }
+    },
+    "source": null
   }
 ]

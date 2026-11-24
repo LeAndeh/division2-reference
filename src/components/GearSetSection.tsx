@@ -42,7 +42,7 @@ export function GearSetSection({ mode }: GearSetSectionProps) {
       const searchableValues = [
         gearSet.name,
         gearSet.source,
-        ...gearSet.coreAttributes.flatMap((core) => [
+        ...(gearSet.coreAttributes ?? []).flatMap((core) => [
           core.attribute,
           ...(core.slots ?? []),
         ]),
@@ -72,7 +72,7 @@ export function GearSetSection({ mode }: GearSetSectionProps) {
 
       const matchesCore =
         coreFilter === "all" ||
-        gearSet.coreAttributes.some(
+        gearSet.coreAttributes?.some(
           (core) => core.attribute === coreFilter,
         );
 
